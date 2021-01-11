@@ -1,0 +1,28 @@
+server:
+  port: 98
+
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.1.15:8848
+    gateway:
+      routes:
+        - id: smilemall_prouct_route
+          uri: lb://cn-smile-smilemall-product
+          predicates:
+              - Path=/api/product/**
+          filters:
+              - RewritePath=/api/(?<segment>/?.*), /$\{segment}
+        - id: smilemall_admin
+          uri: lb://smilemall-renren-fast
+          predicates:
+            - Path=/api/**
+          filters:
+            - RewritePath=/api/(?<segment>/?.*), /renren-fast/$\{segment}
+
+
+  application:
+    name: cn-smile-smilemall-gateway
+  profiles:
+    active: dev

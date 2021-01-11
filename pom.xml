@@ -11,8 +11,12 @@
 	<modules>
 		<module>smilemall-coupon</module>
 		<module>smilemall-member</module>
+		<module>smilemall-product</module>
 		<module>smilemall-order</module>
 		<module>smilemall-ware</module>
+		<module>renren-fast</module>
+		<module>renren-generator</module>
+		<module>smilemall-common</module>
 	</modules>
 
 </project>

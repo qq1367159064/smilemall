@@ -1,0 +1,26 @@
+spring:
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      config:
+        file-extension: yaml
+        server-addr: 192.168.1.15:8848
+#        group: DEV
+        namespace: 400a6268-735b-4af2-945c-e1fa50c278ac
+        ext-config:
+          - dataId: cn-smile-smilemall-member-datasoucre-dev.yaml
+            group: DEV
+            refresh: true
+          - dataId: cn-smile-smilemall-member-mybatis-dev.yaml
+            group: DEV
+            refrsh: true
+          - dataId: cn-smile-smilemall-member-order-dev.yaml
+            group: DEV
+            refrsh: true
+        group: DEV
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
