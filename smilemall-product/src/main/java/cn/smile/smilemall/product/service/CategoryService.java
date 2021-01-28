@@ -1,5 +1,6 @@
 package cn.smile.smilemall.product.service;
 
+import cn.smile.smilemall.product.entity.AttrEntity;
 import com.baomidou.mybatisplus.extension.service.IService;
 import cn.smile.common.utils.PageUtils;
 import cn.smile.smilemall.product.entity.CategoryEntity;
@@ -21,5 +22,11 @@ public interface CategoryService extends IService<CategoryEntity> {
     List<CategoryEntity> listWithTree();
     
     Integer removeMenuByIds(List<Long> menuIds);
+    
+    Long [] findCategoryLogPath(Long cateLogId);
+    
+    boolean updateDetail(CategoryEntity categoryEntity);
+    
+   
 }
 

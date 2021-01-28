@@ -17,6 +17,8 @@
 		<module>renren-fast</module>
 		<module>renren-generator</module>
 		<module>smilemall-common</module>
+		<module>smilemall-third-party</module>
+		<module>smilemall-gateway</module>
 	</modules>
 
 </project>

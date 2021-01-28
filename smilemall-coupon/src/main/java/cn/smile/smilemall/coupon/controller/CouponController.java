@@ -29,13 +29,6 @@ public class CouponController {
     private CouponService couponService;
     
     
-    @Value("${config.info}")
-    private String configInfo;
-    
-    @GetMapping("/getTest")
-    public R test() {
-        return R.ok(configInfo);
-    }
 
     /**
      * 列表

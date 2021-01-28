@@ -3,12 +3,9 @@ package cn.smile.smilemall.coupon.controller;
 import java.util.Arrays;
 import java.util.Map;
 
+import cn.smile.common.to.SkuReductionTo;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import cn.smile.smilemall.coupon.entity.SkuFullReductionEntity;
 import cn.smile.smilemall.coupon.service.SkuFullReductionService;
@@ -30,6 +27,19 @@ public class SkuFullReductionController {
     @Autowired
     private SkuFullReductionService skuFullReductionService;
 
+    /**
+     * @Description 保存sku的优惠信息{运程调用}
+     * @author Smile
+     * @date 2021/1/25/025
+     * @param skuReductionTo 1
+     * @return cn.smile.common.utils.R
+     */
+    @PostMapping("/saveInfo")
+    public R saveInfo(@RequestBody  SkuReductionTo skuReductionTo) {
+        skuFullReductionService.saveSkuReduction(skuReductionTo);
+        return R.ok();
+    }
+    
     /**
      * 列表
      */

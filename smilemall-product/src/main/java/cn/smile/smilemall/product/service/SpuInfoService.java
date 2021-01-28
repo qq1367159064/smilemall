@@ -1,5 +1,7 @@
 package cn.smile.smilemall.product.service;
 
+import cn.smile.smilemall.product.entity.SpuInfoDescEntity;
+import cn.smile.smilemall.product.vo.SpuSaveVo;
 import com.baomidou.mybatisplus.extension.service.IService;
 import cn.smile.common.utils.PageUtils;
 import cn.smile.smilemall.product.entity.SpuInfoEntity;
@@ -16,5 +18,13 @@ import java.util.Map;
 public interface SpuInfoService extends IService<SpuInfoEntity> {
 
     PageUtils queryPage(Map<String, Object> params);
+    
+	void saveInfo(SpuSaveVo spuSaveVo);
+	
+	void saveBaseSpuInfo(SpuInfoEntity spuInfoEntity);
+	
+	void saveSpuInfoDesc(SpuInfoDescEntity descEntity);
+	
+	PageUtils queryPageByCondition(Map<String, Object> params);
 }
 

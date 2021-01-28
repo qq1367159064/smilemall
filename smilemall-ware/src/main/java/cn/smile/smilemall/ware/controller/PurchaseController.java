@@ -1,14 +1,14 @@
 package cn.smile.smilemall.ware.controller;
 
 import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
 
+import cn.smile.smilemall.ware.vo.MergeVo;
+import cn.smile.smilemall.ware.vo.PurchaseDoneVo;
+import org.checkerframework.checker.index.qual.PolyUpperBound;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import cn.smile.smilemall.ware.entity.PurchaseEntity;
 import cn.smile.smilemall.ware.service.PurchaseService;
@@ -29,7 +29,59 @@ import cn.smile.common.utils.R;
 public class PurchaseController {
     @Autowired
     private PurchaseService purchaseService;
+    
+    
+    /**
+     * @Description 查询没有分配的采购单
+     * @author Smile
+     * @date 2021/1/28/028
+     * @param params 1
+     * @return cn.smile.common.utils.R
+     */
+    @GetMapping("/unreceive/list")
+    public R unReceive(@RequestParam Map<String, Object> params) {
+        PageUtils pageUtils = purchaseService.queryPageUnReceive(params);
+        return R.ok().put("data", pageUtils);
+    }
 
+    /**
+     * @Description 合并采购需求
+     * @author Smile
+     * @date 2021/1/28/028
+     * @param mergeVo 1
+     * @return cn.smile.common.utils.R
+     */
+    @PostMapping("/merge")
+    public R merge(@RequestBody MergeVo mergeVo) {
+        purchaseService.setMergePurchase(mergeVo);
+        return R.ok();
+    }
+    
+    
+    /**
+     * @Description 确认采购完成
+     * @author Smile
+     * @date 2021/1/28/028
+     * @param  1
+     * @return cn.smile.common.utils.R
+     */
+    @PostMapping("/done")
+    public R done(@RequestBody PurchaseDoneVo purchaseDoneVo) {
+        purchaseService.done(purchaseDoneVo);
+        return R.ok();
+    }
+    /**
+     * @Description 领取采购单
+     * @author Smile
+     * @date 2021/1/28/028
+     * @return cn.smile.common.utils.R
+     */
+    @PostMapping("/received")
+    public  R received(@RequestBody List<Long> ids) {
+        purchaseService.received(ids);
+        return R.ok();
+    }
+    
     /**
      * 列表
      */

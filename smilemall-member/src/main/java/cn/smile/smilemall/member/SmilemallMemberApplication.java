@@ -3,9 +3,18 @@ package cn.smile.smilemall.member;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
+/**
+ * @Description
+ * @author Smile
+ * @date 2021/1/24/024
+ * @return
+ */
 @SpringBootApplication
 @EnableDiscoveryClient
+@EnableFeignClients
+
 public class SmilemallMemberApplication {
 	
 	public static void main(String[] args) {

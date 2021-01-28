@@ -21,6 +21,8 @@
 		<spring-version>5.2.8.RELEASE</spring-version>
 		<hutool-version>4.1.1</hutool-version>
 		<mysql-version>5.1.46</mysql-version>
+		<hibanate-validator-version>6.0.9.Final</hibanate-validator-version>
+		<javax-validation-version>2.0.1.Final</javax-validation-version>
 	</properties>
 
 	<!--导入spring cloud alibaba-->
@@ -37,8 +39,20 @@
 	</dependencyManagement>
 
 	<dependencies>
-		<!--导入服务注册发现依赖-->
 
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>${hibanate-validator-version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>javax.validation</groupId>
+			<artifactId>validation-api</artifactId>
+			<version>${javax-validation-version}</version>
+		</dependency>
+
+		<!--导入服务注册发现依赖-->
 		<dependency>
 			<groupId>com.alibaba.cloud</groupId>
 			<artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
