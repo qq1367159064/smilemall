@@ -24,7 +24,6 @@ import java.util.Map;
 public class GrowthChangeHistoryController {
     @Autowired
     private GrowthChangeHistoryService growthChangeHistoryService;
-
     /**
      * 列表
      */

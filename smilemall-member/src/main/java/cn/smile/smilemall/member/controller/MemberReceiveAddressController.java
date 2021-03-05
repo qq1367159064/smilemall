@@ -1,19 +1,14 @@
 package cn.smile.smilemall.member.controller;
 
-import java.util.Arrays;
-import java.util.Map;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
-
-import cn.smile.smilemall.member.entity.MemberReceiveAddressEntity;
-import cn.smile.smilemall.member.service.MemberReceiveAddressService;
 import cn.smile.common.utils.PageUtils;
 import cn.smile.common.utils.R;
+import cn.smile.smilemall.member.entity.MemberReceiveAddressEntity;
+import cn.smile.smilemall.member.service.MemberReceiveAddressService;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
 
 
 
@@ -27,9 +22,19 @@ import cn.smile.common.utils.R;
 @RestController
 @RequestMapping("member/memberreceiveaddress")
 public class MemberReceiveAddressController {
-    @Autowired
-    private MemberReceiveAddressService memberReceiveAddressService;
-
+    private final MemberReceiveAddressService memberReceiveAddressService;
+    
+    public MemberReceiveAddressController(MemberReceiveAddressService memberReceiveAddressService) {
+        this.memberReceiveAddressService = memberReceiveAddressService;
+    }
+    
+    
+    @GetMapping("/getAddress/{userId}")
+    public List<MemberReceiveAddressEntity> getAddressByUserId(@PathVariable(value = "userId") Long userId) {
+        return memberReceiveAddressService.getAddress(userId);
+    }
+    
+    
     /**
      * 列表
      */

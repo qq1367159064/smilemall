@@ -3,6 +3,7 @@
     <include resource="org/springframework/boot/logging/logback/base.xml" />
     <logger name="org.springframework.web" level="INFO"/>
     <logger name="org.springboot.sample" level="TRACE" />
+    <logger name="com.alibaba.nacos.client.config.impl" level="warn"/>
 
     <!-- 开发、测试环境 -->
     <springProfile name="dev,test">

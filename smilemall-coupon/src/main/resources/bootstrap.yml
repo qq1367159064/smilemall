@@ -5,8 +5,9 @@ spring:
     nacos:
       config:
         file-extension: yaml
-        server-addr: 192.168.1.22:8848
+        server-addr: 192.168.31.239:8848
         group: SMILE_COUPON
+        namespace: ada1f796-818d-4fb9-a700-d09ea7e909d2
 management:
   endpoints:
     web:

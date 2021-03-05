@@ -1,34 +1,29 @@
 package cn.smile.smilemall.ware.service.impl;
 
 import cn.smile.common.constant.WareConstant;
+import cn.smile.common.utils.PageUtils;
+import cn.smile.common.utils.Query;
+import cn.smile.smilemall.ware.dao.PurchaseDao;
 import cn.smile.smilemall.ware.entity.PurchaseDetailEntity;
+import cn.smile.smilemall.ware.entity.PurchaseEntity;
 import cn.smile.smilemall.ware.service.PurchaseDetailService;
+import cn.smile.smilemall.ware.service.PurchaseService;
 import cn.smile.smilemall.ware.service.WareSkuService;
 import cn.smile.smilemall.ware.vo.MergeVo;
 import cn.smile.smilemall.ware.vo.PurchaseDoneItemsVo;
 import cn.smile.smilemall.ware.vo.PurchaseDoneVo;
-import org.apache.commons.lang.StringUtils;
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
-
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import cn.smile.common.utils.PageUtils;
-import cn.smile.common.utils.Query;
-
-import cn.smile.smilemall.ware.dao.PurchaseDao;
-import cn.smile.smilemall.ware.entity.PurchaseEntity;
-import cn.smile.smilemall.ware.service.PurchaseService;
-import org.springframework.transaction.annotation.Transactional;
-
-import javax.xml.crypto.Data;
 
 
 @Service("purchaseService")
@@ -158,15 +153,16 @@ public class PurchaseServiceImpl extends ServiceImpl<PurchaseDao, PurchaseEntity
     public boolean done(PurchaseDoneVo purchaseDoneVo) {
         // 获取采购单id
         Long purchaseId = purchaseDoneVo.getPurchaseId();
-        // 获取所有采购项信息
+        // 获取所有传来采购项信息
         List<PurchaseDoneItemsVo> purchaseDoneItemsVos = purchaseDoneVo.getPurchaseDoneItemsVos();
         List<PurchaseDetailEntity> updatePurchaseDetail = new ArrayList<>();
         Boolean flag = false;
         // 确认采购项的状态
         for (PurchaseDoneItemsVo purchaseDoneItemsVo : purchaseDoneItemsVos) {
+            // 获取采购需求
             PurchaseDetailEntity updP = new PurchaseDetailEntity();
             if(purchaseDoneItemsVo.getStatus() == WareConstant.PurchaseDetailEnum.HASERROR.getCode()) {
-                flag = false;
+                flag = true;
                 updP.setStatus(WareConstant.PurchaseDetailEnum.HASERROR.getCode());
             } else {
                 updP.setStatus(WareConstant.PurchaseDetailEnum.FINISH.getCode());
@@ -183,7 +179,7 @@ public class PurchaseServiceImpl extends ServiceImpl<PurchaseDao, PurchaseEntity
     
         PurchaseEntity purchaseEntity = new PurchaseEntity();
         purchaseEntity.setId(purchaseId);
-        if(flag) {
+        if(!flag) {
             purchaseEntity.setStatus(WareConstant.PurchaseStatusEnum.FINISH.getCode());
         } else {
             purchaseEntity.setStatus(WareConstant.PurchaseStatusEnum.HASERROR.getCode());

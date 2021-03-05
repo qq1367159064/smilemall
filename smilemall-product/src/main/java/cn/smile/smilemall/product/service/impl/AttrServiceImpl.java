@@ -4,7 +4,6 @@ import cn.hutool.core.bean.BeanUtil;
 import cn.smile.common.constant.ProductConstant;
 import cn.smile.common.utils.PageUtils;
 import cn.smile.common.utils.Query;
-import cn.smile.common.utils.R;
 import cn.smile.smilemall.product.dao.AttrAttrgroupRelationDao;
 import cn.smile.smilemall.product.dao.AttrDao;
 import cn.smile.smilemall.product.dao.AttrGroupDao;
@@ -21,7 +20,6 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.apache.commons.lang.StringUtils;
-import org.checkerframework.checker.units.qual.A;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -191,5 +189,22 @@ public class AttrServiceImpl extends ServiceImpl<AttrDao, AttrEntity> implements
 			respVo.setCatelogName(categoryEntity.getName());
 		}
 		return respVo;
+	}
+	
+	/**
+	 * <p>获取所有用来检索的属性id</p>
+	 * @author Smile
+	 * @date 2021/2/15/015
+	 * @param attrIds 1
+	 * @return java.util.List<java.lang.Long>
+	 */
+	@Override
+	public List<Long> getSearchTypeAttrIds(List<Long> attrIds) {
+		try {
+			return baseMapper.getSearchTypeAttrIds(attrIds);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return null;
 	}
 }

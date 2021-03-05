@@ -2,22 +2,21 @@ spring:
   cloud:
     nacos:
       config:
-        server-addr: 192.168.1.22:8848
-        ext-config:
+        server-addr: 192.168.31.239:8848
+        extension-configs:
           - dataId: cn-smile-smilemall-third-party-oss-dev.yaml
             group: OSS_GROUP
             refresh: true
         group: DEV_GROUP
         namespace: 9043cf27-0fe5-4fd5-b871-88c14447a47b
         file-extension: yaml
-    alicloud:
-      secret-key: IUbWHizCRXsWCIxJ66htv7aNRKpLXL
-      access-key: LTAI4GBcy12pv4wFPCo1G4aY
-      oss:
-        endpoint: oss-cn-beijing.aliyuncs.com
-        bucket: smilemall-zg
-
-
+        refresh-enabled: true
+#    alicloud:
+#      secret-key: w8GQX2OdD67Loj9PtubKuxk9BEjXpC
+#      access-key: LTAI4GKxsk86dCPNN9aEAvWw
+#      oss:
+#        endpoint: oss-cn-beijing.aliyuncs.com
+#        bucket: smilemall-zg
 management:
   endpoints:
     web:

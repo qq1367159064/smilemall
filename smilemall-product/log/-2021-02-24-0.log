@@ -1,0 +1,603 @@
+2021-02-24 00:13:27.051 [ http-nio-6001-exec-1 ] - [ DEBUG ] [ cn.smile.smilemall.product.aop.imp.SmileCacheImpl : 138 ] - 查询了数据库http-nio-6001-exec-1 
+2021-02-24 00:13:27.105 [ http-nio-6001-exec-1 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2021-02-24 00:13:27.110 [ http-nio-6001-exec-1 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27016633] was not registered for synchronization because synchronization is not active
+2021-02-24 00:13:27.699 [ http-nio-6001-exec-1 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@759974738 wrapping com.mysql.cj.jdbc.ConnectionImpl@66a599d9] will not be managed by Spring
+2021-02-24 00:13:27.708 [ http-nio-6001-exec-1 ] - [ DEBUG ] [ c.s.smilemall.product.dao.CategoryDao.selectList : 143 ] - ==>  Preparing: SELECT cat_id,name,parent_cid,cat_level,show_status,sort,icon,product_unit,product_count FROM pms_category WHERE show_status=1 AND (parent_cid = ?) 
+2021-02-24 00:13:27.731 [ http-nio-6001-exec-1 ] - [ DEBUG ] [ c.s.smilemall.product.dao.CategoryDao.selectList : 143 ] - ==> Parameters: 0(Integer)
+2021-02-24 00:13:27.763 [ http-nio-6001-exec-1 ] - [ DEBUG ] [ c.s.smilemall.product.dao.CategoryDao.selectList : 143 ] - <==      Total: 23
+2021-02-24 00:13:27.767 [ http-nio-6001-exec-1 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27016633]
+2021-02-24 00:13:28.957 [ http-nio-6001-exec-2 ] - [ DEBUG ] [ cn.smile.smilemall.product.aop.imp.SmileCacheImpl : 138 ] - 查询了数据库http-nio-6001-exec-2 
+2021-02-24 00:13:28.959 [ http-nio-6001-exec-2 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2021-02-24 00:13:28.959 [ http-nio-6001-exec-2 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56747212] was not registered for synchronization because synchronization is not active
+2021-02-24 00:13:28.964 [ http-nio-6001-exec-2 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@1413031014 wrapping com.mysql.cj.jdbc.ConnectionImpl@66a599d9] will not be managed by Spring
+2021-02-24 00:13:28.966 [ http-nio-6001-exec-2 ] - [ DEBUG ] [ c.s.smilemall.product.dao.CategoryDao.selectList : 143 ] - ==>  Preparing: SELECT cat_id,name,parent_cid,cat_level,show_status,sort,icon,product_unit,product_count FROM pms_category WHERE show_status=1 
+2021-02-24 00:13:28.966 [ http-nio-6001-exec-2 ] - [ DEBUG ] [ c.s.smilemall.product.dao.CategoryDao.selectList : 143 ] - ==> Parameters: 
+2021-02-24 00:13:29.050 [ http-nio-6001-exec-2 ] - [ DEBUG ] [ c.s.smilemall.product.dao.CategoryDao.selectList : 143 ] - <==      Total: 1436
+2021-02-24 00:13:29.051 [ http-nio-6001-exec-2 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56747212]
+2021-02-24 00:14:15.424 [ http-nio-6001-exec-5 ] - [ ERROR ] [ cn.smile.smilemall.product.aop.imp.SmileCacheImpl : 200 ] - 缓存key 12
+2021-02-24 00:14:15.433 [ http-nio-6001-exec-5 ] - [ DEBUG ] [ cn.smile.smilemall.product.aop.imp.SmileCacheImpl : 138 ] - 查询了数据库http-nio-6001-exec-5 
+2021-02-24 00:14:15.443 [ pool-2-thread-1 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2021-02-24 00:14:15.443 [ pool-2-thread-1 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7c97acab] was not registered for synchronization because synchronization is not active
+2021-02-24 00:14:15.448 [ pool-2-thread-1 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@529015403 wrapping com.mysql.cj.jdbc.ConnectionImpl@66a599d9] will not be managed by Spring
+2021-02-24 00:14:15.449 [ pool-2-thread-1 ] - [ DEBUG ] [ c.s.smilemall.product.dao.SkuInfoDao.selectById : 143 ] - ==>  Preparing: SELECT sku_id,spu_id,sku_name,sku_desc,catalog_id,brand_id,sku_default_img,sku_title,sku_subtitle,price,sale_count FROM pms_sku_info WHERE sku_id=? 
+2021-02-24 00:14:15.450 [ pool-2-thread-1 ] - [ DEBUG ] [ c.s.smilemall.product.dao.SkuInfoDao.selectById : 143 ] - ==> Parameters: 12(Long)
+2021-02-24 00:14:15.452 [ pool-2-thread-2 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2021-02-24 00:14:15.452 [ pool-2-thread-2 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2181f01a] was not registered for synchronization because synchronization is not active
+2021-02-24 00:14:15.456 [ pool-2-thread-1 ] - [ DEBUG ] [ c.s.smilemall.product.dao.SkuInfoDao.selectById : 143 ] - <==      Total: 1
+2021-02-24 00:14:15.457 [ pool-2-thread-1 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7c97acab]
+2021-02-24 00:14:15.458 [ pool-2-thread-3 ] - [ ERROR ] [ cn.smile.smilemall.product.aop.imp.SmileCacheImpl : 200 ] - 缓存key 2
+2021-02-24 00:14:15.458 [ pool-2-thread-4 ] - [ ERROR ] [ cn.smile.smilemall.product.aop.imp.SmileCacheImpl : 200 ] - 缓存key 2
+2021-02-24 00:14:15.458 [ pool-2-thread-2 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@454499363 wrapping com.mysql.cj.jdbc.ConnectionImpl@66a599d9] will not be managed by Spring
+2021-02-24 00:14:15.459 [ pool-2-thread-2 ] - [ DEBUG ] [ c.s.smilemall.product.dao.SkuImagesDao.selectList : 143 ] - ==>  Preparing: SELECT id,sku_id,img_url,img_sort,default_img FROM pms_sku_images WHERE (sku_id = ?) 
+2021-02-24 00:14:15.460 [ pool-2-thread-2 ] - [ DEBUG ] [ c.s.smilemall.product.dao.SkuImagesDao.selectList : 143 ] - ==> Parameters: 12(Long)
+2021-02-24 00:14:15.463 [ pool-2-thread-5 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2021-02-24 00:14:15.464 [ pool-2-thread-5 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1b5ab415] was not registered for synchronization because synchronization is not active
+2021-02-24 00:14:15.466 [ pool-2-thread-2 ] - [ DEBUG ] [ c.s.smilemall.product.dao.SkuImagesDao.selectList : 143 ] - <==      Total: 2
+2021-02-24 00:14:15.466 [ pool-2-thread-2 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2181f01a]
+2021-02-24 00:14:15.469 [ pool-2-thread-5 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@1105903084 wrapping com.mysql.cj.jdbc.ConnectionImpl@630a3d8c] will not be managed by Spring
+2021-02-24 00:14:15.469 [ pool-2-thread-3 ] - [ DEBUG ] [ cn.smile.smilemall.product.aop.imp.SmileCacheImpl : 138 ] - 查询了数据库pool-2-thread-3 
+2021-02-24 00:14:15.470 [ pool-2-thread-5 ] - [ DEBUG ] [ c.s.s.product.dao.SpuInfoDescDao.selectById : 143 ] - ==>  Preparing: SELECT spu_id,decript FROM pms_spu_info_desc WHERE spu_id=? 
+2021-02-24 00:14:15.470 [ pool-2-thread-5 ] - [ DEBUG ] [ c.s.s.product.dao.SpuInfoDescDao.selectById : 143 ] - ==> Parameters: 2(Long)
+2021-02-24 00:14:15.472 [ pool-2-thread-4 ] - [ DEBUG ] [ cn.smile.smilemall.product.aop.imp.SmileCacheImpl : 138 ] - 查询了数据库pool-2-thread-4 
+2021-02-24 00:14:15.476 [ pool-2-thread-3 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2021-02-24 00:14:15.476 [ pool-2-thread-3 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@b40dcb0] was not registered for synchronization because synchronization is not active
+2021-02-24 00:14:15.478 [ pool-2-thread-3 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@430501802 wrapping com.mysql.cj.jdbc.ConnectionImpl@66a599d9] will not be managed by Spring
+2021-02-24 00:14:15.479 [ pool-2-thread-3 ] - [ DEBUG ] [ c.s.smilemall.product.dao.SkuInfoDao.selectList : 143 ] - ==>  Preparing: SELECT sku_id,spu_id,sku_name,sku_desc,catalog_id,brand_id,sku_default_img,sku_title,sku_subtitle,price,sale_count FROM pms_sku_info WHERE (spu_id = ?) 
+2021-02-24 00:14:15.481 [ pool-2-thread-3 ] - [ DEBUG ] [ c.s.smilemall.product.dao.SkuInfoDao.selectList : 143 ] - ==> Parameters: 2(Long)
+2021-02-24 00:14:15.481 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2021-02-24 00:14:15.481 [ pool-2-thread-5 ] - [ DEBUG ] [ c.s.s.product.dao.SpuInfoDescDao.selectById : 143 ] - <==      Total: 1
+2021-02-24 00:14:15.481 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3ee6c3e6] was not registered for synchronization because synchronization is not active
+2021-02-24 00:14:15.481 [ pool-2-thread-5 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1b5ab415]
+2021-02-24 00:14:15.483 [ pool-2-thread-4 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@2122559 wrapping com.mysql.cj.jdbc.ConnectionImpl@630a3d8c] will not be managed by Spring
+2021-02-24 00:14:15.483 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.smilemall.product.dao.AttrGroupDao.selectList : 143 ] - ==>  Preparing: SELECT attr_group_id,attr_group_name,sort,descript,icon,catelog_id FROM pms_attr_group WHERE (catelog_id = ?) 
+2021-02-24 00:14:15.484 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.smilemall.product.dao.AttrGroupDao.selectList : 143 ] - ==> Parameters: 225(Long)
+2021-02-24 00:14:15.487 [ pool-2-thread-3 ] - [ DEBUG ] [ c.s.smilemall.product.dao.SkuInfoDao.selectList : 143 ] - <==      Total: 9
+2021-02-24 00:14:15.488 [ pool-2-thread-3 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@b40dcb0]
+2021-02-24 00:14:15.489 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.smilemall.product.dao.AttrGroupDao.selectList : 143 ] - <==      Total: 4
+2021-02-24 00:14:15.489 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3ee6c3e6]
+2021-02-24 00:14:15.490 [ pool-2-thread-3 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2021-02-24 00:14:15.490 [ pool-2-thread-3 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@659be65c] was not registered for synchronization because synchronization is not active
+2021-02-24 00:14:15.492 [ pool-2-thread-3 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@955961177 wrapping com.mysql.cj.jdbc.ConnectionImpl@66a599d9] will not be managed by Spring
+2021-02-24 00:14:15.493 [ pool-2-thread-3 ] - [ DEBUG ] [ c.s.s.product.dao.SkuSaleAttrValueDao.selectList : 143 ] - ==>  Preparing: SELECT id,sku_id,attr_id,attr_name,attr_value,attr_sort FROM pms_sku_sale_attr_value WHERE (sku_id IN (?,?,?,?,?,?,?,?,?)) 
+2021-02-24 00:14:15.493 [ pool-2-thread-3 ] - [ DEBUG ] [ c.s.s.product.dao.SkuSaleAttrValueDao.selectList : 143 ] - ==> Parameters: 5(Long), 6(Long), 7(Long), 8(Long), 9(Long), 10(Long), 11(Long), 12(Long), 13(Long)
+2021-02-24 00:14:15.494 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2021-02-24 00:14:15.495 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c73a02b] was not registered for synchronization because synchronization is not active
+2021-02-24 00:14:15.496 [ pool-2-thread-4 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@1727331260 wrapping com.mysql.cj.jdbc.ConnectionImpl@630a3d8c] will not be managed by Spring
+2021-02-24 00:14:15.496 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.p.dao.AttrAttrgroupRelationDao.selectList : 143 ] - ==>  Preparing: SELECT id,attr_id,attr_group_id,attr_sort FROM pms_attr_attrgroup_relation WHERE (attr_group_id = ?) 
+2021-02-24 00:14:15.497 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.p.dao.AttrAttrgroupRelationDao.selectList : 143 ] - ==> Parameters: 4(Long)
+2021-02-24 00:14:15.500 [ pool-2-thread-3 ] - [ DEBUG ] [ c.s.s.product.dao.SkuSaleAttrValueDao.selectList : 143 ] - <==      Total: 18
+2021-02-24 00:14:15.500 [ pool-2-thread-3 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@659be65c]
+2021-02-24 00:14:15.502 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.p.dao.AttrAttrgroupRelationDao.selectList : 143 ] - <==      Total: 5
+2021-02-24 00:14:15.502 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c73a02b]
+2021-02-24 00:14:15.512 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2021-02-24 00:14:15.512 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3c7078b8] was not registered for synchronization because synchronization is not active
+2021-02-24 00:14:15.513 [ pool-2-thread-4 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@65825869 wrapping com.mysql.cj.jdbc.ConnectionImpl@630a3d8c] will not be managed by Spring
+2021-02-24 00:14:15.513 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - ==>  Preparing: SELECT id,spu_id,attr_id,attr_name,attr_value,attr_sort,quick_show FROM pms_product_attr_value WHERE (attr_id = ? AND spu_id = ?) 
+2021-02-24 00:14:15.514 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - ==> Parameters: 6(Long), 2(Long)
+2021-02-24 00:14:15.520 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - <==      Total: 1
+2021-02-24 00:14:15.521 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3c7078b8]
+2021-02-24 00:14:15.522 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2021-02-24 00:14:15.522 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c34385e] was not registered for synchronization because synchronization is not active
+2021-02-24 00:14:15.523 [ pool-2-thread-4 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@1244223062 wrapping com.mysql.cj.jdbc.ConnectionImpl@630a3d8c] will not be managed by Spring
+2021-02-24 00:14:15.524 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - ==>  Preparing: SELECT id,spu_id,attr_id,attr_name,attr_value,attr_sort,quick_show FROM pms_product_attr_value WHERE (attr_id = ? AND spu_id = ?) 
+2021-02-24 00:14:15.525 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - ==> Parameters: 7(Long), 2(Long)
+2021-02-24 00:14:15.530 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - <==      Total: 1
+2021-02-24 00:14:15.531 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c34385e]
+2021-02-24 00:14:15.531 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2021-02-24 00:14:15.531 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@25a7faa3] was not registered for synchronization because synchronization is not active
+2021-02-24 00:14:15.532 [ pool-2-thread-4 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@1487720577 wrapping com.mysql.cj.jdbc.ConnectionImpl@630a3d8c] will not be managed by Spring
+2021-02-24 00:14:15.532 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - ==>  Preparing: SELECT id,spu_id,attr_id,attr_name,attr_value,attr_sort,quick_show FROM pms_product_attr_value WHERE (attr_id = ? AND spu_id = ?) 
+2021-02-24 00:14:15.533 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - ==> Parameters: 8(Long), 2(Long)
+2021-02-24 00:14:15.538 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - <==      Total: 1
+2021-02-24 00:14:15.539 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@25a7faa3]
+2021-02-24 00:14:15.539 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2021-02-24 00:14:15.539 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5682bef7] was not registered for synchronization because synchronization is not active
+2021-02-24 00:14:15.541 [ pool-2-thread-4 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@1282024550 wrapping com.mysql.cj.jdbc.ConnectionImpl@630a3d8c] will not be managed by Spring
+2021-02-24 00:14:15.542 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - ==>  Preparing: SELECT id,spu_id,attr_id,attr_name,attr_value,attr_sort,quick_show FROM pms_product_attr_value WHERE (attr_id = ? AND spu_id = ?) 
+2021-02-24 00:14:15.542 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - ==> Parameters: 9(Long), 2(Long)
+2021-02-24 00:14:15.547 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - <==      Total: 0
+2021-02-24 00:14:15.548 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5682bef7]
+2021-02-24 00:14:15.548 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2021-02-24 00:14:15.548 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@179fd35f] was not registered for synchronization because synchronization is not active
+2021-02-24 00:14:15.549 [ pool-2-thread-4 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@1420407389 wrapping com.mysql.cj.jdbc.ConnectionImpl@630a3d8c] will not be managed by Spring
+2021-02-24 00:14:15.550 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - ==>  Preparing: SELECT id,spu_id,attr_id,attr_name,attr_value,attr_sort,quick_show FROM pms_product_attr_value WHERE (attr_id = ? AND spu_id = ?) 
+2021-02-24 00:14:15.550 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - ==> Parameters: 10(Long), 2(Long)
+2021-02-24 00:14:15.556 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - <==      Total: 0
+2021-02-24 00:14:15.556 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@179fd35f]
+2021-02-24 00:14:15.556 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2021-02-24 00:14:15.556 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5d78b07a] was not registered for synchronization because synchronization is not active
+2021-02-24 00:14:15.557 [ pool-2-thread-4 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@873764257 wrapping com.mysql.cj.jdbc.ConnectionImpl@630a3d8c] will not be managed by Spring
+2021-02-24 00:14:15.558 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.p.dao.AttrAttrgroupRelationDao.selectList : 143 ] - ==>  Preparing: SELECT id,attr_id,attr_group_id,attr_sort FROM pms_attr_attrgroup_relation WHERE (attr_group_id = ?) 
+2021-02-24 00:14:15.559 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.p.dao.AttrAttrgroupRelationDao.selectList : 143 ] - ==> Parameters: 5(Long)
+2021-02-24 00:14:15.564 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.p.dao.AttrAttrgroupRelationDao.selectList : 143 ] - <==      Total: 7
+2021-02-24 00:14:15.564 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5d78b07a]
+2021-02-24 00:14:15.564 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2021-02-24 00:14:15.564 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38abe27] was not registered for synchronization because synchronization is not active
+2021-02-24 00:14:15.565 [ pool-2-thread-4 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@495153187 wrapping com.mysql.cj.jdbc.ConnectionImpl@630a3d8c] will not be managed by Spring
+2021-02-24 00:14:15.567 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - ==>  Preparing: SELECT id,spu_id,attr_id,attr_name,attr_value,attr_sort,quick_show FROM pms_product_attr_value WHERE (attr_id = ? AND spu_id = ?) 
+2021-02-24 00:14:15.568 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - ==> Parameters: 11(Long), 2(Long)
+2021-02-24 00:14:15.574 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - <==      Total: 1
+2021-02-24 00:14:15.575 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38abe27]
+2021-02-24 00:14:15.575 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2021-02-24 00:14:15.576 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@25f2f247] was not registered for synchronization because synchronization is not active
+2021-02-24 00:14:15.577 [ pool-2-thread-4 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@1858373657 wrapping com.mysql.cj.jdbc.ConnectionImpl@630a3d8c] will not be managed by Spring
+2021-02-24 00:14:15.578 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - ==>  Preparing: SELECT id,spu_id,attr_id,attr_name,attr_value,attr_sort,quick_show FROM pms_product_attr_value WHERE (attr_id = ? AND spu_id = ?) 
+2021-02-24 00:14:15.578 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - ==> Parameters: 12(Long), 2(Long)
+2021-02-24 00:14:15.584 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - <==      Total: 1
+2021-02-24 00:14:15.585 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@25f2f247]
+2021-02-24 00:14:15.586 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2021-02-24 00:14:15.586 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a93bb5c] was not registered for synchronization because synchronization is not active
+2021-02-24 00:14:15.588 [ pool-2-thread-4 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@1586264988 wrapping com.mysql.cj.jdbc.ConnectionImpl@630a3d8c] will not be managed by Spring
+2021-02-24 00:14:15.589 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - ==>  Preparing: SELECT id,spu_id,attr_id,attr_name,attr_value,attr_sort,quick_show FROM pms_product_attr_value WHERE (attr_id = ? AND spu_id = ?) 
+2021-02-24 00:14:15.589 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - ==> Parameters: 13(Long), 2(Long)
+2021-02-24 00:14:15.596 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - <==      Total: 1
+2021-02-24 00:14:15.596 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a93bb5c]
+2021-02-24 00:14:15.596 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2021-02-24 00:14:15.596 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@794756eb] was not registered for synchronization because synchronization is not active
+2021-02-24 00:14:15.598 [ pool-2-thread-4 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@810821588 wrapping com.mysql.cj.jdbc.ConnectionImpl@630a3d8c] will not be managed by Spring
+2021-02-24 00:14:15.599 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - ==>  Preparing: SELECT id,spu_id,attr_id,attr_name,attr_value,attr_sort,quick_show FROM pms_product_attr_value WHERE (attr_id = ? AND spu_id = ?) 
+2021-02-24 00:14:15.600 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - ==> Parameters: 14(Long), 2(Long)
+2021-02-24 00:14:15.605 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - <==      Total: 1
+2021-02-24 00:14:15.606 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@794756eb]
+2021-02-24 00:14:15.606 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2021-02-24 00:14:15.606 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@215c23d4] was not registered for synchronization because synchronization is not active
+2021-02-24 00:14:15.608 [ pool-2-thread-4 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@1215618916 wrapping com.mysql.cj.jdbc.ConnectionImpl@630a3d8c] will not be managed by Spring
+2021-02-24 00:14:15.608 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - ==>  Preparing: SELECT id,spu_id,attr_id,attr_name,attr_value,attr_sort,quick_show FROM pms_product_attr_value WHERE (attr_id = ? AND spu_id = ?) 
+2021-02-24 00:14:15.609 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - ==> Parameters: 15(Long), 2(Long)
+2021-02-24 00:14:15.614 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - <==      Total: 0
+2021-02-24 00:14:15.616 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@215c23d4]
+2021-02-24 00:14:15.617 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2021-02-24 00:14:15.617 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d12bfe0] was not registered for synchronization because synchronization is not active
+2021-02-24 00:14:15.618 [ pool-2-thread-4 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@801495838 wrapping com.mysql.cj.jdbc.ConnectionImpl@630a3d8c] will not be managed by Spring
+2021-02-24 00:14:15.618 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - ==>  Preparing: SELECT id,spu_id,attr_id,attr_name,attr_value,attr_sort,quick_show FROM pms_product_attr_value WHERE (attr_id = ? AND spu_id = ?) 
+2021-02-24 00:14:15.619 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - ==> Parameters: 16(Long), 2(Long)
+2021-02-24 00:14:15.624 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - <==      Total: 1
+2021-02-24 00:14:15.625 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d12bfe0]
+2021-02-24 00:14:15.625 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2021-02-24 00:14:15.625 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3c3dbcd3] was not registered for synchronization because synchronization is not active
+2021-02-24 00:14:15.626 [ pool-2-thread-4 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@82372875 wrapping com.mysql.cj.jdbc.ConnectionImpl@630a3d8c] will not be managed by Spring
+2021-02-24 00:14:15.627 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - ==>  Preparing: SELECT id,spu_id,attr_id,attr_name,attr_value,attr_sort,quick_show FROM pms_product_attr_value WHERE (attr_id = ? AND spu_id = ?) 
+2021-02-24 00:14:15.627 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - ==> Parameters: 24(Long), 2(Long)
+2021-02-24 00:14:15.633 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - <==      Total: 1
+2021-02-24 00:14:15.633 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3c3dbcd3]
+2021-02-24 00:14:15.633 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2021-02-24 00:14:15.633 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61c74e26] was not registered for synchronization because synchronization is not active
+2021-02-24 00:14:15.634 [ pool-2-thread-4 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@818785769 wrapping com.mysql.cj.jdbc.ConnectionImpl@630a3d8c] will not be managed by Spring
+2021-02-24 00:14:15.635 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.p.dao.AttrAttrgroupRelationDao.selectList : 143 ] - ==>  Preparing: SELECT id,attr_id,attr_group_id,attr_sort FROM pms_attr_attrgroup_relation WHERE (attr_group_id = ?) 
+2021-02-24 00:14:15.642 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.p.dao.AttrAttrgroupRelationDao.selectList : 143 ] - ==> Parameters: 6(Long)
+2021-02-24 00:14:15.647 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.p.dao.AttrAttrgroupRelationDao.selectList : 143 ] - <==      Total: 2
+2021-02-24 00:14:15.648 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61c74e26]
+2021-02-24 00:14:15.648 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2021-02-24 00:14:15.648 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@50847a4b] was not registered for synchronization because synchronization is not active
+2021-02-24 00:14:15.649 [ pool-2-thread-4 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@199862275 wrapping com.mysql.cj.jdbc.ConnectionImpl@630a3d8c] will not be managed by Spring
+2021-02-24 00:14:15.650 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - ==>  Preparing: SELECT id,spu_id,attr_id,attr_name,attr_value,attr_sort,quick_show FROM pms_product_attr_value WHERE (attr_id = ? AND spu_id = ?) 
+2021-02-24 00:14:15.650 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - ==> Parameters: 17(Long), 2(Long)
+2021-02-24 00:14:15.656 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - <==      Total: 1
+2021-02-24 00:14:15.656 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@50847a4b]
+2021-02-24 00:14:15.656 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2021-02-24 00:14:15.657 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@50ecf210] was not registered for synchronization because synchronization is not active
+2021-02-24 00:14:15.657 [ pool-2-thread-4 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@592022628 wrapping com.mysql.cj.jdbc.ConnectionImpl@630a3d8c] will not be managed by Spring
+2021-02-24 00:14:15.658 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - ==>  Preparing: SELECT id,spu_id,attr_id,attr_name,attr_value,attr_sort,quick_show FROM pms_product_attr_value WHERE (attr_id = ? AND spu_id = ?) 
+2021-02-24 00:14:15.658 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - ==> Parameters: 18(Long), 2(Long)
+2021-02-24 00:14:15.663 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - <==      Total: 1
+2021-02-24 00:14:15.664 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@50ecf210]
+2021-02-24 00:14:15.664 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2021-02-24 00:14:15.665 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4228606] was not registered for synchronization because synchronization is not active
+2021-02-24 00:14:15.666 [ pool-2-thread-4 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@862554336 wrapping com.mysql.cj.jdbc.ConnectionImpl@630a3d8c] will not be managed by Spring
+2021-02-24 00:14:15.667 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.p.dao.AttrAttrgroupRelationDao.selectList : 143 ] - ==>  Preparing: SELECT id,attr_id,attr_group_id,attr_sort FROM pms_attr_attrgroup_relation WHERE (attr_group_id = ?) 
+2021-02-24 00:14:15.667 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.p.dao.AttrAttrgroupRelationDao.selectList : 143 ] - ==> Parameters: 7(Long)
+2021-02-24 00:14:15.689 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.p.dao.AttrAttrgroupRelationDao.selectList : 143 ] - <==      Total: 3
+2021-02-24 00:14:15.689 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4228606]
+2021-02-24 00:14:15.690 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2021-02-24 00:14:15.690 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@64376de4] was not registered for synchronization because synchronization is not active
+2021-02-24 00:14:15.691 [ pool-2-thread-4 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@212898159 wrapping com.mysql.cj.jdbc.ConnectionImpl@630a3d8c] will not be managed by Spring
+2021-02-24 00:14:15.691 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - ==>  Preparing: SELECT id,spu_id,attr_id,attr_name,attr_value,attr_sort,quick_show FROM pms_product_attr_value WHERE (attr_id = ? AND spu_id = ?) 
+2021-02-24 00:14:15.692 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - ==> Parameters: 19(Long), 2(Long)
+2021-02-24 00:14:15.697 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - <==      Total: 1
+2021-02-24 00:14:15.698 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@64376de4]
+2021-02-24 00:14:15.698 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2021-02-24 00:14:15.698 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5f44841e] was not registered for synchronization because synchronization is not active
+2021-02-24 00:14:15.699 [ pool-2-thread-4 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@4426335 wrapping com.mysql.cj.jdbc.ConnectionImpl@630a3d8c] will not be managed by Spring
+2021-02-24 00:14:15.700 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - ==>  Preparing: SELECT id,spu_id,attr_id,attr_name,attr_value,attr_sort,quick_show FROM pms_product_attr_value WHERE (attr_id = ? AND spu_id = ?) 
+2021-02-24 00:14:15.700 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - ==> Parameters: 20(Long), 2(Long)
+2021-02-24 00:14:15.705 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - <==      Total: 1
+2021-02-24 00:14:15.706 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5f44841e]
+2021-02-24 00:14:15.706 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2021-02-24 00:14:15.706 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@334e7801] was not registered for synchronization because synchronization is not active
+2021-02-24 00:14:15.707 [ pool-2-thread-4 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@1221684738 wrapping com.mysql.cj.jdbc.ConnectionImpl@630a3d8c] will not be managed by Spring
+2021-02-24 00:14:15.708 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - ==>  Preparing: SELECT id,spu_id,attr_id,attr_name,attr_value,attr_sort,quick_show FROM pms_product_attr_value WHERE (attr_id = ? AND spu_id = ?) 
+2021-02-24 00:14:15.708 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - ==> Parameters: 21(Long), 2(Long)
+2021-02-24 00:14:15.713 [ pool-2-thread-4 ] - [ DEBUG ] [ c.s.s.product.dao.ProductAttrValueDao.selectList : 143 ] - <==      Total: 1
+2021-02-24 00:14:15.714 [ pool-2-thread-4 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@334e7801]
+2021-02-24 00:14:28.871 [ http-nio-6001-exec-6 ] - [ ERROR ] [ cn.smile.smilemall.product.aop.imp.SmileCacheImpl : 200 ] - 缓存key 9
+2021-02-24 00:14:28.881 [ http-nio-6001-exec-6 ] - [ DEBUG ] [ cn.smile.smilemall.product.aop.imp.SmileCacheImpl : 138 ] - 查询了数据库http-nio-6001-exec-6 
+2021-02-24 00:14:28.883 [ pool-2-thread-6 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2021-02-24 00:14:28.884 [ pool-2-thread-6 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6404e467] was not registered for synchronization because synchronization is not active
+2021-02-24 00:14:28.885 [ pool-2-thread-7 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2021-02-24 00:14:28.886 [ pool-2-thread-7 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@50cae266] was not registered for synchronization because synchronization is not active
+2021-02-24 00:14:28.890 [ pool-2-thread-6 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@1791166103 wrapping com.mysql.cj.jdbc.ConnectionImpl@66a599d9] will not be managed by Spring
+2021-02-24 00:14:28.890 [ pool-2-thread-7 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@1577915919 wrapping com.mysql.cj.jdbc.ConnectionImpl@630a3d8c] will not be managed by Spring
+2021-02-24 00:14:28.891 [ pool-2-thread-6 ] - [ DEBUG ] [ c.s.smilemall.product.dao.SkuInfoDao.selectById : 143 ] - ==>  Preparing: SELECT sku_id,spu_id,sku_name,sku_desc,catalog_id,brand_id,sku_default_img,sku_title,sku_subtitle,price,sale_count FROM pms_sku_info WHERE sku_id=? 
+2021-02-24 00:14:28.891 [ pool-2-thread-7 ] - [ DEBUG ] [ c.s.smilemall.product.dao.SkuImagesDao.selectList : 143 ] - ==>  Preparing: SELECT id,sku_id,img_url,img_sort,default_img FROM pms_sku_images WHERE (sku_id = ?) 
+2021-02-24 00:14:28.892 [ pool-2-thread-6 ] - [ DEBUG ] [ c.s.smilemall.product.dao.SkuInfoDao.selectById : 143 ] - ==> Parameters: 9(Long)
+2021-02-24 00:14:28.892 [ pool-2-thread-7 ] - [ DEBUG ] [ c.s.smilemall.product.dao.SkuImagesDao.selectList : 143 ] - ==> Parameters: 9(Long)
+2021-02-24 00:14:28.897 [ pool-2-thread-6 ] - [ DEBUG ] [ c.s.smilemall.product.dao.SkuInfoDao.selectById : 143 ] - <==      Total: 1
+2021-02-24 00:14:28.897 [ pool-2-thread-7 ] - [ DEBUG ] [ c.s.smilemall.product.dao.SkuImagesDao.selectList : 143 ] - <==      Total: 2
+2021-02-24 00:14:28.897 [ pool-2-thread-6 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6404e467]
+2021-02-24 00:14:28.897 [ pool-2-thread-7 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@50cae266]
+2021-02-24 00:14:28.898 [ pool-2-thread-10 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2021-02-24 00:14:28.898 [ pool-2-thread-9 ] - [ ERROR ] [ cn.smile.smilemall.product.aop.imp.SmileCacheImpl : 200 ] - 缓存key 2
+2021-02-24 00:14:28.898 [ pool-2-thread-10 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@fe1c1ed] was not registered for synchronization because synchronization is not active
+2021-02-24 00:14:28.898 [ pool-2-thread-8 ] - [ ERROR ] [ cn.smile.smilemall.product.aop.imp.SmileCacheImpl : 200 ] - 缓存key 2
+2021-02-24 00:14:28.898 [ pool-2-thread-10 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@19283553 wrapping com.mysql.cj.jdbc.ConnectionImpl@66a599d9] will not be managed by Spring
+2021-02-24 00:14:28.901 [ pool-2-thread-10 ] - [ DEBUG ] [ c.s.s.product.dao.SpuInfoDescDao.selectById : 143 ] - ==>  Preparing: SELECT spu_id,decript FROM pms_spu_info_desc WHERE spu_id=? 
+2021-02-24 00:14:28.902 [ pool-2-thread-10 ] - [ DEBUG ] [ c.s.s.product.dao.SpuInfoDescDao.selectById : 143 ] - ==> Parameters: 2(Long)
+2021-02-24 00:14:28.908 [ pool-2-thread-10 ] - [ DEBUG ] [ c.s.s.product.dao.SpuInfoDescDao.selectById : 143 ] - <==      Total: 1
+2021-02-24 00:14:28.908 [ pool-2-thread-10 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@fe1c1ed]
+2021-02-24 20:54:49.456 [ main ] - [ INFO  ] [ c.s.smilemall.product.SmilemallProductApplication : 655 ] - The following profiles are active: dev
+2021-02-24 20:54:52.280 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\AttrAttrgroupRelationDao.class]
+2021-02-24 20:54:52.281 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\AttrDao.class]
+2021-02-24 20:54:52.282 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\AttrGroupDao.class]
+2021-02-24 20:54:52.282 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\BrandDao.class]
+2021-02-24 20:54:52.282 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\CategoryBrandRelationDao.class]
+2021-02-24 20:54:52.283 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\CategoryDao.class]
+2021-02-24 20:54:52.283 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\CommentReplayDao.class]
+2021-02-24 20:54:52.284 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\ProductAttrValueDao.class]
+2021-02-24 20:54:52.284 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\SkuImagesDao.class]
+2021-02-24 20:54:52.285 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\SkuInfoDao.class]
+2021-02-24 20:54:52.285 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\SkuSaleAttrValueDao.class]
+2021-02-24 20:54:52.285 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\SpuCommentDao.class]
+2021-02-24 20:54:52.286 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\SpuImagesDao.class]
+2021-02-24 20:54:52.286 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\SpuInfoDao.class]
+2021-02-24 20:54:52.287 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\SpuInfoDescDao.class]
+2021-02-24 20:54:52.289 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'attrAttrgroupRelationDao' and 'cn.smile.smilemall.product.dao.AttrAttrgroupRelationDao' mapperInterface
+2021-02-24 20:54:52.290 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'attrAttrgroupRelationDao'.
+2021-02-24 20:54:52.292 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'attrDao' and 'cn.smile.smilemall.product.dao.AttrDao' mapperInterface
+2021-02-24 20:54:52.293 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'attrDao'.
+2021-02-24 20:54:52.293 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'attrGroupDao' and 'cn.smile.smilemall.product.dao.AttrGroupDao' mapperInterface
+2021-02-24 20:54:52.293 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'attrGroupDao'.
+2021-02-24 20:54:52.294 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'brandDao' and 'cn.smile.smilemall.product.dao.BrandDao' mapperInterface
+2021-02-24 20:54:52.294 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'brandDao'.
+2021-02-24 20:54:52.294 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'categoryBrandRelationDao' and 'cn.smile.smilemall.product.dao.CategoryBrandRelationDao' mapperInterface
+2021-02-24 20:54:52.295 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'categoryBrandRelationDao'.
+2021-02-24 20:54:52.296 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'categoryDao' and 'cn.smile.smilemall.product.dao.CategoryDao' mapperInterface
+2021-02-24 20:54:52.296 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'categoryDao'.
+2021-02-24 20:54:52.296 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'commentReplayDao' and 'cn.smile.smilemall.product.dao.CommentReplayDao' mapperInterface
+2021-02-24 20:54:52.296 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'commentReplayDao'.
+2021-02-24 20:54:52.296 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'productAttrValueDao' and 'cn.smile.smilemall.product.dao.ProductAttrValueDao' mapperInterface
+2021-02-24 20:54:52.297 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'productAttrValueDao'.
+2021-02-24 20:54:52.297 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'skuImagesDao' and 'cn.smile.smilemall.product.dao.SkuImagesDao' mapperInterface
+2021-02-24 20:54:52.297 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'skuImagesDao'.
+2021-02-24 20:54:52.298 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'skuInfoDao' and 'cn.smile.smilemall.product.dao.SkuInfoDao' mapperInterface
+2021-02-24 20:54:52.298 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'skuInfoDao'.
+2021-02-24 20:54:52.298 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'skuSaleAttrValueDao' and 'cn.smile.smilemall.product.dao.SkuSaleAttrValueDao' mapperInterface
+2021-02-24 20:54:52.298 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'skuSaleAttrValueDao'.
+2021-02-24 20:54:52.298 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'spuCommentDao' and 'cn.smile.smilemall.product.dao.SpuCommentDao' mapperInterface
+2021-02-24 20:54:52.299 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'spuCommentDao'.
+2021-02-24 20:54:52.299 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'spuImagesDao' and 'cn.smile.smilemall.product.dao.SpuImagesDao' mapperInterface
+2021-02-24 20:54:52.300 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'spuImagesDao'.
+2021-02-24 20:54:52.300 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'spuInfoDao' and 'cn.smile.smilemall.product.dao.SpuInfoDao' mapperInterface
+2021-02-24 20:54:52.300 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'spuInfoDao'.
+2021-02-24 20:54:52.300 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'spuInfoDescDao' and 'cn.smile.smilemall.product.dao.SpuInfoDescDao' mapperInterface
+2021-02-24 20:54:52.300 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'spuInfoDescDao'.
+2021-02-24 20:54:52.323 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\AttrAttrgroupRelationDao.class]
+2021-02-24 20:54:52.325 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\AttrDao.class]
+2021-02-24 20:54:52.325 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\AttrGroupDao.class]
+2021-02-24 20:54:52.327 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\BrandDao.class]
+2021-02-24 20:54:52.328 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\CategoryBrandRelationDao.class]
+2021-02-24 20:54:52.329 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\CategoryDao.class]
+2021-02-24 20:54:52.330 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\CommentReplayDao.class]
+2021-02-24 20:54:52.330 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\ProductAttrValueDao.class]
+2021-02-24 20:54:52.330 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\SkuImagesDao.class]
+2021-02-24 20:54:52.331 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\SkuInfoDao.class]
+2021-02-24 20:54:52.331 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\SkuSaleAttrValueDao.class]
+2021-02-24 20:54:52.332 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\SpuCommentDao.class]
+2021-02-24 20:54:52.332 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\SpuImagesDao.class]
+2021-02-24 20:54:52.332 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\SpuInfoDao.class]
+2021-02-24 20:54:52.333 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\SpuInfoDescDao.class]
+2021-02-24 20:54:52.334 [ main ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] - Skipping MapperFactoryBean with name 'attrAttrgroupRelationDao' and 'cn.smile.smilemall.product.dao.AttrAttrgroupRelationDao' mapperInterface. Bean already defined with the same name!
+2021-02-24 20:54:52.334 [ main ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] - Skipping MapperFactoryBean with name 'attrDao' and 'cn.smile.smilemall.product.dao.AttrDao' mapperInterface. Bean already defined with the same name!
+2021-02-24 20:54:52.334 [ main ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] - Skipping MapperFactoryBean with name 'attrGroupDao' and 'cn.smile.smilemall.product.dao.AttrGroupDao' mapperInterface. Bean already defined with the same name!
+2021-02-24 20:54:52.335 [ main ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] - Skipping MapperFactoryBean with name 'brandDao' and 'cn.smile.smilemall.product.dao.BrandDao' mapperInterface. Bean already defined with the same name!
+2021-02-24 20:54:52.335 [ main ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] - Skipping MapperFactoryBean with name 'categoryBrandRelationDao' and 'cn.smile.smilemall.product.dao.CategoryBrandRelationDao' mapperInterface. Bean already defined with the same name!
+2021-02-24 20:54:52.335 [ main ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] - Skipping MapperFactoryBean with name 'categoryDao' and 'cn.smile.smilemall.product.dao.CategoryDao' mapperInterface. Bean already defined with the same name!
+2021-02-24 20:54:52.336 [ main ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] - Skipping MapperFactoryBean with name 'commentReplayDao' and 'cn.smile.smilemall.product.dao.CommentReplayDao' mapperInterface. Bean already defined with the same name!
+2021-02-24 20:54:52.336 [ main ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] - Skipping MapperFactoryBean with name 'productAttrValueDao' and 'cn.smile.smilemall.product.dao.ProductAttrValueDao' mapperInterface. Bean already defined with the same name!
+2021-02-24 20:54:52.336 [ main ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] - Skipping MapperFactoryBean with name 'skuImagesDao' and 'cn.smile.smilemall.product.dao.SkuImagesDao' mapperInterface. Bean already defined with the same name!
+2021-02-24 20:54:52.336 [ main ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] - Skipping MapperFactoryBean with name 'skuInfoDao' and 'cn.smile.smilemall.product.dao.SkuInfoDao' mapperInterface. Bean already defined with the same name!
+2021-02-24 20:54:52.337 [ main ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] - Skipping MapperFactoryBean with name 'skuSaleAttrValueDao' and 'cn.smile.smilemall.product.dao.SkuSaleAttrValueDao' mapperInterface. Bean already defined with the same name!
+2021-02-24 20:54:52.337 [ main ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] - Skipping MapperFactoryBean with name 'spuCommentDao' and 'cn.smile.smilemall.product.dao.SpuCommentDao' mapperInterface. Bean already defined with the same name!
+2021-02-24 20:54:52.337 [ main ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] - Skipping MapperFactoryBean with name 'spuImagesDao' and 'cn.smile.smilemall.product.dao.SpuImagesDao' mapperInterface. Bean already defined with the same name!
+2021-02-24 20:54:52.337 [ main ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] - Skipping MapperFactoryBean with name 'spuInfoDao' and 'cn.smile.smilemall.product.dao.SpuInfoDao' mapperInterface. Bean already defined with the same name!
+2021-02-24 20:54:52.337 [ main ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] - Skipping MapperFactoryBean with name 'spuInfoDescDao' and 'cn.smile.smilemall.product.dao.SpuInfoDescDao' mapperInterface. Bean already defined with the same name!
+2021-02-24 20:54:52.338 [ main ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] - No MyBatis mapper was found in '[cn.smile.smilemall.product.dao]' package. Please check your configuration.
+2021-02-24 20:54:55.697 [ main ] - [ DEBUG ] [ c.b.m.e.spring.MybatisSqlSessionFactoryBean : 49 ] - Registered plugin: 'AbstractSqlParserHandler(sqlParserList=null, sqlParserFilter=null)'
+2021-02-24 20:54:56.140 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrAttrgroupRelationDao.deleteBatchRelation
+2021-02-24 20:54:56.198 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrAttrgroupRelationDao.insert
+2021-02-24 20:54:56.206 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrAttrgroupRelationDao.delete
+2021-02-24 20:54:56.210 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrAttrgroupRelationDao.deleteByMap
+2021-02-24 20:54:56.240 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrAttrgroupRelationDao.deleteById
+2021-02-24 20:54:56.243 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrAttrgroupRelationDao.deleteBatchIds
+2021-02-24 20:54:56.250 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrAttrgroupRelationDao.update
+2021-02-24 20:54:56.254 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrAttrgroupRelationDao.updateById
+2021-02-24 20:54:56.256 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrAttrgroupRelationDao.selectById
+2021-02-24 20:54:56.277 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrAttrgroupRelationDao.selectBatchIds
+2021-02-24 20:54:56.281 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrAttrgroupRelationDao.selectByMap
+2021-02-24 20:54:56.286 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrAttrgroupRelationDao.selectOne
+2021-02-24 20:54:56.291 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrAttrgroupRelationDao.selectCount
+2021-02-24 20:54:56.295 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrAttrgroupRelationDao.selectMaps
+2021-02-24 20:54:56.300 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrAttrgroupRelationDao.selectMapsPage
+2021-02-24 20:54:56.304 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrAttrgroupRelationDao.selectObjs
+2021-02-24 20:54:56.326 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrAttrgroupRelationDao.selectList
+2021-02-24 20:54:56.332 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrAttrgroupRelationDao.selectPage
+2021-02-24 20:54:56.333 [ main ] - [ DEBUG ] [ c.b.m.e.spring.MybatisSqlSessionFactoryBean : 49 ] - Parsed mapper file: 'file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\mapper\product\AttrAttrgroupRelationDao.xml]'
+2021-02-24 20:54:56.361 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrDao.getSearchTypeAttrIds
+2021-02-24 20:54:56.379 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrDao.insert
+2021-02-24 20:54:56.386 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrDao.delete
+2021-02-24 20:54:56.391 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrDao.deleteByMap
+2021-02-24 20:54:56.395 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrDao.deleteById
+2021-02-24 20:54:56.398 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrDao.deleteBatchIds
+2021-02-24 20:54:56.402 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrDao.update
+2021-02-24 20:54:56.405 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrDao.updateById
+2021-02-24 20:54:56.406 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrDao.selectById
+2021-02-24 20:54:56.411 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrDao.selectBatchIds
+2021-02-24 20:54:56.415 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrDao.selectByMap
+2021-02-24 20:54:56.420 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrDao.selectOne
+2021-02-24 20:54:56.424 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrDao.selectCount
+2021-02-24 20:54:56.429 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrDao.selectMaps
+2021-02-24 20:54:56.433 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrDao.selectMapsPage
+2021-02-24 20:54:56.437 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrDao.selectObjs
+2021-02-24 20:54:56.444 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrDao.selectList
+2021-02-24 20:54:56.449 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrDao.selectPage
+2021-02-24 20:54:56.449 [ main ] - [ DEBUG ] [ c.b.m.e.spring.MybatisSqlSessionFactoryBean : 49 ] - Parsed mapper file: 'file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\mapper\product\AttrDao.xml]'
+2021-02-24 20:54:56.473 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrGroupDao.insert
+2021-02-24 20:54:56.476 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrGroupDao.delete
+2021-02-24 20:54:56.479 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrGroupDao.deleteByMap
+2021-02-24 20:54:56.483 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrGroupDao.deleteById
+2021-02-24 20:54:56.485 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrGroupDao.deleteBatchIds
+2021-02-24 20:54:56.489 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrGroupDao.update
+2021-02-24 20:54:56.491 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrGroupDao.updateById
+2021-02-24 20:54:56.492 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrGroupDao.selectById
+2021-02-24 20:54:56.496 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrGroupDao.selectBatchIds
+2021-02-24 20:54:56.501 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrGroupDao.selectByMap
+2021-02-24 20:54:56.508 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrGroupDao.selectOne
+2021-02-24 20:54:56.513 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrGroupDao.selectCount
+2021-02-24 20:54:56.517 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrGroupDao.selectMaps
+2021-02-24 20:54:56.526 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrGroupDao.selectMapsPage
+2021-02-24 20:54:56.529 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrGroupDao.selectObjs
+2021-02-24 20:54:56.532 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrGroupDao.selectList
+2021-02-24 20:54:56.537 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrGroupDao.selectPage
+2021-02-24 20:54:56.538 [ main ] - [ DEBUG ] [ c.b.m.e.spring.MybatisSqlSessionFactoryBean : 49 ] - Parsed mapper file: 'file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\mapper\product\AttrGroupDao.xml]'
+2021-02-24 20:54:56.583 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.BrandDao.insert
+2021-02-24 20:54:56.587 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.BrandDao.delete
+2021-02-24 20:54:56.593 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.BrandDao.deleteByMap
+2021-02-24 20:54:56.596 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.BrandDao.deleteById
+2021-02-24 20:54:56.598 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.BrandDao.deleteBatchIds
+2021-02-24 20:54:56.602 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.BrandDao.update
+2021-02-24 20:54:56.605 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.BrandDao.updateById
+2021-02-24 20:54:56.606 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.BrandDao.selectById
+2021-02-24 20:54:56.609 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.BrandDao.selectBatchIds
+2021-02-24 20:54:56.612 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.BrandDao.selectByMap
+2021-02-24 20:54:56.616 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.BrandDao.selectOne
+2021-02-24 20:54:56.619 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.BrandDao.selectCount
+2021-02-24 20:54:56.623 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.BrandDao.selectMaps
+2021-02-24 20:54:56.627 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.BrandDao.selectMapsPage
+2021-02-24 20:54:56.631 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.BrandDao.selectObjs
+2021-02-24 20:54:56.634 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.BrandDao.selectList
+2021-02-24 20:54:56.637 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.BrandDao.selectPage
+2021-02-24 20:54:56.638 [ main ] - [ DEBUG ] [ c.b.m.e.spring.MybatisSqlSessionFactoryBean : 49 ] - Parsed mapper file: 'file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\mapper\product\BrandDao.xml]'
+2021-02-24 20:54:56.662 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryBrandRelationDao.insert
+2021-02-24 20:54:56.666 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryBrandRelationDao.delete
+2021-02-24 20:54:56.669 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryBrandRelationDao.deleteByMap
+2021-02-24 20:54:56.673 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryBrandRelationDao.deleteById
+2021-02-24 20:54:56.686 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryBrandRelationDao.deleteBatchIds
+2021-02-24 20:54:56.693 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryBrandRelationDao.update
+2021-02-24 20:54:56.698 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryBrandRelationDao.updateById
+2021-02-24 20:54:56.704 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryBrandRelationDao.selectById
+2021-02-24 20:54:56.709 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryBrandRelationDao.selectBatchIds
+2021-02-24 20:54:56.723 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryBrandRelationDao.selectByMap
+2021-02-24 20:54:56.727 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryBrandRelationDao.selectOne
+2021-02-24 20:54:56.730 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryBrandRelationDao.selectCount
+2021-02-24 20:54:56.747 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryBrandRelationDao.selectMaps
+2021-02-24 20:54:56.753 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryBrandRelationDao.selectMapsPage
+2021-02-24 20:54:56.760 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryBrandRelationDao.selectObjs
+2021-02-24 20:54:56.763 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryBrandRelationDao.selectList
+2021-02-24 20:54:56.767 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryBrandRelationDao.selectPage
+2021-02-24 20:54:56.767 [ main ] - [ DEBUG ] [ c.b.m.e.spring.MybatisSqlSessionFactoryBean : 49 ] - Parsed mapper file: 'file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\mapper\product\CategoryBrandRelationDao.xml]'
+2021-02-24 20:54:56.799 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryDao.insert
+2021-02-24 20:54:56.809 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryDao.delete
+2021-02-24 20:54:56.823 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryDao.deleteByMap
+2021-02-24 20:54:56.828 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryDao.deleteById
+2021-02-24 20:54:56.832 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryDao.deleteBatchIds
+2021-02-24 20:54:56.835 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryDao.update
+2021-02-24 20:54:56.838 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryDao.updateById
+2021-02-24 20:54:56.838 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryDao.selectById
+2021-02-24 20:54:56.840 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryDao.selectBatchIds
+2021-02-24 20:54:56.843 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryDao.selectByMap
+2021-02-24 20:54:56.846 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryDao.selectOne
+2021-02-24 20:54:56.853 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryDao.selectCount
+2021-02-24 20:54:56.857 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryDao.selectMaps
+2021-02-24 20:54:56.864 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryDao.selectMapsPage
+2021-02-24 20:54:56.868 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryDao.selectObjs
+2021-02-24 20:54:56.871 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryDao.selectList
+2021-02-24 20:54:56.880 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryDao.selectPage
+2021-02-24 20:54:56.881 [ main ] - [ DEBUG ] [ c.b.m.e.spring.MybatisSqlSessionFactoryBean : 49 ] - Parsed mapper file: 'file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\mapper\product\CategoryDao.xml]'
+2021-02-24 20:54:56.915 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CommentReplayDao.insert
+2021-02-24 20:54:56.918 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CommentReplayDao.delete
+2021-02-24 20:54:56.922 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CommentReplayDao.deleteByMap
+2021-02-24 20:54:56.932 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CommentReplayDao.deleteById
+2021-02-24 20:54:56.934 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CommentReplayDao.deleteBatchIds
+2021-02-24 20:54:56.937 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CommentReplayDao.update
+2021-02-24 20:54:56.940 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CommentReplayDao.updateById
+2021-02-24 20:54:56.942 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CommentReplayDao.selectById
+2021-02-24 20:54:56.945 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CommentReplayDao.selectBatchIds
+2021-02-24 20:54:56.954 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CommentReplayDao.selectByMap
+2021-02-24 20:54:56.958 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CommentReplayDao.selectOne
+2021-02-24 20:54:56.962 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CommentReplayDao.selectCount
+2021-02-24 20:54:56.965 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CommentReplayDao.selectMaps
+2021-02-24 20:54:56.969 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CommentReplayDao.selectMapsPage
+2021-02-24 20:54:56.973 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CommentReplayDao.selectObjs
+2021-02-24 20:54:56.980 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CommentReplayDao.selectList
+2021-02-24 20:54:56.983 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CommentReplayDao.selectPage
+2021-02-24 20:54:56.983 [ main ] - [ DEBUG ] [ c.b.m.e.spring.MybatisSqlSessionFactoryBean : 49 ] - Parsed mapper file: 'file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\mapper\product\CommentReplayDao.xml]'
+2021-02-24 20:54:56.994 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.ProductAttrValueDao.insert
+2021-02-24 20:54:57.005 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.ProductAttrValueDao.delete
+2021-02-24 20:54:57.007 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.ProductAttrValueDao.deleteByMap
+2021-02-24 20:54:57.010 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.ProductAttrValueDao.deleteById
+2021-02-24 20:54:57.012 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.ProductAttrValueDao.deleteBatchIds
+2021-02-24 20:54:57.016 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.ProductAttrValueDao.update
+2021-02-24 20:54:57.022 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.ProductAttrValueDao.updateById
+2021-02-24 20:54:57.022 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.ProductAttrValueDao.selectById
+2021-02-24 20:54:57.025 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.ProductAttrValueDao.selectBatchIds
+2021-02-24 20:54:57.027 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.ProductAttrValueDao.selectByMap
+2021-02-24 20:54:57.030 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.ProductAttrValueDao.selectOne
+2021-02-24 20:54:57.033 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.ProductAttrValueDao.selectCount
+2021-02-24 20:54:57.037 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.ProductAttrValueDao.selectMaps
+2021-02-24 20:54:57.039 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.ProductAttrValueDao.selectMapsPage
+2021-02-24 20:54:57.042 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.ProductAttrValueDao.selectObjs
+2021-02-24 20:54:57.056 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.ProductAttrValueDao.selectList
+2021-02-24 20:54:57.059 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.ProductAttrValueDao.selectPage
+2021-02-24 20:54:57.060 [ main ] - [ DEBUG ] [ c.b.m.e.spring.MybatisSqlSessionFactoryBean : 49 ] - Parsed mapper file: 'file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\mapper\product\ProductAttrValueDao.xml]'
+2021-02-24 20:54:57.079 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuImagesDao.insert
+2021-02-24 20:54:57.082 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuImagesDao.delete
+2021-02-24 20:54:57.085 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuImagesDao.deleteByMap
+2021-02-24 20:54:57.089 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuImagesDao.deleteById
+2021-02-24 20:54:57.103 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuImagesDao.deleteBatchIds
+2021-02-24 20:54:57.106 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuImagesDao.update
+2021-02-24 20:54:57.109 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuImagesDao.updateById
+2021-02-24 20:54:57.109 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuImagesDao.selectById
+2021-02-24 20:54:57.113 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuImagesDao.selectBatchIds
+2021-02-24 20:54:57.118 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuImagesDao.selectByMap
+2021-02-24 20:54:57.121 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuImagesDao.selectOne
+2021-02-24 20:54:57.124 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuImagesDao.selectCount
+2021-02-24 20:54:57.128 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuImagesDao.selectMaps
+2021-02-24 20:54:57.131 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuImagesDao.selectMapsPage
+2021-02-24 20:54:57.134 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuImagesDao.selectObjs
+2021-02-24 20:54:57.136 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuImagesDao.selectList
+2021-02-24 20:54:57.139 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuImagesDao.selectPage
+2021-02-24 20:54:57.139 [ main ] - [ DEBUG ] [ c.b.m.e.spring.MybatisSqlSessionFactoryBean : 49 ] - Parsed mapper file: 'file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\mapper\product\SkuImagesDao.xml]'
+2021-02-24 20:54:57.172 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuInfoDao.insert
+2021-02-24 20:54:57.174 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuInfoDao.delete
+2021-02-24 20:54:57.177 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuInfoDao.deleteByMap
+2021-02-24 20:54:57.179 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuInfoDao.deleteById
+2021-02-24 20:54:57.181 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuInfoDao.deleteBatchIds
+2021-02-24 20:54:57.183 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuInfoDao.update
+2021-02-24 20:54:57.185 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuInfoDao.updateById
+2021-02-24 20:54:57.186 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuInfoDao.selectById
+2021-02-24 20:54:57.188 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuInfoDao.selectBatchIds
+2021-02-24 20:54:57.190 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuInfoDao.selectByMap
+2021-02-24 20:54:57.193 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuInfoDao.selectOne
+2021-02-24 20:54:57.196 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuInfoDao.selectCount
+2021-02-24 20:54:57.297 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuInfoDao.selectMaps
+2021-02-24 20:54:57.300 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuInfoDao.selectMapsPage
+2021-02-24 20:54:57.305 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuInfoDao.selectObjs
+2021-02-24 20:54:57.307 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuInfoDao.selectList
+2021-02-24 20:54:57.310 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuInfoDao.selectPage
+2021-02-24 20:54:57.311 [ main ] - [ DEBUG ] [ c.b.m.e.spring.MybatisSqlSessionFactoryBean : 49 ] - Parsed mapper file: 'file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\mapper\product\SkuInfoDao.xml]'
+2021-02-24 20:54:57.355 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuSaleAttrValueDao.insert
+2021-02-24 20:54:57.358 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuSaleAttrValueDao.delete
+2021-02-24 20:54:57.361 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuSaleAttrValueDao.deleteByMap
+2021-02-24 20:54:57.364 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuSaleAttrValueDao.deleteById
+2021-02-24 20:54:57.368 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuSaleAttrValueDao.deleteBatchIds
+2021-02-24 20:54:57.372 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuSaleAttrValueDao.update
+2021-02-24 20:54:57.375 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuSaleAttrValueDao.updateById
+2021-02-24 20:54:57.376 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuSaleAttrValueDao.selectById
+2021-02-24 20:54:57.379 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuSaleAttrValueDao.selectBatchIds
+2021-02-24 20:54:57.384 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuSaleAttrValueDao.selectByMap
+2021-02-24 20:54:57.433 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuSaleAttrValueDao.selectOne
+2021-02-24 20:54:57.437 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuSaleAttrValueDao.selectCount
+2021-02-24 20:54:57.439 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuSaleAttrValueDao.selectMaps
+2021-02-24 20:54:57.444 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuSaleAttrValueDao.selectMapsPage
+2021-02-24 20:54:57.447 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuSaleAttrValueDao.selectObjs
+2021-02-24 20:54:57.450 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuSaleAttrValueDao.selectList
+2021-02-24 20:54:57.453 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuSaleAttrValueDao.selectPage
+2021-02-24 20:54:57.454 [ main ] - [ DEBUG ] [ c.b.m.e.spring.MybatisSqlSessionFactoryBean : 49 ] - Parsed mapper file: 'file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\mapper\product\SkuSaleAttrValueDao.xml]'
+2021-02-24 20:54:57.469 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuCommentDao.insert
+2021-02-24 20:54:57.471 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuCommentDao.delete
+2021-02-24 20:54:57.491 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuCommentDao.deleteByMap
+2021-02-24 20:54:57.495 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuCommentDao.deleteById
+2021-02-24 20:54:57.498 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuCommentDao.deleteBatchIds
+2021-02-24 20:54:57.502 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuCommentDao.update
+2021-02-24 20:54:57.505 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuCommentDao.updateById
+2021-02-24 20:54:57.505 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuCommentDao.selectById
+2021-02-24 20:54:57.508 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuCommentDao.selectBatchIds
+2021-02-24 20:54:57.517 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuCommentDao.selectByMap
+2021-02-24 20:54:57.522 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuCommentDao.selectOne
+2021-02-24 20:54:57.525 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuCommentDao.selectCount
+2021-02-24 20:54:57.528 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuCommentDao.selectMaps
+2021-02-24 20:54:57.535 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuCommentDao.selectMapsPage
+2021-02-24 20:54:57.556 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuCommentDao.selectObjs
+2021-02-24 20:54:57.559 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuCommentDao.selectList
+2021-02-24 20:54:57.562 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuCommentDao.selectPage
+2021-02-24 20:54:57.562 [ main ] - [ DEBUG ] [ c.b.m.e.spring.MybatisSqlSessionFactoryBean : 49 ] - Parsed mapper file: 'file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\mapper\product\SpuCommentDao.xml]'
+2021-02-24 20:54:57.595 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuImagesDao.insert
+2021-02-24 20:54:57.598 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuImagesDao.delete
+2021-02-24 20:54:57.601 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuImagesDao.deleteByMap
+2021-02-24 20:54:57.603 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuImagesDao.deleteById
+2021-02-24 20:54:57.604 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuImagesDao.deleteBatchIds
+2021-02-24 20:54:57.607 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuImagesDao.update
+2021-02-24 20:54:57.612 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuImagesDao.updateById
+2021-02-24 20:54:57.612 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuImagesDao.selectById
+2021-02-24 20:54:57.614 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuImagesDao.selectBatchIds
+2021-02-24 20:54:57.618 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuImagesDao.selectByMap
+2021-02-24 20:54:57.640 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuImagesDao.selectOne
+2021-02-24 20:54:57.642 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuImagesDao.selectCount
+2021-02-24 20:54:57.651 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuImagesDao.selectMaps
+2021-02-24 20:54:57.653 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuImagesDao.selectMapsPage
+2021-02-24 20:54:57.656 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuImagesDao.selectObjs
+2021-02-24 20:54:57.658 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuImagesDao.selectList
+2021-02-24 20:54:57.661 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuImagesDao.selectPage
+2021-02-24 20:54:57.661 [ main ] - [ DEBUG ] [ c.b.m.e.spring.MybatisSqlSessionFactoryBean : 49 ] - Parsed mapper file: 'file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\mapper\product\SpuImagesDao.xml]'
+2021-02-24 20:54:57.671 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDao.insert
+2021-02-24 20:54:57.674 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDao.delete
+2021-02-24 20:54:57.676 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDao.deleteByMap
+2021-02-24 20:54:57.690 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDao.deleteById
+2021-02-24 20:54:57.693 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDao.deleteBatchIds
+2021-02-24 20:54:57.697 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDao.update
+2021-02-24 20:54:57.701 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDao.updateById
+2021-02-24 20:54:57.702 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDao.selectById
+2021-02-24 20:54:57.706 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDao.selectBatchIds
+2021-02-24 20:54:57.712 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDao.selectByMap
+2021-02-24 20:54:57.720 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDao.selectOne
+2021-02-24 20:54:57.724 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDao.selectCount
+2021-02-24 20:54:57.726 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDao.selectMaps
+2021-02-24 20:54:57.728 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDao.selectMapsPage
+2021-02-24 20:54:57.732 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDao.selectObjs
+2021-02-24 20:54:57.735 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDao.selectList
+2021-02-24 20:54:57.764 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDao.selectPage
+2021-02-24 20:54:57.765 [ main ] - [ DEBUG ] [ c.b.m.e.spring.MybatisSqlSessionFactoryBean : 49 ] - Parsed mapper file: 'file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\mapper\product\SpuInfoDao.xml]'
+2021-02-24 20:54:57.781 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDescDao.insert
+2021-02-24 20:54:57.793 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDescDao.delete
+2021-02-24 20:54:57.795 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDescDao.deleteByMap
+2021-02-24 20:54:57.798 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDescDao.deleteById
+2021-02-24 20:54:57.800 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDescDao.deleteBatchIds
+2021-02-24 20:54:57.809 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDescDao.update
+2021-02-24 20:54:57.811 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDescDao.updateById
+2021-02-24 20:54:57.812 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDescDao.selectById
+2021-02-24 20:54:57.815 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDescDao.selectBatchIds
+2021-02-24 20:54:57.818 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDescDao.selectByMap
+2021-02-24 20:54:57.821 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDescDao.selectOne
+2021-02-24 20:54:57.823 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDescDao.selectCount
+2021-02-24 20:54:57.825 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDescDao.selectMaps
+2021-02-24 20:54:57.851 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDescDao.selectMapsPage
+2021-02-24 20:54:57.860 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDescDao.selectObjs
+2021-02-24 20:54:57.863 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDescDao.selectList
+2021-02-24 20:54:57.872 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDescDao.selectPage
+2021-02-24 20:54:57.872 [ main ] - [ DEBUG ] [ c.b.m.e.spring.MybatisSqlSessionFactoryBean : 49 ] - Parsed mapper file: 'file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\mapper\product\SpuInfoDescDao.xml]'
+2021-02-24 20:55:17.839 [ main ] - [ INFO  ] [ c.s.smilemall.product.SmilemallProductApplication : 61 ] - Started SmilemallProductApplication in 35.369 seconds (JVM running for 37.265)
+2021-02-24 21:13:44.220 [ http-nio-6001-exec-1 ] - [ DEBUG ] [ cn.smile.smilemall.product.aop.imp.SmileCacheImpl : 138 ] - 查询了数据库http-nio-6001-exec-1 
+2021-02-24 21:13:44.280 [ http-nio-6001-exec-1 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2021-02-24 21:13:44.293 [ http-nio-6001-exec-1 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@73e5207a] was not registered for synchronization because synchronization is not active
+2021-02-24 21:13:44.894 [ http-nio-6001-exec-1 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@1853846676 wrapping com.mysql.cj.jdbc.ConnectionImpl@7dffd222] will not be managed by Spring
+2021-02-24 21:13:44.902 [ http-nio-6001-exec-1 ] - [ DEBUG ] [ c.s.smilemall.product.dao.CategoryDao.selectList : 143 ] - ==>  Preparing: SELECT cat_id,name,parent_cid,cat_level,show_status,sort,icon,product_unit,product_count FROM pms_category WHERE show_status=1 AND (parent_cid = ?) 
+2021-02-24 21:13:44.955 [ http-nio-6001-exec-1 ] - [ DEBUG ] [ c.s.smilemall.product.dao.CategoryDao.selectList : 143 ] - ==> Parameters: 0(Integer)
+2021-02-24 21:13:44.988 [ http-nio-6001-exec-1 ] - [ DEBUG ] [ c.s.smilemall.product.dao.CategoryDao.selectList : 143 ] - <==      Total: 23
+2021-02-24 21:13:44.992 [ http-nio-6001-exec-1 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@73e5207a]
+2021-02-24 21:13:46.765 [ http-nio-6001-exec-2 ] - [ DEBUG ] [ cn.smile.smilemall.product.aop.imp.SmileCacheImpl : 138 ] - 查询了数据库http-nio-6001-exec-2 
+2021-02-24 21:13:46.766 [ http-nio-6001-exec-2 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2021-02-24 21:13:46.767 [ http-nio-6001-exec-2 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@11cab887] was not registered for synchronization because synchronization is not active
+2021-02-24 21:13:46.772 [ http-nio-6001-exec-2 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@2101207550 wrapping com.mysql.cj.jdbc.ConnectionImpl@7dffd222] will not be managed by Spring
+2021-02-24 21:13:46.774 [ http-nio-6001-exec-2 ] - [ DEBUG ] [ c.s.smilemall.product.dao.CategoryDao.selectList : 143 ] - ==>  Preparing: SELECT cat_id,name,parent_cid,cat_level,show_status,sort,icon,product_unit,product_count FROM pms_category WHERE show_status=1 
+2021-02-24 21:13:46.774 [ http-nio-6001-exec-2 ] - [ DEBUG ] [ c.s.smilemall.product.dao.CategoryDao.selectList : 143 ] - ==> Parameters: 
+2021-02-24 21:13:46.876 [ http-nio-6001-exec-2 ] - [ DEBUG ] [ c.s.smilemall.product.dao.CategoryDao.selectList : 143 ] - <==      Total: 1436
+2021-02-24 21:13:46.876 [ http-nio-6001-exec-2 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@11cab887]

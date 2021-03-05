@@ -28,7 +28,6 @@ public class CategoryController {
      * 查询所有分类和子分类，以树形的结构组装
      */
     @RequestMapping("/list/tree")
-//    @RequiresPermissions("product:category:list")
     public R listThree(){
         //TODO
         List<CategoryEntity> categoryEntities = categoryService.listWithTree();
@@ -40,7 +39,6 @@ public class CategoryController {
      * 信息
      */
     @RequestMapping("/info/{catId}")
-//    @RequiresPermissions("product:category:info")
     public R info(@PathVariable("catId") Long catId){
 		CategoryEntity category = categoryService.getById(catId);
 
@@ -51,7 +49,6 @@ public class CategoryController {
      * 保存
      */
     @RequestMapping("/save")
-//    @RequiresPermissions("product:category:save")
     public R save(@RequestBody CategoryEntity category){
 		categoryService.save(category);
         return R.ok();
@@ -73,7 +70,6 @@ public class CategoryController {
      * 修改
      */
     @RequestMapping("/update")
-//    @RequiresPermissions("product:category:update")
     public R update(@RequestBody CategoryEntity category){
 		categoryService.updateDetail(category);
 
@@ -84,7 +80,6 @@ public class CategoryController {
      * 删除
      */
     @PostMapping("/delete")
-//    @RequiresPermissions("product:category:delete")
     public R delete(@RequestBody Long[] catIds){
 		categoryService.removeMenuByIds(Arrays.asList(catIds));
         return R.ok();

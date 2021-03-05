@@ -18,6 +18,30 @@
 			sku_id = #{skuId} and ware_id = #{wareId}
 		</where>
 	</update>
+	<update id="lockSkuStock">
+		UPDATE wms_ware_sku
+		<set>
+			stock_locked = stock_locked + #{num}
+		</set>
+		<where>
+			sku_id = #{skuId} AND ware_id = #{wareId} AND stock - stock_locked >= #{num}
+		</where>
+	</update>
+
+	<select id="getSkuHasStock" parameterType="long" resultType="long">
+		SELECT SUM(stock - stock_locked) FROM wms_ware_sku
+			<where>
+				sku_id = #{skuId}
+			</where>
+			limit 1
+	</select>
+
+	<select id="listWareIdHasSkuStock" resultType="java.lang.Long">
+		SELECT ware_id FROM wms_ware_sku
+			<where>
+				sku_id = #{skuId} AND stock-stock_locked > 0
+			</where>
+	</select>
 
 
 </mapper>

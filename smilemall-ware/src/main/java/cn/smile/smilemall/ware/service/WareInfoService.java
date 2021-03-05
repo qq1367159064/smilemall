@@ -1,8 +1,9 @@
 package cn.smile.smilemall.ware.service;
 
-import com.baomidou.mybatisplus.extension.service.IService;
 import cn.smile.common.utils.PageUtils;
 import cn.smile.smilemall.ware.entity.WareInfoEntity;
+import cn.smile.smilemall.ware.vo.FareVo;
+import com.baomidou.mybatisplus.extension.service.IService;
 
 import java.util.Map;
 
@@ -16,5 +17,14 @@ import java.util.Map;
 public interface WareInfoService extends IService<WareInfoEntity> {
 
     PageUtils queryPage(Map<String, Object> params);
+	
+    /**
+     * <p>根据用户地址计算运费</p>
+     * @author smile
+     * @date 2021/3/2/002
+     * @param adrId 1
+     * @return java.math.BigDecimal
+     */
+	FareVo getFare(Long adrId);
 }
 

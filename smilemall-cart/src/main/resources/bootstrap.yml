@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.31.239:8848
+        file-extension: yaml
+        refresh-enabled: true
+        group: DEV_GROUP
+        namespace: 2ced0165-1332-466e-952a-38a80125aa5a

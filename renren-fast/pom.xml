@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 				 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.3.7.RELEASE</version>
+	</parent>
+
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>io.renren</groupId>
 	<artifactId>renren-fast</artifactId>
 	<version>3.0.0</version>
 	<packaging>jar</packaging>
 	<description>renren-fast</description>
-
-	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.2.4.RELEASE</version>
-	</parent>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -57,19 +57,61 @@
 			<groupId>org.apache.maven.plugins</groupId>
 			<artifactId>maven-surefire-plugin</artifactId>
 			<version>${maven-surefir-plugin-version}</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>maven-artifact</artifactId>
+					<groupId>org.apache.maven</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>maven-core</artifactId>
+					<groupId>org.apache.maven</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>plexus-utils</artifactId>
+					<groupId>org.codehaus.plexus</groupId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 
 		<dependency>
 			<groupId>cn.smile.smilemall</groupId>
 			<artifactId>smilemall-common</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>commons-configuration</artifactId>
+					<groupId>commons-configuration</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>commons-codec</artifactId>
+					<groupId>commons-codec</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>commons-io</artifactId>
+					<groupId>commons-io</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>commons-logging</artifactId>
+					<groupId>commons-logging</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>bcpkix-jdk15on</artifactId>
+					<groupId>org.bouncycastle</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>guava</artifactId>
+					<groupId>com.google.guava</groupId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 
+		<!--spring-boot-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -92,34 +134,12 @@
 			<artifactId>spring-boot-configuration-processor</artifactId>
 			<optional>true</optional>
 		</dependency>
-		<!--<dependency>-->
-			<!--<groupId>org.springframework.boot</groupId>-->
-			<!--<artifactId>spring-boot-devtools</artifactId>-->
-			<!--<optional>true</optional>-->
-		<!--</dependency>-->
-		<dependency>
-			<groupId>com.baomidou</groupId>
-			<artifactId>mybatis-plus-boot-starter</artifactId>
-			<version>${mybatisplus.version}</version>
-			<exclusions>
-				<exclusion>
-					<groupId>com.baomidou</groupId>
-					<artifactId>mybatis-plus-generator</artifactId>
-				</exclusion>
-			</exclusions>
-		</dependency>
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<version>${mysql.version}</version>
-		</dependency>
 		 <!--oracle驱动-->
 		<dependency>
 			<groupId>com.oracle</groupId>
 			<artifactId>ojdbc6</artifactId>
 			<version>${oracle.version}</version>
 		</dependency>
-
 		 <!--mssql驱动-->
 		<dependency>
 			<groupId>com.microsoft.sqlserver</groupId>
@@ -131,11 +151,13 @@
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
 		</dependency>
+		<!--数据源-->
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>druid-spring-boot-starter</artifactId>
 			<version>${druid.version}</version>
 		</dependency>
+		<!--定时任务-->
 		<dependency>
 			<groupId>org.quartz-scheduler</groupId>
 			<artifactId>quartz</artifactId>
@@ -147,6 +169,7 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+		<!--导入commons-->
 		<dependency>
 			<groupId>commons-lang</groupId>
 			<artifactId>commons-lang</artifactId>
@@ -172,6 +195,7 @@
 			<artifactId>commons-configuration</artifactId>
 			<version>${commons.configuration.version}</version>
 		</dependency>
+		<!--导入安全框架-->
 		<dependency>
 			<groupId>org.apache.shiro</groupId>
 			<artifactId>shiro-core</artifactId>
@@ -182,16 +206,19 @@
 			<artifactId>shiro-spring</artifactId>
 			<version>${shiro.version}</version>
 		</dependency>
+		<!--导入jwt-->
 		<dependency>
 			<groupId>io.jsonwebtoken</groupId>
 			<artifactId>jjwt</artifactId>
 			<version>${jwt.version}</version>
 		</dependency>
+		<!--导入验证码生成jar-->
 		<dependency>
 			<groupId>com.github.axet</groupId>
 			<artifactId>kaptcha</artifactId>
 			<version>${kaptcha.version}</version>
 		</dependency>
+		<!--导入api文档生成-->
 		<dependency>
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-swagger2</artifactId>
@@ -207,11 +234,19 @@
 			<artifactId>qiniu-java-sdk</artifactId>
 			<version>${qiniu.version}</version>
 		</dependency>
+		<!--导入阿里云的oss-->
 		<dependency>
 			<groupId>com.aliyun.oss</groupId>
 			<artifactId>aliyun-sdk-oss</artifactId>
 			<version>${aliyun.oss.version}</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>commons-codec</artifactId>
+					<groupId>commons-codec</groupId>
+				</exclusion>
+			</exclusions>
 		</dependency>
+		<!--导入七牛云-->
 		<dependency>
 			<groupId>com.qcloud</groupId>
 			<artifactId>cos_api</artifactId>
@@ -221,6 +256,10 @@
 					<groupId>org.slf4j</groupId>
 					<artifactId>slf4j-log4j12</artifactId>
 				</exclusion>
+				<exclusion>
+					<artifactId>commons-codec</artifactId>
+					<groupId>commons-codec</groupId>
+				</exclusion>
 			</exclusions>
 		</dependency>
 		<dependency>
@@ -228,27 +267,17 @@
 			<artifactId>joda-time</artifactId>
 			<version>${joda.time.version}</version>
 		</dependency>
+		<!--导入gson-->
 		<dependency>
 			<groupId>com.google.code.gson</groupId>
 			<artifactId>gson</artifactId>
 			<version>${gson.version}</version>
 		</dependency>
+		<!--导入阿里的fastjson-->
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>fastjson</artifactId>
 			<version>${fastjson.version}</version>
-		</dependency>
-
-
-		<dependency>
-			<groupId>cn.hutool</groupId>
-			<artifactId>hutool-all</artifactId>
-			<version>${hutool.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<version>${lombok.version}</version>
 		</dependency>
 
 		<!--自定义-->
@@ -256,11 +285,83 @@
 			<groupId>org.codehaus.mojo</groupId>
 			<artifactId>wagon-maven-plugin</artifactId>
 			<version>1.0</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>classworlds</artifactId>
+					<groupId>classworlds</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>commons-io</artifactId>
+					<groupId>commons-io</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>maven-artifact</artifactId>
+					<groupId>org.apache.maven</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>maven-artifact-manager</artifactId>
+					<groupId>org.apache.maven</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>maven-core</artifactId>
+					<groupId>org.apache.maven</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>maven-plugin-api</artifactId>
+					<groupId>org.apache.maven</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>wagon-provider-api</artifactId>
+					<groupId>org.apache.maven.wagon</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>plexus-container-default</artifactId>
+					<groupId>org.codehaus.plexus</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>plexus-utils</artifactId>
+					<groupId>org.codehaus.plexus</groupId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>com.spotify</groupId>
 			<artifactId>docker-maven-plugin</artifactId>
 			<version>0.4.14</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>guava</artifactId>
+					<groupId>com.google.guava</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>maven-model</artifactId>
+					<groupId>org.apache.maven</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>maven-plugin-api</artifactId>
+					<groupId>org.apache.maven</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>maven-settings</artifactId>
+					<groupId>org.apache.maven</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>maven-repository-metadata</artifactId>
+					<groupId>org.apache.maven</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>plexus-interpolation</artifactId>
+					<groupId>org.codehaus.plexus</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>plexus-utils</artifactId>
+					<groupId>org.codehaus.plexus</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>asm</artifactId>
+					<groupId>org.ow2.asm</groupId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 	</dependencies>
 
@@ -337,28 +438,28 @@
 		</plugins>
 	</build>
 
-<!--	<repositories>-->
-<!--		<repository>-->
-<!--			<id>public</id>-->
-<!--			<name>aliyun nexus</name>-->
-<!--			<url>http://maven.aliyun.com/nexus/content/groups/public/</url>-->
-<!--			<releases>-->
-<!--				<enabled>true</enabled>-->
-<!--			</releases>-->
-<!--		</repository>-->
-<!--	</repositories>-->
-<!--	<pluginRepositories>-->
-<!--		<pluginRepository>-->
-<!--			<id>public</id>-->
-<!--			<name>aliyun nexus</name>-->
-<!--			<url>http://maven.aliyun.com/nexus/content/groups/public/</url>-->
-<!--			<releases>-->
-<!--				<enabled>true</enabled>-->
-<!--			</releases>-->
-<!--			<snapshots>-->
-<!--				<enabled>false</enabled>-->
-<!--			</snapshots>-->
-<!--		</pluginRepository>-->
-<!--	</pluginRepositories>-->
+	<!--<repositories>
+		<repository>
+			<id>public</id>
+			<name>aliyun nexus</name>
+			<url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+		</repository>
+	</repositories>
+	<pluginRepositories>
+		<pluginRepository>
+			<id>public</id>
+			<name>aliyun nexus</name>
+			<url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</pluginRepository>
+	</pluginRepositories>-->
 
 </project>

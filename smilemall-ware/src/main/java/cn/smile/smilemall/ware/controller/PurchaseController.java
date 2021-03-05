@@ -1,25 +1,22 @@
 package cn.smile.smilemall.ware.controller;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
-
+import cn.smile.common.utils.PageUtils;
+import cn.smile.common.utils.R;
+import cn.smile.smilemall.ware.entity.PurchaseEntity;
+import cn.smile.smilemall.ware.service.PurchaseService;
 import cn.smile.smilemall.ware.vo.MergeVo;
 import cn.smile.smilemall.ware.vo.PurchaseDoneVo;
-import org.checkerframework.checker.index.qual.PolyUpperBound;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import cn.smile.smilemall.ware.entity.PurchaseEntity;
-import cn.smile.smilemall.ware.service.PurchaseService;
-import cn.smile.common.utils.PageUtils;
-import cn.smile.common.utils.R;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
 
 
 
 /**
  * 采购信息
- *
  * @author smile
  * @email 1367159064@qq.com
  * @date 2021-01-06 23:35:52
@@ -29,7 +26,6 @@ import cn.smile.common.utils.R;
 public class PurchaseController {
     @Autowired
     private PurchaseService purchaseService;
-    
     
     /**
      * @Description 查询没有分配的采购单
@@ -62,7 +58,6 @@ public class PurchaseController {
      * @Description 确认采购完成
      * @author Smile
      * @date 2021/1/28/028
-     * @param  1
      * @return cn.smile.common.utils.R
      */
     @PostMapping("/done")

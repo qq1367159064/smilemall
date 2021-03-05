@@ -6,6 +6,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
 import cn.smile.common.utils.PageUtils;
 import cn.smile.smilemall.product.entity.AttrEntity;
 
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -26,5 +27,14 @@ public interface AttrService extends IService<AttrEntity> {
     PageUtils queryBaseAttrPage(Map<String, Object> parameter, Long cateId, String type);
     
     AttrRespVo getAttrInfo(Long attrid);
+    
+    /**
+     * <p>获取所有可用来检索的属性id</p>
+     * @author Smile
+     * @date 2021/2/15/015
+     * @param attrIds 1
+     * @return java.util.List<java.lang.Long>
+     */
+    List<Long> getSearchTypeAttrIds(List<Long> attrIds);
 }
 

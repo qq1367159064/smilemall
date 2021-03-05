@@ -26,5 +26,16 @@ public interface SpuInfoService extends IService<SpuInfoEntity> {
 	void saveSpuInfoDesc(SpuInfoDescEntity descEntity);
 	
 	PageUtils queryPageByCondition(Map<String, Object> params);
+	
+	boolean up(Long up);
+	
+	/**
+	 * <p></p>
+	 * @author smile
+	 * @date 2021/3/3/003
+	 * @param skuId 1
+	 * @return cn.smile.smilemall.product.entity.SpuInfoEntity
+	 */
+	SpuInfoEntity getSpuInfoBySkuId(Long skuId);
 }
 

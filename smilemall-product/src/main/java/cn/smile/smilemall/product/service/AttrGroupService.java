@@ -3,6 +3,7 @@ package cn.smile.smilemall.product.service;
 import cn.smile.smilemall.product.entity.AttrEntity;
 import cn.smile.smilemall.product.vo.AttrGroupRelationVo;
 import cn.smile.smilemall.product.vo.AttrGroupWithAttrsVo;
+import cn.smile.smilemall.product.vo.SkuItemVo;
 import com.baomidou.mybatisplus.extension.service.IService;
 import cn.smile.common.utils.PageUtils;
 import cn.smile.smilemall.product.entity.AttrGroupEntity;
@@ -30,5 +31,7 @@ public interface AttrGroupService extends IService<AttrGroupEntity> {
     PageUtils getNoRelationAttr(Map<String, Object> params, Long attrgroupId);
 	
 	List<AttrGroupWithAttrsVo> getAttrGroupWithAttrsByCateLogId(Long catelongId);
+	
+	List<SkuItemVo.SpuItemBaseAttrVo> selectGroupWithAttrsBySpuId(Long spuId, Long catalogId);
 }
 

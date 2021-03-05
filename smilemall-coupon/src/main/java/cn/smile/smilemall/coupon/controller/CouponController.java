@@ -5,7 +5,6 @@ import cn.smile.common.utils.R;
 import cn.smile.smilemall.coupon.entity.CouponEntity;
 import cn.smile.smilemall.coupon.service.CouponService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.*;
 
@@ -27,8 +26,6 @@ import java.util.Map;
 public class CouponController {
     @Autowired
     private CouponService couponService;
-    
-    
 
     /**
      * 列表

@@ -1,0 +1,2 @@
+2021-02-26 17:41:08.059 [ main ] - [ INFO  ] [ c.s.s.authserver.SmilemallAuthServerApplication : 655 ] - The following profiles are active: dev
+2021-02-26 17:41:18.441 [ main ] - [ INFO  ] [ c.s.s.authserver.SmilemallAuthServerApplication : 61 ] - Started SmilemallAuthServerApplication in 14.733 seconds (JVM running for 22.785)

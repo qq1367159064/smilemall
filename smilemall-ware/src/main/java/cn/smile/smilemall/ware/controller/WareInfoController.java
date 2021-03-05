@@ -1,25 +1,20 @@
 package cn.smile.smilemall.ware.controller;
 
-import java.util.Arrays;
-import java.util.Map;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
-
-import cn.smile.smilemall.ware.entity.WareInfoEntity;
-import cn.smile.smilemall.ware.service.WareInfoService;
 import cn.smile.common.utils.PageUtils;
 import cn.smile.common.utils.R;
+import cn.smile.smilemall.ware.entity.WareInfoEntity;
+import cn.smile.smilemall.ware.service.WareInfoService;
+import cn.smile.smilemall.ware.vo.FareVo;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.Arrays;
+import java.util.Map;
 
 
 
 /**
  * 仓库信息
- *
  * @author smile
  * @email 1367159064@qq.com
  * @date 2021-01-06 23:35:52
@@ -30,6 +25,21 @@ public class WareInfoController {
     @Autowired
     private WareInfoService wareInfoService;
 
+    
+    /**
+     * <p>获取运费</p>
+     * @author smile
+     * @date 2021/3/2/002
+     * @param adrId 1
+     * @return cn.smile.common.utils.R
+     */
+    
+    @GetMapping("/fare")
+    public R getFare(@RequestParam("adrId") Long adrId) {
+        FareVo fare = wareInfoService.getFare(adrId);
+        return R.ok().put("fare", fare);
+    }
+    
     /**
      * 列表
      */

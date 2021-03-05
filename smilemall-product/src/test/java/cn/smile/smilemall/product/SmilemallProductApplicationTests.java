@@ -8,6 +8,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.data.redis.core.StringRedisTemplate;
 
 import java.util.Arrays;
 
@@ -19,6 +20,8 @@ class SmilemallProductApplicationTests {
 	private BrandService brandService;
 	@Autowired
 	private CategoryService categoryService;
+	@Autowired
+	private StringRedisTemplate stringRedisTemplate;
 	
 	@Test
 	void testFindCategoryLogPath() {
@@ -31,8 +34,11 @@ class SmilemallProductApplicationTests {
 		BrandEntity id = brandService.getOne(new QueryWrapper<BrandEntity>().eq("brand_id", 1L));
 		System.out.println(id);
 		System.out.println("保存成功");
-		
-		
+	}
+	
+	@Test
+	void redisTest() {
+		stringRedisTemplate.opsForValue().set("smilemall", "hello word");
 	}
 
 }

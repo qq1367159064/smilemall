@@ -11,7 +11,7 @@ import java.time.Duration;
 /**
  * @author Smile
  * @Documents
- * @creationTime 2021-01-2021/1/7
+ * @date 2021-01-2021/1/7
  */
 @Configuration
 public class SmileMallCorsConfig {

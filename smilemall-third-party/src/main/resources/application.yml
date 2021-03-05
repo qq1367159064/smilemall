@@ -6,6 +6,20 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 192.168.1.22:8848
+        server-addr: 192.168.31.239:8848
+#  cloud:
+#    alicloud:
+#      access-key: 'foo'
+#      secret-key: 'foo'
+#      oss:
+#        endpoint: 'foo'
+#        bucket: 'foo'
   application:
     name: cn-smile-smilemall-third-party
+
+smile:
+   ali:
+      sig-name: "goodMother商城"
+      access-key-id: "LTAI4Ft82gquPPUKDgCdpqyo"
+      access-secret: "mb4DkA70avtleSwikFenae7Jm4KTe1"
+      template-code: "SMS_204295407"

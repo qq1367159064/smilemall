@@ -1,25 +1,19 @@
 package cn.smile.smilemall.ware.controller;
 
-import java.util.Arrays;
-import java.util.Map;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
-
-import cn.smile.smilemall.ware.entity.WareOrderTaskDetailEntity;
-import cn.smile.smilemall.ware.service.WareOrderTaskDetailService;
 import cn.smile.common.utils.PageUtils;
 import cn.smile.common.utils.R;
+import cn.smile.smilemall.ware.entity.WareOrderTaskDetailEntity;
+import cn.smile.smilemall.ware.service.WareOrderTaskDetailService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.Arrays;
+import java.util.Map;
 
 
 
 /**
- * 库存工作单
- *
+ * 库存工作单详细信息
  * @author smile
  * @email 1367159064@qq.com
  * @date 2021-01-06 23:35:52

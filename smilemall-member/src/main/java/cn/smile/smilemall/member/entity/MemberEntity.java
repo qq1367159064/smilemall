@@ -2,10 +2,10 @@ package cn.smile.smilemall.member.entity;
 
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
+import lombok.Data;
 
 import java.io.Serializable;
 import java.util.Date;
-import lombok.Data;
 
 /**
  * 会员
@@ -92,5 +92,21 @@ public class MemberEntity implements Serializable {
 	 * 注册时间
 	 */
 	private Date createTime;
+	
+	/**
+	 * 社交账号id
+	 */
+	private String uid;
+	
+	/**
+	 * 用户信息的访问令牌
+	 */
+	private String accessToken;
+	
+	/**
+	 * 令牌的过期时间
+	 */
+	private Long expiresIn;
+	
 
 }

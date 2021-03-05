@@ -1,34 +1,36 @@
 package cn.smile.smilemall.product.service.impl;
 
+import cn.smile.common.annotation.cache.UseCache;
 import cn.smile.common.constant.ProductConstant;
+import cn.smile.common.utils.PageUtils;
+import cn.smile.common.utils.Query;
 import cn.smile.smilemall.product.dao.AttrAttrgroupRelationDao;
 import cn.smile.smilemall.product.dao.AttrDao;
+import cn.smile.smilemall.product.dao.AttrGroupDao;
 import cn.smile.smilemall.product.entity.AttrAttrgroupRelationEntity;
 import cn.smile.smilemall.product.entity.AttrEntity;
+import cn.smile.smilemall.product.entity.AttrGroupEntity;
+import cn.smile.smilemall.product.entity.ProductAttrValueEntity;
+import cn.smile.smilemall.product.service.AttrAttrgroupRelationService;
+import cn.smile.smilemall.product.service.AttrGroupService;
 import cn.smile.smilemall.product.service.AttrService;
+import cn.smile.smilemall.product.service.ProductAttrValueService;
 import cn.smile.smilemall.product.vo.AttrGroupRelationVo;
 import cn.smile.smilemall.product.vo.AttrGroupWithAttrsVo;
-import org.checkerframework.checker.units.qual.A;
+import cn.smile.smilemall.product.vo.SkuItemVo;
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.util.StringUtils;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
-
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import cn.smile.common.utils.PageUtils;
-import cn.smile.common.utils.Query;
-
-import cn.smile.smilemall.product.dao.AttrGroupDao;
-import cn.smile.smilemall.product.entity.AttrGroupEntity;
-import cn.smile.smilemall.product.service.AttrGroupService;
-import org.springframework.util.StringUtils;
 
 
 @Service("attrGroupService")
@@ -37,9 +39,13 @@ public class AttrGroupServiceImpl extends ServiceImpl<AttrGroupDao, AttrGroupEnt
 	private AttrAttrgroupRelationDao attrAttrgroupRelationDao;
 	@Autowired
 	private AttrDao attrDao;
-	
 	@Autowired
 	private AttrService attrService;
+	@Autowired
+	private AttrAttrgroupRelationService attrAttrgroupRelationService;
+	@Autowired
+	private ProductAttrValueService productAttrValueService;
+	
 	
 	@Override
 	public PageUtils queryPage(Map<String, Object> params) {
@@ -166,11 +172,11 @@ public class AttrGroupServiceImpl extends ServiceImpl<AttrGroupDao, AttrGroupEnt
 	}
 	
 	/**
+	 * @param catelongId 1
+	 * @return java.util.List<cn.smile.smilemall.product.vo.AttrGroupWithAttrsVo>
 	 * @Description 根据分类获取所有的分组和分组中的所有属性
 	 * @author Smile
 	 * @date 2021/1/24/024
-	 * @param catelongId 1
-	 * @return java.util.List<cn.smile.smilemall.product.vo.AttrGroupWithAttrsVo>
 	 */
 	@Override
 	public List<AttrGroupWithAttrsVo> getAttrGroupWithAttrsByCateLogId(Long catelongId) {
@@ -181,11 +187,43 @@ public class AttrGroupServiceImpl extends ServiceImpl<AttrGroupDao, AttrGroupEnt
 			AttrGroupWithAttrsVo attrGroupWithAttrsVo = new AttrGroupWithAttrsVo();
 			BeanUtils.copyProperties(item, attrGroupWithAttrsVo);
 			List<AttrEntity> attrEntities = queryAttrList(attrGroupWithAttrsVo.getAttrGroupId());
-			if(attrEntities == null || attrEntities.size() == 0) {
+			if (attrEntities == null || attrEntities.size() == 0) {
 				attrEntities = new ArrayList<>();
 			}
 			attrGroupWithAttrsVo.setAttrs(attrEntities);
 			return attrGroupWithAttrsVo;
 		}).collect(Collectors.toList());
+	}
+	
+	@UseCache(cacheKeyPrefix = "spuGroupInfo")
+	@Override
+	public List<SkuItemVo.SpuItemBaseAttrVo> selectGroupWithAttrsBySpuId(Long spuId, Long catalogId) {
+		// 获取当前分类的所有属性分组
+		List<AttrGroupEntity> attrGroupEntities = list(new QueryWrapper<AttrGroupEntity>().eq("catelog_id", catalogId));
+		List<SkuItemVo.SpuItemBaseAttrVo> skuItemGroupInfo = attrGroupEntities.stream().map(item -> {
+			// 获取分组名称
+			SkuItemVo.SpuItemBaseAttrVo spuItemBaseAttrVo = new SkuItemVo.SpuItemBaseAttrVo();
+			spuItemBaseAttrVo.setGroupName(item.getAttrGroupName());
+			// 根据当前的分组id获取该分组的所有属性Id
+			List<AttrAttrgroupRelationEntity> attrIds =
+					attrAttrgroupRelationService.list(new QueryWrapper<AttrAttrgroupRelationEntity>().eq("attr_group_id",
+							item.getAttrGroupId()));
+			// 根据当前的分组的属性id获取该商品的属性
+			List<SkuItemVo.SpuBaseAttrVo> baseAttrVos = attrIds.stream().map(itex -> {
+				SkuItemVo.SpuBaseAttrVo baseAttrVo = new SkuItemVo.SpuBaseAttrVo();
+				List<ProductAttrValueEntity> productAttrs =
+						productAttrValueService.list(new QueryWrapper<ProductAttrValueEntity>().eq("attr_id",
+								itex.getAttrId()).eq("spu_id", spuId));
+				if (productAttrs != null && productAttrs.size() != 0) {
+					ProductAttrValueEntity productAttrValueEntity = productAttrs.get(0);
+					baseAttrVo.setValue(productAttrValueEntity.getAttrValue());
+					baseAttrVo.setName(productAttrValueEntity.getAttrName());
+				}
+				return baseAttrVo;
+			}).collect(Collectors.toList());
+			spuItemBaseAttrVo.setSpuBaseAttrVos(baseAttrVos);
+			return spuItemBaseAttrVo;
+		}).collect(Collectors.toList());
+		return skuItemGroupInfo;
 	}
 }

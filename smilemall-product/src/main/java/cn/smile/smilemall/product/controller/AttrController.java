@@ -1,21 +1,18 @@
 package cn.smile.smilemall.product.controller;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
-
-
+import cn.smile.common.utils.PageUtils;
+import cn.smile.common.utils.R;
 import cn.smile.smilemall.product.entity.ProductAttrValueEntity;
+import cn.smile.smilemall.product.service.AttrService;
 import cn.smile.smilemall.product.service.ProductAttrValueService;
 import cn.smile.smilemall.product.vo.AttrRespVo;
 import cn.smile.smilemall.product.vo.AttrVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import cn.smile.smilemall.product.entity.AttrEntity;
-import cn.smile.smilemall.product.service.AttrService;
-import cn.smile.common.utils.PageUtils;
-import cn.smile.common.utils.R;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
 
 
 /**
@@ -34,16 +31,16 @@ public class AttrController {
 	private ProductAttrValueService attrValueService;
 	
 	/**
-	 * @param spuId 1
+
 	 * @return cn.smile.common.utils.R
 	 * @Description 获取spu的属性
 	 * @author Smile
 	 * @date 2021/1/28/028
 	 */
-	@GetMapping("/base/listforspu/{spudId}")
+	@GetMapping("/base/listforspu/{spuId}")
 	public R baseAttrList(@PathVariable(value = "spuId") Long spuId) {
-		attrValueService.baseListForSpu(spuId);
-		return R.ok();
+		List<ProductAttrValueEntity> productAttrValueEntities = attrValueService.baseListForSpu(spuId);
+		return R.ok().put("data",productAttrValueEntities);
 	}
 	
 	/**
@@ -80,7 +77,6 @@ public class AttrController {
 	 * 列表
 	 */
 	@RequestMapping("/list")
-//    @RequiresPermissions("product:attr:list")
 	public R list(@RequestParam Map<String, Object> params) {
 		PageUtils page = attrService.queryPage(params);
 		return R.ok().put("page", page);
@@ -90,10 +86,8 @@ public class AttrController {
 	 * 信息
 	 */
 	@RequestMapping("/info/{attrId}")
-//    @RequiresPermissions("product:attr:info")
 	public R info(@PathVariable("attrId") Long attrId) {
 		AttrRespVo attrInfo = attrService.getAttrInfo(attrId);
-		
 		return R.ok().put("attr", attrInfo);
 	}
 	
@@ -101,7 +95,6 @@ public class AttrController {
 	 * 保存
 	 */
 	@RequestMapping("/save")
-//    @RequiresPermissions("product:attr:save")
 	public R save(@RequestBody AttrVo attr) {
 		attrService.saveAttr(attr);
 		return R.ok();

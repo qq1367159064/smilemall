@@ -9,7 +9,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 /**
  * @author Smile mybatis配置类
  * @Documents
- * @creationTime 2021-01-2021/1/15/015
+ * @date 2021-01-2021/1/15/015
  */
 @Configuration
 @EnableTransactionManagement

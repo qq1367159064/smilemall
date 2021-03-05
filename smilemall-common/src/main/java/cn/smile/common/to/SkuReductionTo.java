@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * @author Smile
  * @Documents
- * @creationTime 2021-01-2021/1/24/024
+ * @date 2021-01-2021/1/24/024
  */
 @Data
 public class SkuReductionTo {

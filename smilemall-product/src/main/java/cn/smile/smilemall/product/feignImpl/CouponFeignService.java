@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 /**
  * @author Smile
  * @Documents
- * @creationTime 2021-01-2021/1/24/024
+ * @date 2021-01-2021/1/24/024
  */
 @Service
 @FeignClient(value = "cn-smile-smilemall-coupon")

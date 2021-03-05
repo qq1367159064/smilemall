@@ -1,0 +1,1095 @@
+2021-02-24 20:57:35.690 [ background-preinit ] - [ DEBUG ] [ org.jboss.logging : 152 ] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2021-02-24 20:57:35.701 [ background-preinit ] - [ INFO  ] [ org.hibernate.validator.internal.util.Version : 21 ] - HV000001: Hibernate Validator 6.1.6.Final
+2021-02-24 20:57:35.721 [ background-preinit ] - [ DEBUG ] [ o.h.v.internal.xml.config.ValidationXmlParser : 120 ] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2021-02-24 20:57:35.737 [ background-preinit ] - [ DEBUG ] [ o.h.v.internal.xml.config.ResourceLoaderHelper : 60 ] - Trying to load META-INF/validation.xml via TCCL
+2021-02-24 20:57:35.738 [ background-preinit ] - [ DEBUG ] [ o.h.v.internal.xml.config.ResourceLoaderHelper : 66 ] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2021-02-24 20:57:35.740 [ background-preinit ] - [ DEBUG ] [ o.h.v.internal.xml.config.ValidationXmlParser : 127 ] - No META-INF/validation.xml found. Using annotation based configuration only.
+2021-02-24 20:57:35.754 [ background-preinit ] - [ DEBUG ] [ o.h.v.i.engine.resolver.TraversableResolvers : 60 ] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2021-02-24 20:57:35.814 [ background-preinit ] - [ DEBUG ] [ o.h.v.m.ResourceBundleMessageInterpolator : 172 ] - Loaded expression factory via original TCCL
+2021-02-24 20:57:36.054 [ background-preinit ] - [ DEBUG ] [ o.h.v.i.engine.ValidatorFactoryConfigurationHelper : 300 ] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2021-02-24 20:57:36.065 [ background-preinit ] - [ DEBUG ] [ o.h.v.i.engine.ValidatorFactoryConfigurationHelper : 375 ] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2021-02-24 20:57:36.065 [ background-preinit ] - [ DEBUG ] [ o.h.v.i.engine.ValidatorFactoryConfigurationHelper : 376 ] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2021-02-24 20:57:36.066 [ background-preinit ] - [ DEBUG ] [ o.h.v.i.engine.ValidatorFactoryConfigurationHelper : 377 ] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2021-02-24 20:57:36.067 [ background-preinit ] - [ DEBUG ] [ o.h.v.i.engine.ValidatorFactoryConfigurationHelper : 378 ] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2021-02-24 20:57:36.068 [ background-preinit ] - [ DEBUG ] [ o.h.v.i.engine.ValidatorFactoryConfigurationHelper : 379 ] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2021-02-24 20:57:37.020 [ main ] - [ INFO  ] [ com.alibaba.nacos.client.config.utils.JvmUtil : 49 ] - isMultiInstance:false
+2021-02-24 20:57:37.022 [ main ] - [ DEBUG ] [ c.a.cloud.nacos.client.NacosPropertySourceBuilder : 93 ] - Loading nacos data, dataId: 'smilemall-search', group: 'DEV_GROUP', data: config.inof: "search"
+2021-02-24 20:57:37.036 [ main ] - [ WARN  ] [ c.a.cloud.nacos.client.NacosPropertySourceBuilder : 87 ] - Ignore the empty nacos configuration and get it based on dataId[smilemall-search.yaml] & group[DEV_GROUP]
+2021-02-24 20:57:37.044 [ main ] - [ WARN  ] [ c.a.cloud.nacos.client.NacosPropertySourceBuilder : 87 ] - Ignore the empty nacos configuration and get it based on dataId[smilemall-search-dev.yaml] & group[DEV_GROUP]
+2021-02-24 20:57:39.210 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-9220"]
+2021-02-24 20:57:39.211 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2021-02-24 20:57:39.211 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-24 20:57:39.403 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2021-02-24 20:57:39.481 [ main ] - [ DEBUG ] [ i.m.c.util.internal.logging.InternalLoggerFactory : 61 ] - Using SLF4J as the default logging framework
+2021-02-24 20:57:39.589 [ main ] - [ DEBUG ] [ i.n.util.internal.logging.InternalLoggerFactory : 45 ] - Using SLF4J as the default logging framework
+2021-02-24 20:57:39.592 [ main ] - [ DEBUG ] [ io.lettuce.core.resource.DefaultClientResources : 108 ] - -Dio.netty.eventLoopThreads: 4
+2021-02-24 20:57:39.600 [ main ] - [ DEBUG ] [ i.l.core.resource.DefaultEventLoopGroupProvider : 196 ] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2021-02-24 20:57:39.620 [ main ] - [ DEBUG ] [ io.netty.util.internal.InternalThreadLocalMap : 56 ] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2021-02-24 20:57:39.621 [ main ] - [ DEBUG ] [ io.netty.util.internal.InternalThreadLocalMap : 59 ] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2021-02-24 20:57:39.626 [ main ] - [ DEBUG ] [ io.netty.util.ResourceLeakDetector : 129 ] - -Dio.netty.leakDetection.level: simple
+2021-02-24 20:57:39.626 [ main ] - [ DEBUG ] [ io.netty.util.ResourceLeakDetector : 130 ] - -Dio.netty.leakDetection.targetRecords: 4
+2021-02-24 20:57:39.629 [ main ] - [ DEBUG ] [ io.netty.util.ResourceLeakDetectorFactory : 196 ] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4cc7e3ad
+2021-02-24 20:57:39.632 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 1036 ] - Platform: Windows
+2021-02-24 20:57:39.633 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 417 ] - -Dio.netty.noUnsafe: false
+2021-02-24 20:57:39.634 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 897 ] - Java version: 11
+2021-02-24 20:57:39.635 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 130 ] - sun.misc.Unsafe.theUnsafe: available
+2021-02-24 20:57:39.636 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 154 ] - sun.misc.Unsafe.copyMemory: available
+2021-02-24 20:57:39.637 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 192 ] - java.nio.Buffer.address: available
+2021-02-24 20:57:39.639 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 266 ] - direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31)
+	at io.netty.util.internal.PlatformDependent0$4.run(PlatformDependent0.java:238)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:232)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:293)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:109)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:218)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:197)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:179)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:163)
+	at io.lettuce.core.resource.DefaultClientResources.<init>(DefaultClientResources.java:183)
+	at io.lettuce.core.resource.DefaultClientResources$Builder.build(DefaultClientResources.java:562)
+	at io.lettuce.core.resource.DefaultClientResources.create(DefaultClientResources.java:247)
+	at org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration.lettuceClientResources(LettuceConnectionConfiguration.java:66)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:652)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:485)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:886)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:790)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:540)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory$DependencyObjectProvider.getObject(DefaultListableBeanFactory.java:1906)
+	at org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration.setRedisConnectionFactory(RedisHttpSessionConfiguration.java:209)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:754)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:886)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:790)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:540)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:202)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addServletContextInitializerBeans(ServletContextInitializerBeans.java:96)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:85)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:255)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:229)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5166)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:843)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:440)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:193)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:178)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:158)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at cn.smile.smilemall.search.SmilemallSearchApplication.main(SmilemallSearchApplication.java:18)
+2021-02-24 20:57:39.641 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 331 ] - java.nio.Bits.unaligned: available, true
+2021-02-24 20:57:39.643 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 390 ] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @78e6c1bc
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:361)
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:591)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:558)
+	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:352)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:343)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:293)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:109)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:218)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:197)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:179)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:163)
+	at io.lettuce.core.resource.DefaultClientResources.<init>(DefaultClientResources.java:183)
+	at io.lettuce.core.resource.DefaultClientResources$Builder.build(DefaultClientResources.java:562)
+	at io.lettuce.core.resource.DefaultClientResources.create(DefaultClientResources.java:247)
+	at org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration.lettuceClientResources(LettuceConnectionConfiguration.java:66)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:652)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:485)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:886)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:790)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:540)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory$DependencyObjectProvider.getObject(DefaultListableBeanFactory.java:1906)
+	at org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration.setRedisConnectionFactory(RedisHttpSessionConfiguration.java:209)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:754)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:886)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:790)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:540)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:202)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addServletContextInitializerBeans(ServletContextInitializerBeans.java:96)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:85)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:255)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:229)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5166)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:843)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:440)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:193)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:178)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:158)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at cn.smile.smilemall.search.SmilemallSearchApplication.main(SmilemallSearchApplication.java:18)
+2021-02-24 20:57:39.644 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 403 ] - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2021-02-24 20:57:39.644 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 1079 ] - sun.misc.Unsafe: available
+2021-02-24 20:57:39.645 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 1181 ] - maxDirectMemory: 104857600 bytes (maybe)
+2021-02-24 20:57:39.646 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 1200 ] - -Dio.netty.tmpdir: C:\Users\Administrator\AppData\Local\Temp (java.io.tmpdir)
+2021-02-24 20:57:39.646 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 1279 ] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2021-02-24 20:57:39.648 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 177 ] - -Dio.netty.maxDirectMemory: -1 bytes
+2021-02-24 20:57:39.648 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 184 ] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2021-02-24 20:57:39.649 [ main ] - [ DEBUG ] [ io.netty.util.internal.CleanerJava9 : 71 ] - java.nio.ByteBuffer.cleaner(): available
+2021-02-24 20:57:39.649 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 204 ] - -Dio.netty.noPreferDirect: false
+2021-02-24 20:57:39.651 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 940 ] - org.jctools-core.MpscChunkedArrayQueue: available
+2021-02-24 20:57:39.663 [ main ] - [ DEBUG ] [ reactor.util.Loggers$LoggerFactory : 249 ] - Using Slf4j logging framework
+2021-02-24 20:57:39.753 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 154 ] - -Dio.netty.allocator.numHeapArenas: 1
+2021-02-24 20:57:39.753 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 155 ] - -Dio.netty.allocator.numDirectArenas: 1
+2021-02-24 20:57:39.753 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 157 ] - -Dio.netty.allocator.pageSize: 8192
+2021-02-24 20:57:39.753 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 162 ] - -Dio.netty.allocator.maxOrder: 11
+2021-02-24 20:57:39.753 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 166 ] - -Dio.netty.allocator.chunkSize: 16777216
+2021-02-24 20:57:39.753 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 167 ] - -Dio.netty.allocator.smallCacheSize: 256
+2021-02-24 20:57:39.754 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 168 ] - -Dio.netty.allocator.normalCacheSize: 64
+2021-02-24 20:57:39.754 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 169 ] - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2021-02-24 20:57:39.754 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 170 ] - -Dio.netty.allocator.cacheTrimInterval: 8192
+2021-02-24 20:57:39.754 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 171 ] - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2021-02-24 20:57:39.754 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 172 ] - -Dio.netty.allocator.useCacheForAllThreads: true
+2021-02-24 20:57:39.755 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 173 ] - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2021-02-24 20:57:40.697 [ main ] - [ WARN  ] [ com.netflix.config.sources.URLConfigurationSource : 121 ] - No URLs will be polled as dynamic configuration sources.
+2021-02-24 20:57:40.697 [ main ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 122 ] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-02-24 20:57:40.705 [ main ] - [ WARN  ] [ com.netflix.config.sources.URLConfigurationSource : 121 ] - No URLs will be polled as dynamic configuration sources.
+2021-02-24 20:57:40.705 [ main ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 122 ] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-02-24 20:57:40.739 [ main ] - [ DEBUG ] [ o.h.v.m.ResourceBundleMessageInterpolator : 172 ] - Loaded expression factory via original TCCL
+2021-02-24 20:57:40.743 [ main ] - [ DEBUG ] [ o.h.v.internal.engine.AbstractConfigurationImpl : 171 ] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2021-02-24 20:57:40.744 [ main ] - [ DEBUG ] [ o.h.v.internal.engine.AbstractConfigurationImpl : 203 ] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2021-02-24 20:57:40.746 [ main ] - [ DEBUG ] [ o.h.v.internal.engine.AbstractConfigurationImpl : 217 ] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2021-02-24 20:57:40.748 [ main ] - [ DEBUG ] [ o.h.v.internal.xml.config.ValidationXmlParser : 120 ] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2021-02-24 20:57:40.748 [ main ] - [ DEBUG ] [ o.h.v.internal.xml.config.ResourceLoaderHelper : 53 ] - Trying to load META-INF/validation.xml via user class loader
+2021-02-24 20:57:40.748 [ main ] - [ DEBUG ] [ o.h.v.internal.xml.config.ResourceLoaderHelper : 60 ] - Trying to load META-INF/validation.xml via TCCL
+2021-02-24 20:57:40.749 [ main ] - [ DEBUG ] [ o.h.v.internal.xml.config.ResourceLoaderHelper : 66 ] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2021-02-24 20:57:40.749 [ main ] - [ DEBUG ] [ o.h.v.internal.xml.config.ValidationXmlParser : 127 ] - No META-INF/validation.xml found. Using annotation based configuration only.
+2021-02-24 20:57:40.750 [ main ] - [ DEBUG ] [ o.h.v.i.engine.resolver.TraversableResolvers : 60 ] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2021-02-24 20:57:40.752 [ main ] - [ DEBUG ] [ o.h.v.i.engine.ValidatorFactoryConfigurationHelper : 300 ] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2021-02-24 20:57:40.754 [ main ] - [ DEBUG ] [ o.h.v.i.engine.ValidatorFactoryConfigurationHelper : 375 ] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2021-02-24 20:57:40.755 [ main ] - [ DEBUG ] [ o.h.v.i.engine.ValidatorFactoryConfigurationHelper : 376 ] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2021-02-24 20:57:40.755 [ main ] - [ DEBUG ] [ o.h.v.i.engine.ValidatorFactoryConfigurationHelper : 377 ] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2021-02-24 20:57:40.755 [ main ] - [ DEBUG ] [ o.h.v.i.engine.ValidatorFactoryConfigurationHelper : 378 ] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2021-02-24 20:57:40.756 [ main ] - [ DEBUG ] [ o.h.v.i.engine.ValidatorFactoryConfigurationHelper : 379 ] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2021-02-24 20:57:41.707 [ main ] - [ INFO  ] [ com.alibaba.nacos.client.naming : 65 ] - initializer namespace from System Property :null
+2021-02-24 20:57:41.708 [ main ] - [ INFO  ] [ com.alibaba.nacos.client.naming : 74 ] - initializer namespace from System Environment :null
+2021-02-24 20:57:41.709 [ main ] - [ INFO  ] [ com.alibaba.nacos.client.naming : 84 ] - initializer namespace from System Property :null
+2021-02-24 20:57:41.750 [ com.alibaba.nacos.client.naming.updater ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 195 ] - server list provided by user: [192.168.31.239:8848]
+2021-02-24 20:57:41.751 [ main ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 195 ] - server list provided by user: [192.168.31.239:8848]
+2021-02-24 20:57:41.756 [ com.alibaba.nacos.naming.failover ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 147 ] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2021-02-24 20:57:42.128 [ main ] - [ DEBUG ] [ io.lettuce.core.RedisClient : 263 ] - Trying to get a Redis connection for: RedisURI [host='localhost', port=6379]
+2021-02-24 20:57:42.295 [ main ] - [ DEBUG ] [ io.lettuce.core.EpollProvider : 70 ] - Starting without optional epoll library
+2021-02-24 20:57:42.298 [ main ] - [ DEBUG ] [ io.lettuce.core.KqueueProvider : 72 ] - Starting without optional kqueue library
+2021-02-24 20:57:42.301 [ main ] - [ DEBUG ] [ i.l.core.resource.DefaultEventLoopGroupProvider : 85 ] - Allocating executor io.netty.channel.nio.NioEventLoopGroup
+2021-02-24 20:57:42.301 [ main ] - [ DEBUG ] [ i.l.core.resource.DefaultEventLoopGroupProvider : 196 ] - Creating executor io.netty.channel.nio.NioEventLoopGroup
+2021-02-24 20:57:42.302 [ main ] - [ DEBUG ] [ io.netty.channel.MultithreadEventLoopGroup : 44 ] - -Dio.netty.eventLoopThreads: 8
+2021-02-24 20:57:42.306 [ main ] - [ DEBUG ] [ io.netty.channel.nio.NioEventLoop : 106 ] - -Dio.netty.noKeySetOptimization: false
+2021-02-24 20:57:42.306 [ main ] - [ DEBUG ] [ io.netty.channel.nio.NioEventLoop : 107 ] - -Dio.netty.selectorAutoRebuildThreshold: 512
+2021-02-24 20:57:42.313 [ main ] - [ DEBUG ] [ i.l.core.resource.DefaultEventLoopGroupProvider : 98 ] - Adding reference to io.netty.channel.nio.NioEventLoopGroup@15fd3088, existing ref count 0
+2021-02-24 20:57:42.356 [ main ] - [ DEBUG ] [ io.lettuce.core.RedisClient : 775 ] - Resolved SocketAddress localhost:6379 using RedisURI [host='localhost', port=6379]
+2021-02-24 20:57:42.357 [ main ] - [ DEBUG ] [ io.lettuce.core.RedisClient : 312 ] - Connecting to Redis at localhost:6379
+2021-02-24 20:57:42.378 [ main ] - [ DEBUG ] [ io.netty.channel.DefaultChannelId : 79 ] - -Dio.netty.processId: 15784 (auto-detected)
+2021-02-24 20:57:42.380 [ main ] - [ DEBUG ] [ io.netty.util.NetUtil : 135 ] - -Djava.net.preferIPv4Stack: false
+2021-02-24 20:57:42.381 [ main ] - [ DEBUG ] [ io.netty.util.NetUtil : 136 ] - -Djava.net.preferIPv6Addresses: false
+2021-02-24 20:57:42.707 [ main ] - [ DEBUG ] [ io.netty.util.NetUtilInitializations : 129 ] - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2021-02-24 20:57:42.708 [ main ] - [ DEBUG ] [ io.netty.util.NetUtil : 187 ] - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2021-02-24 20:57:43.045 [ main ] - [ DEBUG ] [ io.netty.channel.DefaultChannelId : 101 ] - -Dio.netty.machineId: 00:0e:c6:ff:fe:ac:b1:3a (auto-detected)
+2021-02-24 20:57:43.066 [ main ] - [ DEBUG ] [ io.netty.buffer.ByteBufUtil : 87 ] - -Dio.netty.allocator.type: pooled
+2021-02-24 20:57:43.067 [ main ] - [ DEBUG ] [ io.netty.buffer.ByteBufUtil : 96 ] - -Dio.netty.threadLocalDirectBufferSize: 0
+2021-02-24 20:57:43.067 [ main ] - [ DEBUG ] [ io.netty.buffer.ByteBufUtil : 99 ] - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2021-02-24 20:57:43.088 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.netty.util.Recycler : 102 ] - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2021-02-24 20:57:43.088 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.netty.util.Recycler : 103 ] - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2021-02-24 20:57:43.088 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.netty.util.Recycler : 104 ] - -Dio.netty.recycler.linkCapacity: 16
+2021-02-24 20:57:43.089 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.netty.util.Recycler : 105 ] - -Dio.netty.recycler.ratio: 8
+2021-02-24 20:57:43.089 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.netty.util.Recycler : 106 ] - -Dio.netty.recycler.delayedQueue.ratio: 8
+2021-02-24 20:57:43.097 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.netty.buffer.AbstractByteBuf : 63 ] - -Dio.netty.buffer.checkAccessible: true
+2021-02-24 20:57:43.097 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.netty.buffer.AbstractByteBuf : 64 ] - -Dio.netty.buffer.checkBounds: true
+2021-02-24 20:57:43.097 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.netty.util.ResourceLeakDetectorFactory : 196 ] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@233d2717
+2021-02-24 20:57:43.127 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.lettuce.core.protocol.CommandHandler : 181 ] - [channel=0x7e1cf05d, [id: 0xb215253d] (inactive), chid=0x1] channelRegistered()
+2021-02-24 20:57:44.131 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.lettuce.core.RedisClient : 348 ] - Connecting to Redis at localhost:6379: localhost:6379
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-02-24 20:57:44.134 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.lettuce.core.RedisChannelHandler : 131 ] - close()
+2021-02-24 20:57:44.134 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.lettuce.core.RedisChannelHandler : 145 ] - closeAsync()
+2021-02-24 20:57:44.134 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.lettuce.core.protocol.DefaultEndpoint : 549 ] - [unknown, epid=0x1] closeAsync()
+2021-02-24 20:57:44.137 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.lettuce.core.protocol.CommandHandler : 198 ] - [channel=0x7e1cf05d, [id: 0xb215253d] (inactive), chid=0x1] channelUnregistered()
+2021-02-24 20:57:44.143 [ main ] - [ DEBUG ] [ o.a.h.i.n.conn.PoolingNHttpClientConnectionManager : 232 ] - Connection manager is shutting down
+2021-02-24 20:57:44.146 [ main ] - [ DEBUG ] [ o.a.h.i.n.conn.PoolingNHttpClientConnectionManager : 234 ] - Connection manager shut down
+2021-02-24 20:57:44.147 [ main ] - [ INFO  ] [ com.alibaba.nacos.client.naming : 147 ] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2021-02-24 20:57:44.148 [ main ] - [ INFO  ] [ com.alibaba.nacos.client.naming : 149 ] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2021-02-24 20:57:44.148 [ main ] - [ INFO  ] [ com.alibaba.nacos.client.naming : 409 ] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2021-02-24 20:57:44.150 [ main ] - [ INFO  ] [ com.alibaba.nacos.client.naming : 121 ] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2021-02-24 20:57:46.757 [ com.alibaba.nacos.naming.failover ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 147 ] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2021-02-24 20:57:47.153 [ main ] - [ INFO  ] [ com.alibaba.nacos.client.naming : 125 ] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2021-02-24 20:57:47.153 [ main ] - [ INFO  ] [ com.alibaba.nacos.client.naming : 132 ] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2021-02-24 20:57:50.156 [ main ] - [ INFO  ] [ com.alibaba.nacos.client.naming : 134 ] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2021-02-24 20:57:50.156 [ main ] - [ INFO  ] [ com.alibaba.nacos.client.naming : 414 ] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2021-02-24 20:57:50.157 [ main ] - [ INFO  ] [ com.alibaba.nacos.client.naming : 719 ] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2021-02-24 20:57:50.157 [ main ] - [ WARN  ] [ com.alibaba.nacos.client.naming : 72 ] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2021-02-24 20:57:50.158 [ main ] - [ WARN  ] [ com.alibaba.nacos.client.naming : 79 ] - [NamingHttpClientManager] Destruction of the end
+2021-02-24 20:57:50.159 [ main ] - [ INFO  ] [ c.alibaba.nacos.client.identify.CredentialWatcher : 105 ] - [null] CredentialWatcher is stopped
+2021-02-24 20:57:50.159 [ main ] - [ INFO  ] [ c.alibaba.nacos.client.identify.CredentialService : 98 ] - [null] CredentialService is freed
+2021-02-24 20:57:50.160 [ main ] - [ INFO  ] [ com.alibaba.nacos.client.naming : 723 ] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2021-02-24 20:57:50.168 [ main ] - [ DEBUG ] [ io.lettuce.core.RedisClient : 474 ] - Initiate shutdown (100, 100, MILLISECONDS)
+2021-02-24 20:57:50.175 [ main ] - [ DEBUG ] [ i.l.core.resource.DefaultEventLoopGroupProvider : 226 ] - Release executor io.netty.channel.nio.NioEventLoopGroup@15fd3088
+2021-02-24 20:57:50.176 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.netty.buffer.PoolThreadCache : 224 ] - Freed 1 thread-local buffer(s) from thread: lettuce-nioEventLoop-4-1
+2021-02-24 20:57:50.281 [ main ] - [ DEBUG ] [ io.lettuce.core.resource.DefaultClientResources : 631 ] - Initiate shutdown (0, 2, SECONDS)
+2021-02-24 20:57:50.284 [ main ] - [ DEBUG ] [ i.l.core.resource.DefaultEventLoopGroupProvider : 263 ] - Initiate shutdown (0, 2, SECONDS)
+2021-02-24 20:57:50.290 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2021-02-24 20:57:51.182 [ Thread-1 ] - [ WARN  ] [ com.alibaba.nacos.common.http.HttpClientBeanHolder : 108 ] - [HttpClientBeanHolder] Start destroying common HttpClient
+2021-02-24 20:57:51.182 [ Thread-12 ] - [ WARN  ] [ com.alibaba.nacos.common.notify.NotifyCenter : 145 ] - [NotifyCenter] Start destroying Publisher
+2021-02-24 20:57:51.182 [ Thread-12 ] - [ WARN  ] [ com.alibaba.nacos.common.notify.NotifyCenter : 162 ] - [NotifyCenter] Destruction of the end
+2021-02-24 20:57:51.182 [ Thread-1 ] - [ WARN  ] [ com.alibaba.nacos.common.http.HttpClientBeanHolder : 114 ] - [HttpClientBeanHolder] Destruction of the end
+2021-02-24 21:02:14.749 [ background-preinit ] - [ DEBUG ] [ org.jboss.logging : 152 ] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2021-02-24 21:02:14.754 [ background-preinit ] - [ INFO  ] [ org.hibernate.validator.internal.util.Version : 21 ] - HV000001: Hibernate Validator 6.1.6.Final
+2021-02-24 21:02:14.765 [ background-preinit ] - [ DEBUG ] [ o.h.v.internal.xml.config.ValidationXmlParser : 120 ] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2021-02-24 21:02:14.768 [ background-preinit ] - [ DEBUG ] [ o.h.v.internal.xml.config.ResourceLoaderHelper : 60 ] - Trying to load META-INF/validation.xml via TCCL
+2021-02-24 21:02:14.768 [ background-preinit ] - [ DEBUG ] [ o.h.v.internal.xml.config.ResourceLoaderHelper : 66 ] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2021-02-24 21:02:14.769 [ background-preinit ] - [ DEBUG ] [ o.h.v.internal.xml.config.ValidationXmlParser : 127 ] - No META-INF/validation.xml found. Using annotation based configuration only.
+2021-02-24 21:02:14.776 [ background-preinit ] - [ DEBUG ] [ o.h.v.i.engine.resolver.TraversableResolvers : 60 ] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2021-02-24 21:02:14.807 [ background-preinit ] - [ DEBUG ] [ o.h.v.m.ResourceBundleMessageInterpolator : 172 ] - Loaded expression factory via original TCCL
+2021-02-24 21:02:15.037 [ background-preinit ] - [ DEBUG ] [ o.h.v.i.engine.ValidatorFactoryConfigurationHelper : 300 ] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2021-02-24 21:02:15.048 [ background-preinit ] - [ DEBUG ] [ o.h.v.i.engine.ValidatorFactoryConfigurationHelper : 375 ] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2021-02-24 21:02:15.049 [ background-preinit ] - [ DEBUG ] [ o.h.v.i.engine.ValidatorFactoryConfigurationHelper : 376 ] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2021-02-24 21:02:15.050 [ background-preinit ] - [ DEBUG ] [ o.h.v.i.engine.ValidatorFactoryConfigurationHelper : 377 ] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2021-02-24 21:02:15.050 [ background-preinit ] - [ DEBUG ] [ o.h.v.i.engine.ValidatorFactoryConfigurationHelper : 378 ] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2021-02-24 21:02:15.051 [ background-preinit ] - [ DEBUG ] [ o.h.v.i.engine.ValidatorFactoryConfigurationHelper : 379 ] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2021-02-24 21:02:16.245 [ main ] - [ INFO  ] [ com.alibaba.nacos.client.config.utils.JvmUtil : 49 ] - isMultiInstance:false
+2021-02-24 21:02:16.247 [ main ] - [ DEBUG ] [ c.a.cloud.nacos.client.NacosPropertySourceBuilder : 93 ] - Loading nacos data, dataId: 'smilemall-search', group: 'DEV_GROUP', data: config.inof: "search"
+2021-02-24 21:02:16.262 [ main ] - [ WARN  ] [ c.a.cloud.nacos.client.NacosPropertySourceBuilder : 87 ] - Ignore the empty nacos configuration and get it based on dataId[smilemall-search.yaml] & group[DEV_GROUP]
+2021-02-24 21:02:16.273 [ main ] - [ WARN  ] [ c.a.cloud.nacos.client.NacosPropertySourceBuilder : 87 ] - Ignore the empty nacos configuration and get it based on dataId[smilemall-search-dev.yaml] & group[DEV_GROUP]
+2021-02-24 21:02:18.267 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-9220"]
+2021-02-24 21:02:18.267 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2021-02-24 21:02:18.268 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-24 21:02:18.449 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2021-02-24 21:02:18.528 [ main ] - [ DEBUG ] [ i.m.c.util.internal.logging.InternalLoggerFactory : 61 ] - Using SLF4J as the default logging framework
+2021-02-24 21:02:19.429 [ main ] - [ WARN  ] [ com.netflix.config.sources.URLConfigurationSource : 121 ] - No URLs will be polled as dynamic configuration sources.
+2021-02-24 21:02:19.430 [ main ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 122 ] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-02-24 21:02:19.436 [ main ] - [ WARN  ] [ com.netflix.config.sources.URLConfigurationSource : 121 ] - No URLs will be polled as dynamic configuration sources.
+2021-02-24 21:02:19.436 [ main ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 122 ] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-02-24 21:02:19.462 [ main ] - [ DEBUG ] [ o.h.v.m.ResourceBundleMessageInterpolator : 172 ] - Loaded expression factory via original TCCL
+2021-02-24 21:02:19.465 [ main ] - [ DEBUG ] [ o.h.v.internal.engine.AbstractConfigurationImpl : 171 ] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2021-02-24 21:02:19.466 [ main ] - [ DEBUG ] [ o.h.v.internal.engine.AbstractConfigurationImpl : 203 ] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2021-02-24 21:02:19.468 [ main ] - [ DEBUG ] [ o.h.v.internal.engine.AbstractConfigurationImpl : 217 ] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2021-02-24 21:02:19.469 [ main ] - [ DEBUG ] [ o.h.v.internal.xml.config.ValidationXmlParser : 120 ] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2021-02-24 21:02:19.469 [ main ] - [ DEBUG ] [ o.h.v.internal.xml.config.ResourceLoaderHelper : 53 ] - Trying to load META-INF/validation.xml via user class loader
+2021-02-24 21:02:19.470 [ main ] - [ DEBUG ] [ o.h.v.internal.xml.config.ResourceLoaderHelper : 60 ] - Trying to load META-INF/validation.xml via TCCL
+2021-02-24 21:02:19.470 [ main ] - [ DEBUG ] [ o.h.v.internal.xml.config.ResourceLoaderHelper : 66 ] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2021-02-24 21:02:19.470 [ main ] - [ DEBUG ] [ o.h.v.internal.xml.config.ValidationXmlParser : 127 ] - No META-INF/validation.xml found. Using annotation based configuration only.
+2021-02-24 21:02:19.486 [ main ] - [ DEBUG ] [ o.h.v.i.engine.resolver.TraversableResolvers : 60 ] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2021-02-24 21:02:19.489 [ main ] - [ DEBUG ] [ o.h.v.i.engine.ValidatorFactoryConfigurationHelper : 300 ] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2021-02-24 21:02:19.490 [ main ] - [ DEBUG ] [ o.h.v.i.engine.ValidatorFactoryConfigurationHelper : 375 ] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2021-02-24 21:02:19.491 [ main ] - [ DEBUG ] [ o.h.v.i.engine.ValidatorFactoryConfigurationHelper : 376 ] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2021-02-24 21:02:19.491 [ main ] - [ DEBUG ] [ o.h.v.i.engine.ValidatorFactoryConfigurationHelper : 377 ] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2021-02-24 21:02:19.491 [ main ] - [ DEBUG ] [ o.h.v.i.engine.ValidatorFactoryConfigurationHelper : 378 ] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2021-02-24 21:02:19.492 [ main ] - [ DEBUG ] [ o.h.v.i.engine.ValidatorFactoryConfigurationHelper : 379 ] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2021-02-24 21:02:21.031 [ main ] - [ INFO  ] [ com.alibaba.nacos.client.naming : 65 ] - initializer namespace from System Property :null
+2021-02-24 21:02:21.032 [ main ] - [ INFO  ] [ com.alibaba.nacos.client.naming : 74 ] - initializer namespace from System Environment :null
+2021-02-24 21:02:21.033 [ main ] - [ INFO  ] [ com.alibaba.nacos.client.naming : 84 ] - initializer namespace from System Property :null
+2021-02-24 21:02:21.044 [ main ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 195 ] - server list provided by user: [192.168.31.239:8848]
+2021-02-24 21:02:21.045 [ com.alibaba.nacos.client.naming.updater ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 195 ] - server list provided by user: [192.168.31.239:8848]
+2021-02-24 21:02:21.052 [ com.alibaba.nacos.naming.failover ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 147 ] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2021-02-24 21:02:21.130 [ main ] - [ DEBUG ] [ i.n.util.internal.logging.InternalLoggerFactory : 45 ] - Using SLF4J as the default logging framework
+2021-02-24 21:02:21.136 [ main ] - [ DEBUG ] [ io.lettuce.core.resource.DefaultClientResources : 108 ] - -Dio.netty.eventLoopThreads: 4
+2021-02-24 21:02:21.165 [ main ] - [ DEBUG ] [ i.l.core.resource.DefaultEventLoopGroupProvider : 196 ] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2021-02-24 21:02:21.232 [ main ] - [ DEBUG ] [ io.netty.util.internal.InternalThreadLocalMap : 56 ] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2021-02-24 21:02:21.235 [ main ] - [ DEBUG ] [ io.netty.util.internal.InternalThreadLocalMap : 59 ] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2021-02-24 21:02:21.259 [ main ] - [ DEBUG ] [ io.netty.util.ResourceLeakDetector : 129 ] - -Dio.netty.leakDetection.level: simple
+2021-02-24 21:02:21.263 [ main ] - [ DEBUG ] [ io.netty.util.ResourceLeakDetector : 130 ] - -Dio.netty.leakDetection.targetRecords: 4
+2021-02-24 21:02:21.267 [ main ] - [ DEBUG ] [ io.netty.util.ResourceLeakDetectorFactory : 196 ] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6651efa4
+2021-02-24 21:02:21.283 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 1036 ] - Platform: Windows
+2021-02-24 21:02:21.285 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 417 ] - -Dio.netty.noUnsafe: false
+2021-02-24 21:02:21.297 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 897 ] - Java version: 11
+2021-02-24 21:02:21.299 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 130 ] - sun.misc.Unsafe.theUnsafe: available
+2021-02-24 21:02:21.314 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 154 ] - sun.misc.Unsafe.copyMemory: available
+2021-02-24 21:02:21.320 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 192 ] - java.nio.Buffer.address: available
+2021-02-24 21:02:21.335 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 266 ] - direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31)
+	at io.netty.util.internal.PlatformDependent0$4.run(PlatformDependent0.java:238)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:232)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:293)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:109)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:218)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:197)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:179)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:163)
+	at io.lettuce.core.resource.DefaultClientResources.<init>(DefaultClientResources.java:183)
+	at io.lettuce.core.resource.DefaultClientResources$Builder.build(DefaultClientResources.java:562)
+	at io.lettuce.core.resource.DefaultClientResources.create(DefaultClientResources.java:247)
+	at org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration.lettuceClientResources(LettuceConnectionConfiguration.java:66)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:652)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:485)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at cn.smile.smilemall.search.SmilemallSearchApplication.main(SmilemallSearchApplication.java:18)
+2021-02-24 21:02:21.347 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 331 ] - java.nio.Bits.unaligned: available, true
+2021-02-24 21:02:21.355 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 390 ] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @4d72c492
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:361)
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:591)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:558)
+	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:352)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:343)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:293)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:109)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:218)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:197)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:179)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:163)
+	at io.lettuce.core.resource.DefaultClientResources.<init>(DefaultClientResources.java:183)
+	at io.lettuce.core.resource.DefaultClientResources$Builder.build(DefaultClientResources.java:562)
+	at io.lettuce.core.resource.DefaultClientResources.create(DefaultClientResources.java:247)
+	at org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration.lettuceClientResources(LettuceConnectionConfiguration.java:66)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:652)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:485)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at cn.smile.smilemall.search.SmilemallSearchApplication.main(SmilemallSearchApplication.java:18)
+2021-02-24 21:02:21.362 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 403 ] - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2021-02-24 21:02:21.363 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 1079 ] - sun.misc.Unsafe: available
+2021-02-24 21:02:21.365 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 1181 ] - maxDirectMemory: 104857600 bytes (maybe)
+2021-02-24 21:02:21.369 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 1200 ] - -Dio.netty.tmpdir: C:\Users\Administrator\AppData\Local\Temp (java.io.tmpdir)
+2021-02-24 21:02:21.370 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 1279 ] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2021-02-24 21:02:21.383 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 177 ] - -Dio.netty.maxDirectMemory: -1 bytes
+2021-02-24 21:02:21.383 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 184 ] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2021-02-24 21:02:21.395 [ main ] - [ DEBUG ] [ io.netty.util.internal.CleanerJava9 : 71 ] - java.nio.ByteBuffer.cleaner(): available
+2021-02-24 21:02:21.396 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 204 ] - -Dio.netty.noPreferDirect: false
+2021-02-24 21:02:21.406 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 940 ] - org.jctools-core.MpscChunkedArrayQueue: available
+2021-02-24 21:02:21.554 [ main ] - [ DEBUG ] [ reactor.util.Loggers$LoggerFactory : 249 ] - Using Slf4j logging framework
+2021-02-24 21:02:22.001 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 154 ] - -Dio.netty.allocator.numHeapArenas: 1
+2021-02-24 21:02:22.002 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 155 ] - -Dio.netty.allocator.numDirectArenas: 1
+2021-02-24 21:02:22.003 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 157 ] - -Dio.netty.allocator.pageSize: 8192
+2021-02-24 21:02:22.003 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 162 ] - -Dio.netty.allocator.maxOrder: 11
+2021-02-24 21:02:22.003 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 166 ] - -Dio.netty.allocator.chunkSize: 16777216
+2021-02-24 21:02:22.004 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 167 ] - -Dio.netty.allocator.smallCacheSize: 256
+2021-02-24 21:02:22.004 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 168 ] - -Dio.netty.allocator.normalCacheSize: 64
+2021-02-24 21:02:22.005 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 169 ] - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2021-02-24 21:02:22.005 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 170 ] - -Dio.netty.allocator.cacheTrimInterval: 8192
+2021-02-24 21:02:22.005 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 171 ] - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2021-02-24 21:02:22.006 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 172 ] - -Dio.netty.allocator.useCacheForAllThreads: true
+2021-02-24 21:02:22.006 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 173 ] - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2021-02-24 21:02:23.491 [ main ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 302 ] - failover-mode: false
+2021-02-24 21:02:23.494 [ main ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 476 ] - HTTP method: GET, url: http://192.168.31.239:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.56.1&serviceName=DEFAULT_GROUP%40%40smilemall-search&udpPort=60389&clusters=DEFAULT, body: {}
+2021-02-24 21:02:23.632 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-9220"]
+2021-02-24 21:02:23.660 [ main ] - [ INFO  ] [ com.alibaba.nacos.client.naming : 81 ] - [BEAT] adding beat: BeatInfo{port=9220, ip='192.168.31.49', weight=1.0, serviceName='DEFAULT_GROUP@@smilemall-search', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2021-02-24 21:02:23.662 [ main ] - [ INFO  ] [ com.alibaba.nacos.client.naming : 230 ] - [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@smilemall-search with instance: Instance{instanceId='null', ip='192.168.31.49', port=9220, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2021-02-24 21:02:23.665 [ main ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 476 ] - HTTP method: POST, url: http://192.168.31.239:8848/nacos/v1/ns/instance?app=unknown&groupName=DEFAULT_GROUP&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=public&port=9220&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.31.49&weight=1.0&ephemeral=true&serviceName=DEFAULT_GROUP%40%40smilemall-search, body: {}
+2021-02-24 21:02:23.672 [ main ] - [ INFO  ] [ c.a.cloud.nacos.registry.NacosServiceRegistry : 75 ] - nacos registry, DEFAULT_GROUP smilemall-search 192.168.31.49:9220 register finished
+2021-02-24 21:02:24.630 [ com.alibaba.nacos.client.naming.updater ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 476 ] - HTTP method: GET, url: http://192.168.31.239:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.56.1&serviceName=DEFAULT_GROUP%40%40smilemall-search&udpPort=60389&clusters=DEFAULT, body: {}
+2021-02-24 21:02:24.733 [ com.alibaba.nacos.client.naming.updater ] - [ INFO  ] [ com.alibaba.nacos.client.naming : 228 ] - new ips(1) service: DEFAULT_GROUP@@smilemall-search@@DEFAULT -> [{"instanceId":"192.168.31.49#9220#DEFAULT#DEFAULT_GROUP@@smilemall-search","ip":"192.168.31.49","port":9220,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@smilemall-search","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2021-02-24 21:02:24.736 [ nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent ] - [ DEBUG ] [ com.alibaba.nacos.common.notify.NotifyCenter : 193 ] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@29b50498 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@6a7aa675
+2021-02-24 21:02:24.743 [ com.alibaba.nacos.client.naming.updater ] - [ INFO  ] [ com.alibaba.nacos.client.naming : 267 ] - current ips:(1) service: DEFAULT_GROUP@@smilemall-search@@DEFAULT -> [{"instanceId":"192.168.31.49#9220#DEFAULT#DEFAULT_GROUP@@smilemall-search","ip":"192.168.31.49","port":9220,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@smilemall-search","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2021-02-24 21:02:25.300 [ RMI TCP Connection(6)-192.168.56.1 ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 476 ] - HTTP method: GET, url: http://192.168.31.239:8848/nacos/v1/ns/operator/metrics?app=unknown&namespaceId=public, body: {}
+2021-02-24 21:02:25.306 [ RMI TCP Connection(7)-192.168.56.1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-24 21:02:25.525 [ RMI TCP Connection(6)-192.168.56.1 ] - [ DEBUG ] [ org.apache.http.impl.nio.client.MainClientExec : 121 ] - [exchange: 1] start execution
+2021-02-24 21:02:25.538 [ RMI TCP Connection(6)-192.168.56.1 ] - [ DEBUG ] [ org.apache.http.client.protocol.RequestAddCookies : 123 ] - CookieSpec selected: default
+2021-02-24 21:02:25.561 [ RMI TCP Connection(6)-192.168.56.1 ] - [ DEBUG ] [ org.apache.http.client.protocol.RequestAuthCache : 131 ] - Re-using cached 'basic' auth scheme for http://192.168.31.239:9200
+2021-02-24 21:02:25.562 [ RMI TCP Connection(6)-192.168.56.1 ] - [ DEBUG ] [ org.apache.http.client.protocol.RequestAuthCache : 140 ] - No credentials for preemptive authentication
+2021-02-24 21:02:25.562 [ RMI TCP Connection(6)-192.168.56.1 ] - [ DEBUG ] [ o.a.http.impl.nio.client.InternalHttpAsyncClient : 366 ] - [exchange: 1] Request connection for {}->http://192.168.31.239:9200
+2021-02-24 21:02:25.582 [ RMI TCP Connection(6)-192.168.56.1 ] - [ DEBUG ] [ o.a.h.i.n.conn.PoolingNHttpClientConnectionManager : 279 ] - Connection request: [route: {}->http://192.168.31.239:9200][total kept alive: 0; route allocated: 0 of 10; total allocated: 0 of 30]
+2021-02-24 21:02:25.630 [ I/O dispatcher 1 ] - [ DEBUG ] [ o.a.h.i.n.conn.PoolingNHttpClientConnectionManager : 303 ] - Connection leased: [id: http-outgoing-0][route: {}->http://192.168.31.239:9200][total kept alive: 0; route allocated: 1 of 10; total allocated: 0 of 30]
+2021-02-24 21:02:25.631 [ I/O dispatcher 1 ] - [ DEBUG ] [ o.a.http.impl.nio.client.InternalHttpAsyncClient : 313 ] - [exchange: 1] Connection allocated: CPoolProxy{http-outgoing-0 [ACTIVE]}
+2021-02-24 21:02:25.631 [ I/O dispatcher 1 ] - [ DEBUG ] [ o.a.h.i.nio.conn.ManagedNHttpClientConnectionImpl : 182 ] - http-outgoing-0 192.168.31.49:56314<->192.168.31.239:9200[ACTIVE][r:]: Set attribute http.nio.exchange-handler
+2021-02-24 21:02:25.632 [ I/O dispatcher 1 ] - [ DEBUG ] [ o.a.h.i.nio.conn.ManagedNHttpClientConnectionImpl : 108 ] - http-outgoing-0 192.168.31.49:56314<->192.168.31.239:9200[ACTIVE][rw:]: Event set [w]
+2021-02-24 21:02:25.632 [ I/O dispatcher 1 ] - [ DEBUG ] [ o.a.h.i.nio.conn.ManagedNHttpClientConnectionImpl : 154 ] - http-outgoing-0 192.168.31.49:56314<->192.168.31.239:9200[ACTIVE][rw:]: Set timeout 0
+2021-02-24 21:02:25.632 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.impl.nio.client.InternalIODispatch : 54 ] - http-outgoing-0 [ACTIVE]: Connected
+2021-02-24 21:02:25.633 [ I/O dispatcher 1 ] - [ DEBUG ] [ o.a.h.i.nio.conn.ManagedNHttpClientConnectionImpl : 182 ] - http-outgoing-0 192.168.31.49:56314<->192.168.31.239:9200[ACTIVE][rw:]: Set attribute http.nio.http-exchange-state
+2021-02-24 21:02:25.634 [ I/O dispatcher 1 ] - [ DEBUG ] [ o.a.http.impl.nio.client.InternalHttpAsyncClient : 166 ] - [exchange: 1] Start connection routing
+2021-02-24 21:02:25.635 [ I/O dispatcher 1 ] - [ DEBUG ] [ o.a.http.impl.nio.client.InternalHttpAsyncClient : 224 ] - [exchange: 1] route completed
+2021-02-24 21:02:25.635 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.impl.nio.client.MainClientExec : 188 ] - [exchange: 1] Connection route established
+2021-02-24 21:02:25.636 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.impl.nio.client.MainClientExec : 215 ] - [exchange: 1] Attempt 1 to execute request
+2021-02-24 21:02:25.636 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.impl.nio.client.MainClientExec : 222 ] - [exchange: 1] Target auth state: UNCHALLENGED
+2021-02-24 21:02:25.636 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.impl.nio.client.MainClientExec : 229 ] - [exchange: 1] Proxy auth state: UNCHALLENGED
+2021-02-24 21:02:25.637 [ I/O dispatcher 1 ] - [ DEBUG ] [ o.a.h.i.nio.conn.ManagedNHttpClientConnectionImpl : 154 ] - http-outgoing-0 192.168.31.49:56314<->192.168.31.239:9200[ACTIVE][rw:]: Set timeout 30000
+2021-02-24 21:02:25.637 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.headers : 136 ] - http-outgoing-0 >> GET /_cluster/health/ HTTP/1.1
+2021-02-24 21:02:25.638 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.headers : 139 ] - http-outgoing-0 >> Content-Length: 0
+2021-02-24 21:02:25.638 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.headers : 139 ] - http-outgoing-0 >> Host: 192.168.31.239:9200
+2021-02-24 21:02:25.638 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.headers : 139 ] - http-outgoing-0 >> Connection: Keep-Alive
+2021-02-24 21:02:25.638 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.headers : 139 ] - http-outgoing-0 >> User-Agent: Apache-HttpAsyncClient/4.1.4 (Java/11.0.7)
+2021-02-24 21:02:25.640 [ I/O dispatcher 1 ] - [ DEBUG ] [ o.a.h.i.nio.conn.ManagedNHttpClientConnectionImpl : 108 ] - http-outgoing-0 192.168.31.49:56314<->192.168.31.239:9200[ACTIVE][rw:]: Event set [w]
+2021-02-24 21:02:25.640 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.impl.nio.client.MainClientExec : 273 ] - [exchange: 1] Request completed
+2021-02-24 21:02:25.641 [ I/O dispatcher 1 ] - [ DEBUG ] [ o.a.h.i.nio.conn.ManagedNHttpClientConnectionImpl : 222 ] - http-outgoing-0 192.168.31.49:56314<->192.168.31.239:9200[ACTIVE][rw:w]: 160 bytes written
+2021-02-24 21:02:25.641 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.wire : 54 ] - http-outgoing-0 >> "GET /_cluster/health/ HTTP/1.1[\r][\n]"
+2021-02-24 21:02:25.641 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.wire : 54 ] - http-outgoing-0 >> "Content-Length: 0[\r][\n]"
+2021-02-24 21:02:25.641 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.wire : 54 ] - http-outgoing-0 >> "Host: 192.168.31.239:9200[\r][\n]"
+2021-02-24 21:02:25.642 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.wire : 54 ] - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2021-02-24 21:02:25.642 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.wire : 54 ] - http-outgoing-0 >> "User-Agent: Apache-HttpAsyncClient/4.1.4 (Java/11.0.7)[\r][\n]"
+2021-02-24 21:02:25.642 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.wire : 54 ] - http-outgoing-0 >> "[\r][\n]"
+2021-02-24 21:02:25.642 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.impl.nio.client.InternalIODispatch : 71 ] - http-outgoing-0 [ACTIVE] Request ready
+2021-02-24 21:02:25.642 [ I/O dispatcher 1 ] - [ DEBUG ] [ o.a.h.i.nio.conn.ManagedNHttpClientConnectionImpl : 116 ] - http-outgoing-0 192.168.31.49:56314<->192.168.31.239:9200[ACTIVE][r:w]: Event cleared [w]
+2021-02-24 21:02:25.649 [ I/O dispatcher 1 ] - [ DEBUG ] [ o.a.h.i.nio.conn.ManagedNHttpClientConnectionImpl : 206 ] - http-outgoing-0 192.168.31.49:56314<->192.168.31.239:9200[ACTIVE][r:r]: 491 bytes read
+2021-02-24 21:02:25.650 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.wire : 54 ] - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2021-02-24 21:02:25.650 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.wire : 54 ] - http-outgoing-0 << "content-type: application/json; charset=UTF-8[\r][\n]"
+2021-02-24 21:02:25.650 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.wire : 54 ] - http-outgoing-0 << "content-length: 404[\r][\n]"
+2021-02-24 21:02:25.650 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.wire : 54 ] - http-outgoing-0 << "[\r][\n]"
+2021-02-24 21:02:25.650 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.wire : 68 ] - http-outgoing-0 << "{"cluster_name":"elasticsearch","status":"yellow","timed_out":false,"number_of_nodes":1,"number_of_data_nodes":1,"active_primary_shards":10,"active_shards":10,"relocating_shards":0,"initializing_shards":0,"unassigned_shards":7,"delayed_unassigned_shards":0,"number_of_pending_tasks":0,"number_of_in_flight_fetch":0,"task_max_waiting_in_queue_millis":0,"active_shards_percent_as_number":58.82352941176471}"
+2021-02-24 21:02:25.657 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.headers : 125 ] - http-outgoing-0 << HTTP/1.1 200 OK
+2021-02-24 21:02:25.657 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.headers : 128 ] - http-outgoing-0 << content-type: application/json; charset=UTF-8
+2021-02-24 21:02:25.658 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.headers : 128 ] - http-outgoing-0 << content-length: 404
+2021-02-24 21:02:25.658 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.impl.nio.client.InternalIODispatch : 106 ] - http-outgoing-0 [ACTIVE(404)] Response received
+2021-02-24 21:02:25.658 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.impl.nio.client.MainClientExec : 286 ] - [exchange: 1] Response received HTTP/1.1 200 OK
+2021-02-24 21:02:25.664 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.impl.nio.client.InternalIODispatch : 81 ] - http-outgoing-0 [ACTIVE(404)] Input ready
+2021-02-24 21:02:25.665 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.impl.nio.client.MainClientExec : 325 ] - [exchange: 1] Consume content
+2021-02-24 21:02:25.666 [ I/O dispatcher 1 ] - [ DEBUG ] [ o.a.http.impl.nio.client.InternalHttpAsyncClient : 298 ] - [exchange: 1] Connection can be kept alive indefinitely
+2021-02-24 21:02:25.669 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.impl.nio.client.MainClientExec : 385 ] - [exchange: 1] Response processed
+2021-02-24 21:02:25.669 [ I/O dispatcher 1 ] - [ DEBUG ] [ o.a.http.impl.nio.client.InternalHttpAsyncClient : 239 ] - [exchange: 1] releasing connection
+2021-02-24 21:02:25.669 [ I/O dispatcher 1 ] - [ DEBUG ] [ o.a.h.i.nio.conn.ManagedNHttpClientConnectionImpl : 190 ] - http-outgoing-0 192.168.31.49:56314<->192.168.31.239:9200[ACTIVE][r:r]: Remove attribute http.nio.exchange-handler
+2021-02-24 21:02:25.669 [ I/O dispatcher 1 ] - [ DEBUG ] [ o.a.h.i.n.conn.PoolingNHttpClientConnectionManager : 373 ] - Releasing connection: [id: http-outgoing-0][route: {}->http://192.168.31.239:9200][total kept alive: 0; route allocated: 1 of 10; total allocated: 1 of 30]
+2021-02-24 21:02:25.669 [ I/O dispatcher 1 ] - [ DEBUG ] [ o.a.h.i.n.conn.PoolingNHttpClientConnectionManager : 387 ] - Connection [id: http-outgoing-0][route: {}->http://192.168.31.239:9200] can be kept alive indefinitely
+2021-02-24 21:02:25.669 [ I/O dispatcher 1 ] - [ DEBUG ] [ o.a.h.i.nio.conn.ManagedNHttpClientConnectionImpl : 154 ] - http-outgoing-0 192.168.31.49:56314<->192.168.31.239:9200[ACTIVE][r:r]: Set timeout 0
+2021-02-24 21:02:25.669 [ I/O dispatcher 1 ] - [ DEBUG ] [ o.a.h.i.n.conn.PoolingNHttpClientConnectionManager : 393 ] - Connection released: [id: http-outgoing-0][route: {}->http://192.168.31.239:9200][total kept alive: 1; route allocated: 1 of 10; total allocated: 1 of 30]
+2021-02-24 21:02:25.669 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.impl.nio.client.InternalIODispatch : 85 ] - http-outgoing-0 [ACTIVE] [content length: 404; pos: 404; completed: true]
+2021-02-24 21:02:25.677 [ RMI TCP Connection(6)-192.168.56.1 ] - [ DEBUG ] [ org.elasticsearch.client.RestClient : 59 ] - request [GET http://192.168.31.239:9200/_cluster/health/] returned [HTTP/1.1 200 OK]
+2021-02-24 21:02:25.683 [ RMI TCP Connection(6)-192.168.56.1 ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 476 ] - HTTP method: GET, url: http://192.168.31.239:8848/nacos/v1/ns/service/list?app=unknown&pageSize=2147483647&groupName=DEFAULT_GROUP&namespaceId=public&pageNo=1, body: {}
+2021-02-24 21:02:25.757 [ boundedElastic-1 ] - [ DEBUG ] [ io.lettuce.core.RedisClient : 263 ] - Trying to get a Redis connection for: RedisURI [host='localhost', port=6379]
+2021-02-24 21:02:25.892 [ boundedElastic-1 ] - [ DEBUG ] [ io.lettuce.core.EpollProvider : 70 ] - Starting without optional epoll library
+2021-02-24 21:02:25.895 [ boundedElastic-1 ] - [ DEBUG ] [ io.lettuce.core.KqueueProvider : 72 ] - Starting without optional kqueue library
+2021-02-24 21:02:25.898 [ boundedElastic-1 ] - [ DEBUG ] [ i.l.core.resource.DefaultEventLoopGroupProvider : 85 ] - Allocating executor io.netty.channel.nio.NioEventLoopGroup
+2021-02-24 21:02:25.898 [ boundedElastic-1 ] - [ DEBUG ] [ i.l.core.resource.DefaultEventLoopGroupProvider : 196 ] - Creating executor io.netty.channel.nio.NioEventLoopGroup
+2021-02-24 21:02:25.899 [ boundedElastic-1 ] - [ DEBUG ] [ io.netty.channel.MultithreadEventLoopGroup : 44 ] - -Dio.netty.eventLoopThreads: 8
+2021-02-24 21:02:25.905 [ boundedElastic-1 ] - [ DEBUG ] [ io.netty.channel.nio.NioEventLoop : 106 ] - -Dio.netty.noKeySetOptimization: false
+2021-02-24 21:02:25.905 [ boundedElastic-1 ] - [ DEBUG ] [ io.netty.channel.nio.NioEventLoop : 107 ] - -Dio.netty.selectorAutoRebuildThreshold: 512
+2021-02-24 21:02:25.915 [ boundedElastic-1 ] - [ DEBUG ] [ i.l.core.resource.DefaultEventLoopGroupProvider : 98 ] - Adding reference to io.netty.channel.nio.NioEventLoopGroup@102a584, existing ref count 0
+2021-02-24 21:02:25.932 [ boundedElastic-1 ] - [ DEBUG ] [ io.lettuce.core.RedisClient : 775 ] - Resolved SocketAddress localhost:6379 using RedisURI [host='localhost', port=6379]
+2021-02-24 21:02:25.932 [ boundedElastic-1 ] - [ DEBUG ] [ io.lettuce.core.RedisClient : 312 ] - Connecting to Redis at localhost:6379
+2021-02-24 21:02:25.940 [ boundedElastic-1 ] - [ DEBUG ] [ io.netty.channel.DefaultChannelId : 79 ] - -Dio.netty.processId: 10560 (auto-detected)
+2021-02-24 21:02:25.944 [ boundedElastic-1 ] - [ DEBUG ] [ io.netty.util.NetUtil : 135 ] - -Djava.net.preferIPv4Stack: false
+2021-02-24 21:02:25.945 [ boundedElastic-1 ] - [ DEBUG ] [ io.netty.util.NetUtil : 136 ] - -Djava.net.preferIPv6Addresses: false
+2021-02-24 21:02:26.054 [ com.alibaba.nacos.naming.failover ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 147 ] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2021-02-24 21:02:26.261 [ boundedElastic-1 ] - [ DEBUG ] [ io.netty.util.NetUtilInitializations : 129 ] - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2021-02-24 21:02:26.262 [ boundedElastic-1 ] - [ DEBUG ] [ io.netty.util.NetUtil : 187 ] - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2021-02-24 21:02:26.530 [ boundedElastic-1 ] - [ DEBUG ] [ io.netty.channel.DefaultChannelId : 101 ] - -Dio.netty.machineId: 00:0e:c6:ff:fe:ac:b1:3a (auto-detected)
+2021-02-24 21:02:26.548 [ boundedElastic-1 ] - [ DEBUG ] [ io.netty.buffer.ByteBufUtil : 87 ] - -Dio.netty.allocator.type: pooled
+2021-02-24 21:02:26.549 [ boundedElastic-1 ] - [ DEBUG ] [ io.netty.buffer.ByteBufUtil : 96 ] - -Dio.netty.threadLocalDirectBufferSize: 0
+2021-02-24 21:02:26.549 [ boundedElastic-1 ] - [ DEBUG ] [ io.netty.buffer.ByteBufUtil : 99 ] - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2021-02-24 21:02:26.564 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.netty.util.Recycler : 102 ] - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2021-02-24 21:02:26.564 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.netty.util.Recycler : 103 ] - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2021-02-24 21:02:26.564 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.netty.util.Recycler : 104 ] - -Dio.netty.recycler.linkCapacity: 16
+2021-02-24 21:02:26.564 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.netty.util.Recycler : 105 ] - -Dio.netty.recycler.ratio: 8
+2021-02-24 21:02:26.564 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.netty.util.Recycler : 106 ] - -Dio.netty.recycler.delayedQueue.ratio: 8
+2021-02-24 21:02:26.572 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.netty.buffer.AbstractByteBuf : 63 ] - -Dio.netty.buffer.checkAccessible: true
+2021-02-24 21:02:26.572 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.netty.buffer.AbstractByteBuf : 64 ] - -Dio.netty.buffer.checkBounds: true
+2021-02-24 21:02:26.572 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.netty.util.ResourceLeakDetectorFactory : 196 ] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@74feefcb
+2021-02-24 21:02:26.597 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.lettuce.core.protocol.CommandHandler : 181 ] - [channel=0xfc1ee2d0, [id: 0x90418bbb] (inactive), chid=0x1] channelRegistered()
+2021-02-24 21:02:27.603 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.lettuce.core.RedisClient : 348 ] - Connecting to Redis at localhost:6379: localhost:6379
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-02-24 21:02:27.605 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.lettuce.core.RedisChannelHandler : 131 ] - close()
+2021-02-24 21:02:27.605 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.lettuce.core.RedisChannelHandler : 145 ] - closeAsync()
+2021-02-24 21:02:27.606 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.lettuce.core.protocol.DefaultEndpoint : 549 ] - [unknown, epid=0x1] closeAsync()
+2021-02-24 21:02:27.608 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.lettuce.core.protocol.CommandHandler : 198 ] - [channel=0xfc1ee2d0, [id: 0x90418bbb] (inactive), chid=0x1] channelUnregistered()
+2021-02-24 21:02:28.663 [ com.alibaba.nacos.naming.beat.sender ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 421 ] - [BEAT] public sending beat to server: BeatInfo{port=9220, ip='192.168.31.49', weight=1.0, serviceName='DEFAULT_GROUP@@smilemall-search', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2021-02-24 21:02:28.665 [ com.alibaba.nacos.naming.beat.sender ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 476 ] - HTTP method: PUT, url: http://192.168.31.239:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=DEFAULT_GROUP%40%40smilemall-search&namespaceId=public&port=9220&clusterName=DEFAULT&ip=192.168.31.49, body: {beat={"port":9220,"ip":"192.168.31.49","weight":1.0,"serviceName":"DEFAULT_GROUP@@smilemall-search","cluster":"DEFAULT","metadata":{"preserved.register.source":"SPRING_CLOUD"},"scheduled":false,"period":5000,"stopped":false}}
+2021-02-24 21:02:31.055 [ com.alibaba.nacos.naming.failover ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 147 ] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2021-02-24 21:02:33.674 [ com.alibaba.nacos.naming.beat.sender ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 421 ] - [BEAT] public sending beat to server: BeatInfo{port=9220, ip='192.168.31.49', weight=1.0, serviceName='DEFAULT_GROUP@@smilemall-search', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2021-02-24 21:02:33.674 [ com.alibaba.nacos.naming.beat.sender ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 476 ] - HTTP method: PUT, url: http://192.168.31.239:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=DEFAULT_GROUP%40%40smilemall-search&namespaceId=public&port=9220&clusterName=DEFAULT&ip=192.168.31.49, body: {beat={"port":9220,"ip":"192.168.31.49","weight":1.0,"serviceName":"DEFAULT_GROUP@@smilemall-search","cluster":"DEFAULT","metadata":{"preserved.register.source":"SPRING_CLOUD"},"scheduled":false,"period":5000,"stopped":false}}
+2021-02-24 21:02:34.744 [ com.alibaba.nacos.client.naming.updater ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 476 ] - HTTP method: GET, url: http://192.168.31.239:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.56.1&serviceName=DEFAULT_GROUP%40%40smilemall-search&udpPort=60389&clusters=DEFAULT, body: {}
+2021-02-24 21:02:36.057 [ com.alibaba.nacos.naming.failover ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 147 ] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2021-02-24 21:02:38.685 [ com.alibaba.nacos.naming.beat.sender ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 421 ] - [BEAT] public sending beat to server: BeatInfo{port=9220, ip='192.168.31.49', weight=1.0, serviceName='DEFAULT_GROUP@@smilemall-search', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2021-02-24 21:02:38.685 [ com.alibaba.nacos.naming.beat.sender ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 476 ] - HTTP method: PUT, url: http://192.168.31.239:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=DEFAULT_GROUP%40%40smilemall-search&namespaceId=public&port=9220&clusterName=DEFAULT&ip=192.168.31.49, body: {beat={"port":9220,"ip":"192.168.31.49","weight":1.0,"serviceName":"DEFAULT_GROUP@@smilemall-search","cluster":"DEFAULT","metadata":{"preserved.register.source":"SPRING_CLOUD"},"scheduled":false,"period":5000,"stopped":false}}
+2021-02-24 21:02:41.059 [ com.alibaba.nacos.naming.failover ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 147 ] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2021-02-24 21:02:43.694 [ com.alibaba.nacos.naming.beat.sender ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 421 ] - [BEAT] public sending beat to server: BeatInfo{port=9220, ip='192.168.31.49', weight=1.0, serviceName='DEFAULT_GROUP@@smilemall-search', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2021-02-24 21:02:43.694 [ com.alibaba.nacos.naming.beat.sender ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 476 ] - HTTP method: PUT, url: http://192.168.31.239:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=DEFAULT_GROUP%40%40smilemall-search&namespaceId=public&port=9220&clusterName=DEFAULT&ip=192.168.31.49, body: {beat={"port":9220,"ip":"192.168.31.49","weight":1.0,"serviceName":"DEFAULT_GROUP@@smilemall-search","cluster":"DEFAULT","metadata":{"preserved.register.source":"SPRING_CLOUD"},"scheduled":false,"period":5000,"stopped":false}}
+2021-02-24 21:02:44.754 [ com.alibaba.nacos.client.naming.updater ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 476 ] - HTTP method: GET, url: http://192.168.31.239:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.56.1&serviceName=DEFAULT_GROUP%40%40smilemall-search&udpPort=60389&clusters=DEFAULT, body: {}
+2021-02-24 21:02:46.061 [ com.alibaba.nacos.naming.failover ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 147 ] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2021-02-24 21:02:48.707 [ com.alibaba.nacos.naming.beat.sender ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 421 ] - [BEAT] public sending beat to server: BeatInfo{port=9220, ip='192.168.31.49', weight=1.0, serviceName='DEFAULT_GROUP@@smilemall-search', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2021-02-24 21:02:48.707 [ com.alibaba.nacos.naming.beat.sender ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 476 ] - HTTP method: PUT, url: http://192.168.31.239:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=DEFAULT_GROUP%40%40smilemall-search&namespaceId=public&port=9220&clusterName=DEFAULT&ip=192.168.31.49, body: {beat={"port":9220,"ip":"192.168.31.49","weight":1.0,"serviceName":"DEFAULT_GROUP@@smilemall-search","cluster":"DEFAULT","metadata":{"preserved.register.source":"SPRING_CLOUD"},"scheduled":false,"period":5000,"stopped":false}}
+2021-02-24 21:02:51.048 [ com.alibaba.nacos.client.naming.updater ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 195 ] - server list provided by user: [192.168.31.239:8848]
+2021-02-24 21:02:51.063 [ com.alibaba.nacos.naming.failover ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 147 ] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2021-02-24 21:02:53.715 [ com.alibaba.nacos.naming.beat.sender ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 421 ] - [BEAT] public sending beat to server: BeatInfo{port=9220, ip='192.168.31.49', weight=1.0, serviceName='DEFAULT_GROUP@@smilemall-search', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2021-02-24 21:02:53.716 [ com.alibaba.nacos.naming.beat.sender ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 476 ] - HTTP method: PUT, url: http://192.168.31.239:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=DEFAULT_GROUP%40%40smilemall-search&namespaceId=public&port=9220&clusterName=DEFAULT&ip=192.168.31.49, body: {beat={"port":9220,"ip":"192.168.31.49","weight":1.0,"serviceName":"DEFAULT_GROUP@@smilemall-search","cluster":"DEFAULT","metadata":{"preserved.register.source":"SPRING_CLOUD"},"scheduled":false,"period":5000,"stopped":false}}
+2021-02-24 21:02:54.763 [ com.alibaba.nacos.client.naming.updater ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 476 ] - HTTP method: GET, url: http://192.168.31.239:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.56.1&serviceName=DEFAULT_GROUP%40%40smilemall-search&udpPort=60389&clusters=DEFAULT, body: {}
+2021-02-24 21:02:56.064 [ com.alibaba.nacos.naming.failover ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 147 ] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2021-02-24 21:02:58.731 [ com.alibaba.nacos.naming.beat.sender ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 421 ] - [BEAT] public sending beat to server: BeatInfo{port=9220, ip='192.168.31.49', weight=1.0, serviceName='DEFAULT_GROUP@@smilemall-search', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2021-02-24 21:02:58.731 [ com.alibaba.nacos.naming.beat.sender ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 476 ] - HTTP method: PUT, url: http://192.168.31.239:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=DEFAULT_GROUP%40%40smilemall-search&namespaceId=public&port=9220&clusterName=DEFAULT&ip=192.168.31.49, body: {beat={"port":9220,"ip":"192.168.31.49","weight":1.0,"serviceName":"DEFAULT_GROUP@@smilemall-search","cluster":"DEFAULT","metadata":{"preserved.register.source":"SPRING_CLOUD"},"scheduled":false,"period":5000,"stopped":false}}
+2021-02-24 21:03:01.065 [ com.alibaba.nacos.naming.failover ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 147 ] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2021-02-24 21:03:03.739 [ com.alibaba.nacos.naming.beat.sender ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 421 ] - [BEAT] public sending beat to server: BeatInfo{port=9220, ip='192.168.31.49', weight=1.0, serviceName='DEFAULT_GROUP@@smilemall-search', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2021-02-24 21:03:03.740 [ com.alibaba.nacos.naming.beat.sender ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 476 ] - HTTP method: PUT, url: http://192.168.31.239:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=DEFAULT_GROUP%40%40smilemall-search&namespaceId=public&port=9220&clusterName=DEFAULT&ip=192.168.31.49, body: {beat={"port":9220,"ip":"192.168.31.49","weight":1.0,"serviceName":"DEFAULT_GROUP@@smilemall-search","cluster":"DEFAULT","metadata":{"preserved.register.source":"SPRING_CLOUD"},"scheduled":false,"period":5000,"stopped":false}}
+2021-02-24 21:03:04.771 [ com.alibaba.nacos.client.naming.updater ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 476 ] - HTTP method: GET, url: http://192.168.31.239:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.56.1&serviceName=DEFAULT_GROUP%40%40smilemall-search&udpPort=60389&clusters=DEFAULT, body: {}
+2021-02-24 21:03:06.067 [ com.alibaba.nacos.naming.failover ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 147 ] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2021-02-24 21:03:08.750 [ com.alibaba.nacos.naming.beat.sender ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 421 ] - [BEAT] public sending beat to server: BeatInfo{port=9220, ip='192.168.31.49', weight=1.0, serviceName='DEFAULT_GROUP@@smilemall-search', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2021-02-24 21:03:08.751 [ com.alibaba.nacos.naming.beat.sender ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 476 ] - HTTP method: PUT, url: http://192.168.31.239:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=DEFAULT_GROUP%40%40smilemall-search&namespaceId=public&port=9220&clusterName=DEFAULT&ip=192.168.31.49, body: {beat={"port":9220,"ip":"192.168.31.49","weight":1.0,"serviceName":"DEFAULT_GROUP@@smilemall-search","cluster":"DEFAULT","metadata":{"preserved.register.source":"SPRING_CLOUD"},"scheduled":false,"period":5000,"stopped":false}}
+2021-02-24 21:03:11.068 [ com.alibaba.nacos.naming.failover ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 147 ] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2021-02-24 21:03:13.761 [ com.alibaba.nacos.naming.beat.sender ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 421 ] - [BEAT] public sending beat to server: BeatInfo{port=9220, ip='192.168.31.49', weight=1.0, serviceName='DEFAULT_GROUP@@smilemall-search', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2021-02-24 21:03:13.762 [ com.alibaba.nacos.naming.beat.sender ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 476 ] - HTTP method: PUT, url: http://192.168.31.239:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=DEFAULT_GROUP%40%40smilemall-search&namespaceId=public&port=9220&clusterName=DEFAULT&ip=192.168.31.49, body: {beat={"port":9220,"ip":"192.168.31.49","weight":1.0,"serviceName":"DEFAULT_GROUP@@smilemall-search","cluster":"DEFAULT","metadata":{"preserved.register.source":"SPRING_CLOUD"},"scheduled":false,"period":5000,"stopped":false}}
+2021-02-24 21:03:14.779 [ com.alibaba.nacos.client.naming.updater ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 476 ] - HTTP method: GET, url: http://192.168.31.239:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.56.1&serviceName=DEFAULT_GROUP%40%40smilemall-search&udpPort=60389&clusters=DEFAULT, body: {}
+2021-02-24 21:03:16.070 [ com.alibaba.nacos.naming.failover ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 147 ] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2021-02-24 21:03:18.774 [ com.alibaba.nacos.naming.beat.sender ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 421 ] - [BEAT] public sending beat to server: BeatInfo{port=9220, ip='192.168.31.49', weight=1.0, serviceName='DEFAULT_GROUP@@smilemall-search', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2021-02-24 21:03:18.774 [ com.alibaba.nacos.naming.beat.sender ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 476 ] - HTTP method: PUT, url: http://192.168.31.239:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=DEFAULT_GROUP%40%40smilemall-search&namespaceId=public&port=9220&clusterName=DEFAULT&ip=192.168.31.49, body: {beat={"port":9220,"ip":"192.168.31.49","weight":1.0,"serviceName":"DEFAULT_GROUP@@smilemall-search","cluster":"DEFAULT","metadata":{"preserved.register.source":"SPRING_CLOUD"},"scheduled":false,"period":5000,"stopped":false}}
+2021-02-24 21:03:21.048 [ com.alibaba.nacos.client.naming.updater ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 195 ] - server list provided by user: [192.168.31.239:8848]
+2021-02-24 21:03:21.071 [ com.alibaba.nacos.naming.failover ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 147 ] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2021-02-24 21:03:23.782 [ com.alibaba.nacos.naming.beat.sender ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 421 ] - [BEAT] public sending beat to server: BeatInfo{port=9220, ip='192.168.31.49', weight=1.0, serviceName='DEFAULT_GROUP@@smilemall-search', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2021-02-24 21:03:23.782 [ com.alibaba.nacos.naming.beat.sender ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 476 ] - HTTP method: PUT, url: http://192.168.31.239:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=DEFAULT_GROUP%40%40smilemall-search&namespaceId=public&port=9220&clusterName=DEFAULT&ip=192.168.31.49, body: {beat={"port":9220,"ip":"192.168.31.49","weight":1.0,"serviceName":"DEFAULT_GROUP@@smilemall-search","cluster":"DEFAULT","metadata":{"preserved.register.source":"SPRING_CLOUD"},"scheduled":false,"period":5000,"stopped":false}}
+2021-02-24 21:03:24.788 [ com.alibaba.nacos.client.naming.updater ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 476 ] - HTTP method: GET, url: http://192.168.31.239:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.56.1&serviceName=DEFAULT_GROUP%40%40smilemall-search&udpPort=60389&clusters=DEFAULT, body: {}
+2021-02-24 21:03:26.072 [ com.alibaba.nacos.naming.failover ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 147 ] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2021-02-24 21:03:28.793 [ com.alibaba.nacos.naming.beat.sender ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 421 ] - [BEAT] public sending beat to server: BeatInfo{port=9220, ip='192.168.31.49', weight=1.0, serviceName='DEFAULT_GROUP@@smilemall-search', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2021-02-24 21:03:28.793 [ com.alibaba.nacos.naming.beat.sender ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 476 ] - HTTP method: PUT, url: http://192.168.31.239:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=DEFAULT_GROUP%40%40smilemall-search&namespaceId=public&port=9220&clusterName=DEFAULT&ip=192.168.31.49, body: {beat={"port":9220,"ip":"192.168.31.49","weight":1.0,"serviceName":"DEFAULT_GROUP@@smilemall-search","cluster":"DEFAULT","metadata":{"preserved.register.source":"SPRING_CLOUD"},"scheduled":false,"period":5000,"stopped":false}}
+2021-02-24 21:03:31.074 [ com.alibaba.nacos.naming.failover ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 147 ] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2021-02-24 21:03:33.801 [ com.alibaba.nacos.naming.beat.sender ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 421 ] - [BEAT] public sending beat to server: BeatInfo{port=9220, ip='192.168.31.49', weight=1.0, serviceName='DEFAULT_GROUP@@smilemall-search', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2021-02-24 21:03:33.801 [ com.alibaba.nacos.naming.beat.sender ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 476 ] - HTTP method: PUT, url: http://192.168.31.239:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=DEFAULT_GROUP%40%40smilemall-search&namespaceId=public&port=9220&clusterName=DEFAULT&ip=192.168.31.49, body: {beat={"port":9220,"ip":"192.168.31.49","weight":1.0,"serviceName":"DEFAULT_GROUP@@smilemall-search","cluster":"DEFAULT","metadata":{"preserved.register.source":"SPRING_CLOUD"},"scheduled":false,"period":5000,"stopped":false}}
+2021-02-24 21:03:34.796 [ com.alibaba.nacos.client.naming.updater ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 476 ] - HTTP method: GET, url: http://192.168.31.239:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.56.1&serviceName=DEFAULT_GROUP%40%40smilemall-search&udpPort=60389&clusters=DEFAULT, body: {}
+2021-02-24 21:03:36.074 [ com.alibaba.nacos.naming.failover ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 147 ] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2021-02-24 21:03:38.816 [ com.alibaba.nacos.naming.beat.sender ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 421 ] - [BEAT] public sending beat to server: BeatInfo{port=9220, ip='192.168.31.49', weight=1.0, serviceName='DEFAULT_GROUP@@smilemall-search', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2021-02-24 21:03:38.816 [ com.alibaba.nacos.naming.beat.sender ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 476 ] - HTTP method: PUT, url: http://192.168.31.239:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=DEFAULT_GROUP%40%40smilemall-search&namespaceId=public&port=9220&clusterName=DEFAULT&ip=192.168.31.49, body: {beat={"port":9220,"ip":"192.168.31.49","weight":1.0,"serviceName":"DEFAULT_GROUP@@smilemall-search","cluster":"DEFAULT","metadata":{"preserved.register.source":"SPRING_CLOUD"},"scheduled":false,"period":5000,"stopped":false}}
+2021-02-24 21:03:41.075 [ com.alibaba.nacos.naming.failover ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 147 ] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2021-02-24 21:03:43.823 [ com.alibaba.nacos.naming.beat.sender ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 421 ] - [BEAT] public sending beat to server: BeatInfo{port=9220, ip='192.168.31.49', weight=1.0, serviceName='DEFAULT_GROUP@@smilemall-search', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2021-02-24 21:03:43.826 [ com.alibaba.nacos.naming.beat.sender ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 476 ] - HTTP method: PUT, url: http://192.168.31.239:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=DEFAULT_GROUP%40%40smilemall-search&namespaceId=public&port=9220&clusterName=DEFAULT&ip=192.168.31.49, body: {beat={"port":9220,"ip":"192.168.31.49","weight":1.0,"serviceName":"DEFAULT_GROUP@@smilemall-search","cluster":"DEFAULT","metadata":{"preserved.register.source":"SPRING_CLOUD"},"scheduled":false,"period":5000,"stopped":false}}
+2021-02-24 21:03:44.804 [ com.alibaba.nacos.client.naming.updater ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 476 ] - HTTP method: GET, url: http://192.168.31.239:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.56.1&serviceName=DEFAULT_GROUP%40%40smilemall-search&udpPort=60389&clusters=DEFAULT, body: {}
+2021-02-24 21:03:46.076 [ com.alibaba.nacos.naming.failover ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 147 ] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2021-02-24 21:03:47.336 [ Thread-12 ] - [ WARN  ] [ com.alibaba.nacos.common.notify.NotifyCenter : 145 ] - [NotifyCenter] Start destroying Publisher
+2021-02-24 21:03:47.336 [ Thread-12 ] - [ WARN  ] [ com.alibaba.nacos.common.notify.NotifyCenter : 162 ] - [NotifyCenter] Destruction of the end
+2021-02-24 21:03:47.336 [ Thread-1 ] - [ WARN  ] [ com.alibaba.nacos.common.http.HttpClientBeanHolder : 108 ] - [HttpClientBeanHolder] Start destroying common HttpClient
+2021-02-24 21:03:47.337 [ Thread-1 ] - [ WARN  ] [ com.alibaba.nacos.common.http.HttpClientBeanHolder : 114 ] - [HttpClientBeanHolder] Destruction of the end
+2021-02-24 21:03:47.612 [ SpringContextShutdownHook ] - [ DEBUG ] [ o.a.h.i.n.conn.PoolingNHttpClientConnectionManager : 232 ] - Connection manager is shutting down
+2021-02-24 21:03:47.612 [ SpringContextShutdownHook ] - [ DEBUG ] [ o.a.h.i.nio.conn.ManagedNHttpClientConnectionImpl : 123 ] - http-outgoing-0 192.168.31.49:56314<->192.168.31.239:9200[ACTIVE][r:r]: Close
+2021-02-24 21:03:47.613 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.impl.nio.client.InternalIODispatch : 62 ] - http-outgoing-0 [CLOSED]: Disconnected
+2021-02-24 21:03:47.613 [ SpringContextShutdownHook ] - [ DEBUG ] [ o.a.h.i.n.conn.PoolingNHttpClientConnectionManager : 234 ] - Connection manager shut down
+2021-02-24 21:03:47.634 [ SpringContextShutdownHook ] - [ DEBUG ] [ io.lettuce.core.RedisClient : 474 ] - Initiate shutdown (100, 100, MILLISECONDS)
+2021-02-24 21:03:47.638 [ SpringContextShutdownHook ] - [ DEBUG ] [ i.l.core.resource.DefaultEventLoopGroupProvider : 226 ] - Release executor io.netty.channel.nio.NioEventLoopGroup@102a584
+2021-02-24 21:03:47.639 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.netty.buffer.PoolThreadCache : 224 ] - Freed 1 thread-local buffer(s) from thread: lettuce-nioEventLoop-4-1
+2021-02-24 21:03:47.742 [ SpringContextShutdownHook ] - [ DEBUG ] [ io.lettuce.core.resource.DefaultClientResources : 631 ] - Initiate shutdown (0, 2, SECONDS)
+2021-02-24 21:03:47.744 [ SpringContextShutdownHook ] - [ DEBUG ] [ i.l.core.resource.DefaultEventLoopGroupProvider : 263 ] - Initiate shutdown (0, 2, SECONDS)
+2021-02-24 21:03:47.748 [ SpringContextShutdownHook ] - [ INFO  ] [ c.a.cloud.nacos.registry.NacosServiceRegistry : 90 ] - De-registering from Nacos Server now...
+2021-02-24 21:03:47.748 [ SpringContextShutdownHook ] - [ INFO  ] [ com.alibaba.nacos.client.naming : 101 ] - [BEAT] removing beat: DEFAULT_GROUP@@smilemall-search:192.168.31.49:9220 from beat map.
+2021-02-24 21:03:47.748 [ SpringContextShutdownHook ] - [ INFO  ] [ com.alibaba.nacos.client.naming : 260 ] - [DEREGISTER-SERVICE] public deregistering service DEFAULT_GROUP@@smilemall-search with instance: Instance{instanceId='null', ip='192.168.31.49', port=9220, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2021-02-24 21:03:47.748 [ SpringContextShutdownHook ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 476 ] - HTTP method: DELETE, url: http://192.168.31.239:8848/nacos/v1/ns/instance?app=unknown&namespaceId=public&port=9220&clusterName=DEFAULT&ip=192.168.31.49&ephemeral=true&serviceName=DEFAULT_GROUP%40%40smilemall-search, body: {}
+2021-02-24 21:03:47.755 [ SpringContextShutdownHook ] - [ INFO  ] [ c.a.cloud.nacos.registry.NacosServiceRegistry : 110 ] - De-registration finished.
+2021-02-24 21:03:47.755 [ SpringContextShutdownHook ] - [ INFO  ] [ com.alibaba.nacos.client.naming : 147 ] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2021-02-24 21:03:48.837 [ SpringContextShutdownHook ] - [ INFO  ] [ com.alibaba.nacos.client.naming : 149 ] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2021-02-24 21:03:48.837 [ SpringContextShutdownHook ] - [ INFO  ] [ com.alibaba.nacos.client.naming : 409 ] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2021-02-24 21:03:51.049 [ com.alibaba.nacos.client.naming.updater ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 195 ] - server list provided by user: [192.168.31.239:8848]
+2021-02-24 21:03:51.079 [ com.alibaba.nacos.naming.failover ] - [ DEBUG ] [ com.alibaba.nacos.client.naming : 147 ] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2021-02-24 21:03:51.839 [ SpringContextShutdownHook ] - [ INFO  ] [ com.alibaba.nacos.client.naming : 121 ] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2021-02-24 21:03:54.843 [ SpringContextShutdownHook ] - [ INFO  ] [ com.alibaba.nacos.client.naming : 125 ] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2021-02-24 21:03:54.843 [ SpringContextShutdownHook ] - [ INFO  ] [ com.alibaba.nacos.client.naming : 132 ] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2021-02-24 21:03:54.843 [ SpringContextShutdownHook ] - [ INFO  ] [ com.alibaba.nacos.client.naming : 134 ] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2021-02-24 21:03:54.844 [ SpringContextShutdownHook ] - [ INFO  ] [ com.alibaba.nacos.client.naming : 414 ] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2021-02-24 21:03:54.844 [ SpringContextShutdownHook ] - [ INFO  ] [ com.alibaba.nacos.client.naming : 719 ] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2021-02-24 21:03:54.844 [ SpringContextShutdownHook ] - [ WARN  ] [ com.alibaba.nacos.client.naming : 72 ] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2021-02-24 21:03:54.844 [ SpringContextShutdownHook ] - [ WARN  ] [ com.alibaba.nacos.client.naming : 79 ] - [NamingHttpClientManager] Destruction of the end
+2021-02-24 21:03:54.845 [ SpringContextShutdownHook ] - [ INFO  ] [ c.alibaba.nacos.client.identify.CredentialWatcher : 105 ] - [null] CredentialWatcher is stopped
+2021-02-24 21:03:54.845 [ SpringContextShutdownHook ] - [ INFO  ] [ c.alibaba.nacos.client.identify.CredentialService : 98 ] - [null] CredentialService is freed
+2021-02-24 21:03:54.845 [ SpringContextShutdownHook ] - [ INFO  ] [ com.alibaba.nacos.client.naming : 723 ] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2021-02-24 21:04:03.398 [ background-preinit ] - [ DEBUG ] [ org.jboss.logging : 152 ] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2021-02-24 21:04:03.405 [ background-preinit ] - [ INFO  ] [ org.hibernate.validator.internal.util.Version : 21 ] - HV000001: Hibernate Validator 6.1.6.Final
+2021-02-24 21:04:03.432 [ background-preinit ] - [ DEBUG ] [ o.h.v.internal.xml.config.ValidationXmlParser : 120 ] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2021-02-24 21:04:03.436 [ background-preinit ] - [ DEBUG ] [ o.h.v.internal.xml.config.ResourceLoaderHelper : 60 ] - Trying to load META-INF/validation.xml via TCCL
+2021-02-24 21:04:03.437 [ background-preinit ] - [ DEBUG ] [ o.h.v.internal.xml.config.ResourceLoaderHelper : 66 ] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2021-02-24 21:04:03.442 [ background-preinit ] - [ DEBUG ] [ o.h.v.internal.xml.config.ValidationXmlParser : 127 ] - No META-INF/validation.xml found. Using annotation based configuration only.
+2021-02-24 21:04:03.457 [ background-preinit ] - [ DEBUG ] [ o.h.v.i.engine.resolver.TraversableResolvers : 60 ] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2021-02-24 21:04:03.554 [ background-preinit ] - [ DEBUG ] [ o.h.v.m.ResourceBundleMessageInterpolator : 172 ] - Loaded expression factory via original TCCL
+2021-02-24 21:04:03.855 [ background-preinit ] - [ DEBUG ] [ o.h.v.i.engine.ValidatorFactoryConfigurationHelper : 300 ] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2021-02-24 21:04:03.876 [ background-preinit ] - [ DEBUG ] [ o.h.v.i.engine.ValidatorFactoryConfigurationHelper : 375 ] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2021-02-24 21:04:03.877 [ background-preinit ] - [ DEBUG ] [ o.h.v.i.engine.ValidatorFactoryConfigurationHelper : 376 ] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2021-02-24 21:04:03.877 [ background-preinit ] - [ DEBUG ] [ o.h.v.i.engine.ValidatorFactoryConfigurationHelper : 377 ] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2021-02-24 21:04:03.878 [ background-preinit ] - [ DEBUG ] [ o.h.v.i.engine.ValidatorFactoryConfigurationHelper : 378 ] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2021-02-24 21:04:03.879 [ background-preinit ] - [ DEBUG ] [ o.h.v.i.engine.ValidatorFactoryConfigurationHelper : 379 ] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2021-02-24 21:04:06.652 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-9220"]
+2021-02-24 21:04:06.652 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2021-02-24 21:04:06.652 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-24 21:04:06.822 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2021-02-24 21:04:06.895 [ main ] - [ DEBUG ] [ i.m.c.util.internal.logging.InternalLoggerFactory : 61 ] - Using SLF4J as the default logging framework
+2021-02-24 21:04:07.607 [ main ] - [ WARN  ] [ com.netflix.config.sources.URLConfigurationSource : 121 ] - No URLs will be polled as dynamic configuration sources.
+2021-02-24 21:04:07.607 [ main ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 122 ] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-02-24 21:04:07.611 [ main ] - [ WARN  ] [ com.netflix.config.sources.URLConfigurationSource : 121 ] - No URLs will be polled as dynamic configuration sources.
+2021-02-24 21:04:07.612 [ main ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 122 ] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-02-24 21:04:07.632 [ main ] - [ DEBUG ] [ o.h.v.m.ResourceBundleMessageInterpolator : 172 ] - Loaded expression factory via original TCCL
+2021-02-24 21:04:07.635 [ main ] - [ DEBUG ] [ o.h.v.internal.engine.AbstractConfigurationImpl : 171 ] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2021-02-24 21:04:07.636 [ main ] - [ DEBUG ] [ o.h.v.internal.engine.AbstractConfigurationImpl : 203 ] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2021-02-24 21:04:07.637 [ main ] - [ DEBUG ] [ o.h.v.internal.engine.AbstractConfigurationImpl : 217 ] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2021-02-24 21:04:07.638 [ main ] - [ DEBUG ] [ o.h.v.internal.xml.config.ValidationXmlParser : 120 ] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2021-02-24 21:04:07.638 [ main ] - [ DEBUG ] [ o.h.v.internal.xml.config.ResourceLoaderHelper : 53 ] - Trying to load META-INF/validation.xml via user class loader
+2021-02-24 21:04:07.639 [ main ] - [ DEBUG ] [ o.h.v.internal.xml.config.ResourceLoaderHelper : 60 ] - Trying to load META-INF/validation.xml via TCCL
+2021-02-24 21:04:07.640 [ main ] - [ DEBUG ] [ o.h.v.internal.xml.config.ResourceLoaderHelper : 66 ] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2021-02-24 21:04:07.640 [ main ] - [ DEBUG ] [ o.h.v.internal.xml.config.ValidationXmlParser : 127 ] - No META-INF/validation.xml found. Using annotation based configuration only.
+2021-02-24 21:04:07.641 [ main ] - [ DEBUG ] [ o.h.v.i.engine.resolver.TraversableResolvers : 60 ] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2021-02-24 21:04:07.642 [ main ] - [ DEBUG ] [ o.h.v.i.engine.ValidatorFactoryConfigurationHelper : 300 ] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2021-02-24 21:04:07.643 [ main ] - [ DEBUG ] [ o.h.v.i.engine.ValidatorFactoryConfigurationHelper : 375 ] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2021-02-24 21:04:07.643 [ main ] - [ DEBUG ] [ o.h.v.i.engine.ValidatorFactoryConfigurationHelper : 376 ] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2021-02-24 21:04:07.643 [ main ] - [ DEBUG ] [ o.h.v.i.engine.ValidatorFactoryConfigurationHelper : 377 ] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2021-02-24 21:04:07.643 [ main ] - [ DEBUG ] [ o.h.v.i.engine.ValidatorFactoryConfigurationHelper : 378 ] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2021-02-24 21:04:07.644 [ main ] - [ DEBUG ] [ o.h.v.i.engine.ValidatorFactoryConfigurationHelper : 379 ] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2021-02-24 21:04:08.543 [ main ] - [ DEBUG ] [ i.n.util.internal.logging.InternalLoggerFactory : 45 ] - Using SLF4J as the default logging framework
+2021-02-24 21:04:08.547 [ main ] - [ DEBUG ] [ io.lettuce.core.resource.DefaultClientResources : 108 ] - -Dio.netty.eventLoopThreads: 4
+2021-02-24 21:04:08.559 [ main ] - [ DEBUG ] [ i.l.core.resource.DefaultEventLoopGroupProvider : 196 ] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2021-02-24 21:04:08.590 [ main ] - [ DEBUG ] [ io.netty.util.internal.InternalThreadLocalMap : 56 ] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2021-02-24 21:04:08.590 [ main ] - [ DEBUG ] [ io.netty.util.internal.InternalThreadLocalMap : 59 ] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2021-02-24 21:04:08.598 [ main ] - [ DEBUG ] [ io.netty.util.ResourceLeakDetector : 129 ] - -Dio.netty.leakDetection.level: simple
+2021-02-24 21:04:08.598 [ main ] - [ DEBUG ] [ io.netty.util.ResourceLeakDetector : 130 ] - -Dio.netty.leakDetection.targetRecords: 4
+2021-02-24 21:04:08.602 [ main ] - [ DEBUG ] [ io.netty.util.ResourceLeakDetectorFactory : 196 ] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4910afdf
+2021-02-24 21:04:08.606 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 1036 ] - Platform: Windows
+2021-02-24 21:04:08.609 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 417 ] - -Dio.netty.noUnsafe: false
+2021-02-24 21:04:08.609 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 897 ] - Java version: 11
+2021-02-24 21:04:08.610 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 130 ] - sun.misc.Unsafe.theUnsafe: available
+2021-02-24 21:04:08.611 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 154 ] - sun.misc.Unsafe.copyMemory: available
+2021-02-24 21:04:08.612 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 192 ] - java.nio.Buffer.address: available
+2021-02-24 21:04:08.616 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 266 ] - direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31)
+	at io.netty.util.internal.PlatformDependent0$4.run(PlatformDependent0.java:238)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:232)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:293)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:109)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:218)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:197)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:179)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:163)
+	at io.lettuce.core.resource.DefaultClientResources.<init>(DefaultClientResources.java:183)
+	at io.lettuce.core.resource.DefaultClientResources$Builder.build(DefaultClientResources.java:562)
+	at io.lettuce.core.resource.DefaultClientResources.create(DefaultClientResources.java:247)
+	at org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration.lettuceClientResources(LettuceConnectionConfiguration.java:66)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:652)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:485)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at cn.smile.smilemall.search.SmilemallSearchApplication.main(SmilemallSearchApplication.java:18)
+2021-02-24 21:04:08.618 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 331 ] - java.nio.Bits.unaligned: available, true
+2021-02-24 21:04:08.620 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 390 ] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3b073779
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:361)
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:591)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:558)
+	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:352)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:343)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:293)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:109)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:218)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:197)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:179)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:163)
+	at io.lettuce.core.resource.DefaultClientResources.<init>(DefaultClientResources.java:183)
+	at io.lettuce.core.resource.DefaultClientResources$Builder.build(DefaultClientResources.java:562)
+	at io.lettuce.core.resource.DefaultClientResources.create(DefaultClientResources.java:247)
+	at org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration.lettuceClientResources(LettuceConnectionConfiguration.java:66)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:652)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:485)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at cn.smile.smilemall.search.SmilemallSearchApplication.main(SmilemallSearchApplication.java:18)
+2021-02-24 21:04:08.620 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 403 ] - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2021-02-24 21:04:08.621 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 1079 ] - sun.misc.Unsafe: available
+2021-02-24 21:04:08.621 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 1181 ] - maxDirectMemory: 104857600 bytes (maybe)
+2021-02-24 21:04:08.622 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 1200 ] - -Dio.netty.tmpdir: C:\Users\Administrator\AppData\Local\Temp (java.io.tmpdir)
+2021-02-24 21:04:08.622 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 1279 ] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2021-02-24 21:04:08.625 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 177 ] - -Dio.netty.maxDirectMemory: -1 bytes
+2021-02-24 21:04:08.625 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 184 ] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2021-02-24 21:04:08.626 [ main ] - [ DEBUG ] [ io.netty.util.internal.CleanerJava9 : 71 ] - java.nio.ByteBuffer.cleaner(): available
+2021-02-24 21:04:08.627 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 204 ] - -Dio.netty.noPreferDirect: false
+2021-02-24 21:04:08.629 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 940 ] - org.jctools-core.MpscChunkedArrayQueue: available
+2021-02-24 21:04:08.645 [ main ] - [ DEBUG ] [ reactor.util.Loggers$LoggerFactory : 249 ] - Using Slf4j logging framework
+2021-02-24 21:04:08.725 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 154 ] - -Dio.netty.allocator.numHeapArenas: 1
+2021-02-24 21:04:08.725 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 155 ] - -Dio.netty.allocator.numDirectArenas: 1
+2021-02-24 21:04:08.725 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 157 ] - -Dio.netty.allocator.pageSize: 8192
+2021-02-24 21:04:08.726 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 162 ] - -Dio.netty.allocator.maxOrder: 11
+2021-02-24 21:04:08.726 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 166 ] - -Dio.netty.allocator.chunkSize: 16777216
+2021-02-24 21:04:08.726 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 167 ] - -Dio.netty.allocator.smallCacheSize: 256
+2021-02-24 21:04:08.726 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 168 ] - -Dio.netty.allocator.normalCacheSize: 64
+2021-02-24 21:04:08.726 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 169 ] - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2021-02-24 21:04:08.726 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 170 ] - -Dio.netty.allocator.cacheTrimInterval: 8192
+2021-02-24 21:04:08.726 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 171 ] - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2021-02-24 21:04:08.726 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 172 ] - -Dio.netty.allocator.useCacheForAllThreads: true
+2021-02-24 21:04:08.727 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 173 ] - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2021-02-24 21:04:09.888 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-9220"]
+2021-02-24 21:04:10.885 [ RMI TCP Connection(1)-192.168.56.1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-24 21:04:11.509 [ RMI TCP Connection(3)-192.168.56.1 ] - [ DEBUG ] [ org.apache.http.impl.nio.client.MainClientExec : 121 ] - [exchange: 1] start execution
+2021-02-24 21:04:11.517 [ RMI TCP Connection(3)-192.168.56.1 ] - [ DEBUG ] [ org.apache.http.client.protocol.RequestAddCookies : 123 ] - CookieSpec selected: default
+2021-02-24 21:04:11.527 [ RMI TCP Connection(3)-192.168.56.1 ] - [ DEBUG ] [ org.apache.http.client.protocol.RequestAuthCache : 131 ] - Re-using cached 'basic' auth scheme for http://192.168.31.239:9200
+2021-02-24 21:04:11.528 [ RMI TCP Connection(3)-192.168.56.1 ] - [ DEBUG ] [ org.apache.http.client.protocol.RequestAuthCache : 140 ] - No credentials for preemptive authentication
+2021-02-24 21:04:11.528 [ RMI TCP Connection(3)-192.168.56.1 ] - [ DEBUG ] [ o.a.http.impl.nio.client.InternalHttpAsyncClient : 366 ] - [exchange: 1] Request connection for {}->http://192.168.31.239:9200
+2021-02-24 21:04:11.530 [ RMI TCP Connection(3)-192.168.56.1 ] - [ DEBUG ] [ o.a.h.i.n.conn.PoolingNHttpClientConnectionManager : 279 ] - Connection request: [route: {}->http://192.168.31.239:9200][total kept alive: 0; route allocated: 0 of 10; total allocated: 0 of 30]
+2021-02-24 21:04:11.555 [ I/O dispatcher 1 ] - [ DEBUG ] [ o.a.h.i.n.conn.PoolingNHttpClientConnectionManager : 303 ] - Connection leased: [id: http-outgoing-0][route: {}->http://192.168.31.239:9200][total kept alive: 0; route allocated: 1 of 10; total allocated: 0 of 30]
+2021-02-24 21:04:11.557 [ I/O dispatcher 1 ] - [ DEBUG ] [ o.a.http.impl.nio.client.InternalHttpAsyncClient : 313 ] - [exchange: 1] Connection allocated: CPoolProxy{http-outgoing-0 [ACTIVE]}
+2021-02-24 21:04:11.557 [ I/O dispatcher 1 ] - [ DEBUG ] [ o.a.h.i.nio.conn.ManagedNHttpClientConnectionImpl : 182 ] - http-outgoing-0 192.168.31.49:56433<->192.168.31.239:9200[ACTIVE][r:]: Set attribute http.nio.exchange-handler
+2021-02-24 21:04:11.557 [ I/O dispatcher 1 ] - [ DEBUG ] [ o.a.h.i.nio.conn.ManagedNHttpClientConnectionImpl : 108 ] - http-outgoing-0 192.168.31.49:56433<->192.168.31.239:9200[ACTIVE][rw:]: Event set [w]
+2021-02-24 21:04:11.558 [ I/O dispatcher 1 ] - [ DEBUG ] [ o.a.h.i.nio.conn.ManagedNHttpClientConnectionImpl : 154 ] - http-outgoing-0 192.168.31.49:56433<->192.168.31.239:9200[ACTIVE][rw:]: Set timeout 0
+2021-02-24 21:04:11.558 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.impl.nio.client.InternalIODispatch : 54 ] - http-outgoing-0 [ACTIVE]: Connected
+2021-02-24 21:04:11.559 [ I/O dispatcher 1 ] - [ DEBUG ] [ o.a.h.i.nio.conn.ManagedNHttpClientConnectionImpl : 182 ] - http-outgoing-0 192.168.31.49:56433<->192.168.31.239:9200[ACTIVE][rw:]: Set attribute http.nio.http-exchange-state
+2021-02-24 21:04:11.560 [ I/O dispatcher 1 ] - [ DEBUG ] [ o.a.http.impl.nio.client.InternalHttpAsyncClient : 166 ] - [exchange: 1] Start connection routing
+2021-02-24 21:04:11.561 [ I/O dispatcher 1 ] - [ DEBUG ] [ o.a.http.impl.nio.client.InternalHttpAsyncClient : 224 ] - [exchange: 1] route completed
+2021-02-24 21:04:11.561 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.impl.nio.client.MainClientExec : 188 ] - [exchange: 1] Connection route established
+2021-02-24 21:04:11.561 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.impl.nio.client.MainClientExec : 215 ] - [exchange: 1] Attempt 1 to execute request
+2021-02-24 21:04:11.561 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.impl.nio.client.MainClientExec : 222 ] - [exchange: 1] Target auth state: UNCHALLENGED
+2021-02-24 21:04:11.561 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.impl.nio.client.MainClientExec : 229 ] - [exchange: 1] Proxy auth state: UNCHALLENGED
+2021-02-24 21:04:11.562 [ I/O dispatcher 1 ] - [ DEBUG ] [ o.a.h.i.nio.conn.ManagedNHttpClientConnectionImpl : 154 ] - http-outgoing-0 192.168.31.49:56433<->192.168.31.239:9200[ACTIVE][rw:]: Set timeout 30000
+2021-02-24 21:04:11.562 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.headers : 136 ] - http-outgoing-0 >> GET /_cluster/health/ HTTP/1.1
+2021-02-24 21:04:11.562 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.headers : 139 ] - http-outgoing-0 >> Content-Length: 0
+2021-02-24 21:04:11.563 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.headers : 139 ] - http-outgoing-0 >> Host: 192.168.31.239:9200
+2021-02-24 21:04:11.563 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.headers : 139 ] - http-outgoing-0 >> Connection: Keep-Alive
+2021-02-24 21:04:11.564 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.headers : 139 ] - http-outgoing-0 >> User-Agent: Apache-HttpAsyncClient/4.1.4 (Java/11.0.7)
+2021-02-24 21:04:11.565 [ I/O dispatcher 1 ] - [ DEBUG ] [ o.a.h.i.nio.conn.ManagedNHttpClientConnectionImpl : 108 ] - http-outgoing-0 192.168.31.49:56433<->192.168.31.239:9200[ACTIVE][rw:]: Event set [w]
+2021-02-24 21:04:11.565 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.impl.nio.client.MainClientExec : 273 ] - [exchange: 1] Request completed
+2021-02-24 21:04:11.566 [ I/O dispatcher 1 ] - [ DEBUG ] [ o.a.h.i.nio.conn.ManagedNHttpClientConnectionImpl : 222 ] - http-outgoing-0 192.168.31.49:56433<->192.168.31.239:9200[ACTIVE][rw:w]: 160 bytes written
+2021-02-24 21:04:11.566 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.wire : 54 ] - http-outgoing-0 >> "GET /_cluster/health/ HTTP/1.1[\r][\n]"
+2021-02-24 21:04:11.566 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.wire : 54 ] - http-outgoing-0 >> "Content-Length: 0[\r][\n]"
+2021-02-24 21:04:11.566 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.wire : 54 ] - http-outgoing-0 >> "Host: 192.168.31.239:9200[\r][\n]"
+2021-02-24 21:04:11.566 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.wire : 54 ] - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2021-02-24 21:04:11.566 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.wire : 54 ] - http-outgoing-0 >> "User-Agent: Apache-HttpAsyncClient/4.1.4 (Java/11.0.7)[\r][\n]"
+2021-02-24 21:04:11.566 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.wire : 54 ] - http-outgoing-0 >> "[\r][\n]"
+2021-02-24 21:04:11.567 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.impl.nio.client.InternalIODispatch : 71 ] - http-outgoing-0 [ACTIVE] Request ready
+2021-02-24 21:04:11.567 [ I/O dispatcher 1 ] - [ DEBUG ] [ o.a.h.i.nio.conn.ManagedNHttpClientConnectionImpl : 116 ] - http-outgoing-0 192.168.31.49:56433<->192.168.31.239:9200[ACTIVE][r:w]: Event cleared [w]
+2021-02-24 21:04:11.575 [ I/O dispatcher 1 ] - [ DEBUG ] [ o.a.h.i.nio.conn.ManagedNHttpClientConnectionImpl : 206 ] - http-outgoing-0 192.168.31.49:56433<->192.168.31.239:9200[ACTIVE][r:r]: 491 bytes read
+2021-02-24 21:04:11.576 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.wire : 54 ] - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2021-02-24 21:04:11.576 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.wire : 54 ] - http-outgoing-0 << "content-type: application/json; charset=UTF-8[\r][\n]"
+2021-02-24 21:04:11.576 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.wire : 54 ] - http-outgoing-0 << "content-length: 404[\r][\n]"
+2021-02-24 21:04:11.576 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.wire : 54 ] - http-outgoing-0 << "[\r][\n]"
+2021-02-24 21:04:11.576 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.wire : 68 ] - http-outgoing-0 << "{"cluster_name":"elasticsearch","status":"yellow","timed_out":false,"number_of_nodes":1,"number_of_data_nodes":1,"active_primary_shards":10,"active_shards":10,"relocating_shards":0,"initializing_shards":0,"unassigned_shards":7,"delayed_unassigned_shards":0,"number_of_pending_tasks":0,"number_of_in_flight_fetch":0,"task_max_waiting_in_queue_millis":0,"active_shards_percent_as_number":58.82352941176471}"
+2021-02-24 21:04:11.581 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.headers : 125 ] - http-outgoing-0 << HTTP/1.1 200 OK
+2021-02-24 21:04:11.581 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.headers : 128 ] - http-outgoing-0 << content-type: application/json; charset=UTF-8
+2021-02-24 21:04:11.581 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.headers : 128 ] - http-outgoing-0 << content-length: 404
+2021-02-24 21:04:11.581 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.impl.nio.client.InternalIODispatch : 106 ] - http-outgoing-0 [ACTIVE(404)] Response received
+2021-02-24 21:04:11.581 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.impl.nio.client.MainClientExec : 286 ] - [exchange: 1] Response received HTTP/1.1 200 OK
+2021-02-24 21:04:11.587 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.impl.nio.client.InternalIODispatch : 81 ] - http-outgoing-0 [ACTIVE(404)] Input ready
+2021-02-24 21:04:11.587 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.impl.nio.client.MainClientExec : 325 ] - [exchange: 1] Consume content
+2021-02-24 21:04:11.588 [ I/O dispatcher 1 ] - [ DEBUG ] [ o.a.http.impl.nio.client.InternalHttpAsyncClient : 298 ] - [exchange: 1] Connection can be kept alive indefinitely
+2021-02-24 21:04:11.589 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.impl.nio.client.MainClientExec : 385 ] - [exchange: 1] Response processed
+2021-02-24 21:04:11.590 [ I/O dispatcher 1 ] - [ DEBUG ] [ o.a.http.impl.nio.client.InternalHttpAsyncClient : 239 ] - [exchange: 1] releasing connection
+2021-02-24 21:04:11.590 [ I/O dispatcher 1 ] - [ DEBUG ] [ o.a.h.i.nio.conn.ManagedNHttpClientConnectionImpl : 190 ] - http-outgoing-0 192.168.31.49:56433<->192.168.31.239:9200[ACTIVE][r:r]: Remove attribute http.nio.exchange-handler
+2021-02-24 21:04:11.590 [ I/O dispatcher 1 ] - [ DEBUG ] [ o.a.h.i.n.conn.PoolingNHttpClientConnectionManager : 373 ] - Releasing connection: [id: http-outgoing-0][route: {}->http://192.168.31.239:9200][total kept alive: 0; route allocated: 1 of 10; total allocated: 1 of 30]
+2021-02-24 21:04:11.590 [ I/O dispatcher 1 ] - [ DEBUG ] [ o.a.h.i.n.conn.PoolingNHttpClientConnectionManager : 387 ] - Connection [id: http-outgoing-0][route: {}->http://192.168.31.239:9200] can be kept alive indefinitely
+2021-02-24 21:04:11.590 [ I/O dispatcher 1 ] - [ DEBUG ] [ o.a.h.i.nio.conn.ManagedNHttpClientConnectionImpl : 154 ] - http-outgoing-0 192.168.31.49:56433<->192.168.31.239:9200[ACTIVE][r:r]: Set timeout 0
+2021-02-24 21:04:11.590 [ I/O dispatcher 1 ] - [ DEBUG ] [ o.a.h.i.n.conn.PoolingNHttpClientConnectionManager : 393 ] - Connection released: [id: http-outgoing-0][route: {}->http://192.168.31.239:9200][total kept alive: 1; route allocated: 1 of 10; total allocated: 1 of 30]
+2021-02-24 21:04:11.590 [ I/O dispatcher 1 ] - [ DEBUG ] [ org.apache.http.impl.nio.client.InternalIODispatch : 85 ] - http-outgoing-0 [ACTIVE] [content length: 404; pos: 404; completed: true]
+2021-02-24 21:04:11.591 [ RMI TCP Connection(3)-192.168.56.1 ] - [ DEBUG ] [ org.elasticsearch.client.RestClient : 59 ] - request [GET http://192.168.31.239:9200/_cluster/health/] returned [HTTP/1.1 200 OK]
+2021-02-24 21:04:11.634 [ boundedElastic-1 ] - [ DEBUG ] [ io.lettuce.core.RedisClient : 263 ] - Trying to get a Redis connection for: RedisURI [host='localhost', port=6379]
+2021-02-24 21:04:11.738 [ boundedElastic-1 ] - [ DEBUG ] [ io.lettuce.core.EpollProvider : 70 ] - Starting without optional epoll library
+2021-02-24 21:04:11.739 [ boundedElastic-1 ] - [ DEBUG ] [ io.lettuce.core.KqueueProvider : 72 ] - Starting without optional kqueue library
+2021-02-24 21:04:11.741 [ boundedElastic-1 ] - [ DEBUG ] [ i.l.core.resource.DefaultEventLoopGroupProvider : 85 ] - Allocating executor io.netty.channel.nio.NioEventLoopGroup
+2021-02-24 21:04:11.741 [ boundedElastic-1 ] - [ DEBUG ] [ i.l.core.resource.DefaultEventLoopGroupProvider : 196 ] - Creating executor io.netty.channel.nio.NioEventLoopGroup
+2021-02-24 21:04:11.742 [ boundedElastic-1 ] - [ DEBUG ] [ io.netty.channel.MultithreadEventLoopGroup : 44 ] - -Dio.netty.eventLoopThreads: 8
+2021-02-24 21:04:11.747 [ boundedElastic-1 ] - [ DEBUG ] [ io.netty.channel.nio.NioEventLoop : 106 ] - -Dio.netty.noKeySetOptimization: false
+2021-02-24 21:04:11.747 [ boundedElastic-1 ] - [ DEBUG ] [ io.netty.channel.nio.NioEventLoop : 107 ] - -Dio.netty.selectorAutoRebuildThreshold: 512
+2021-02-24 21:04:11.754 [ boundedElastic-1 ] - [ DEBUG ] [ i.l.core.resource.DefaultEventLoopGroupProvider : 98 ] - Adding reference to io.netty.channel.nio.NioEventLoopGroup@4902274e, existing ref count 0
+2021-02-24 21:04:11.765 [ boundedElastic-1 ] - [ DEBUG ] [ io.lettuce.core.RedisClient : 775 ] - Resolved SocketAddress localhost:6379 using RedisURI [host='localhost', port=6379]
+2021-02-24 21:04:11.765 [ boundedElastic-1 ] - [ DEBUG ] [ io.lettuce.core.RedisClient : 312 ] - Connecting to Redis at localhost:6379
+2021-02-24 21:04:11.772 [ boundedElastic-1 ] - [ DEBUG ] [ io.netty.channel.DefaultChannelId : 79 ] - -Dio.netty.processId: 14652 (auto-detected)
+2021-02-24 21:04:11.774 [ boundedElastic-1 ] - [ DEBUG ] [ io.netty.util.NetUtil : 135 ] - -Djava.net.preferIPv4Stack: false
+2021-02-24 21:04:11.774 [ boundedElastic-1 ] - [ DEBUG ] [ io.netty.util.NetUtil : 136 ] - -Djava.net.preferIPv6Addresses: false
+2021-02-24 21:04:12.106 [ boundedElastic-1 ] - [ DEBUG ] [ io.netty.util.NetUtilInitializations : 129 ] - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2021-02-24 21:04:12.107 [ boundedElastic-1 ] - [ DEBUG ] [ io.netty.util.NetUtil : 187 ] - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2021-02-24 21:04:12.403 [ boundedElastic-1 ] - [ DEBUG ] [ io.netty.channel.DefaultChannelId : 101 ] - -Dio.netty.machineId: 00:0e:c6:ff:fe:ac:b1:3a (auto-detected)
+2021-02-24 21:04:12.427 [ boundedElastic-1 ] - [ DEBUG ] [ io.netty.buffer.ByteBufUtil : 87 ] - -Dio.netty.allocator.type: pooled
+2021-02-24 21:04:12.428 [ boundedElastic-1 ] - [ DEBUG ] [ io.netty.buffer.ByteBufUtil : 96 ] - -Dio.netty.threadLocalDirectBufferSize: 0
+2021-02-24 21:04:12.428 [ boundedElastic-1 ] - [ DEBUG ] [ io.netty.buffer.ByteBufUtil : 99 ] - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2021-02-24 21:04:12.446 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.netty.util.Recycler : 102 ] - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2021-02-24 21:04:12.446 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.netty.util.Recycler : 103 ] - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2021-02-24 21:04:12.447 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.netty.util.Recycler : 104 ] - -Dio.netty.recycler.linkCapacity: 16
+2021-02-24 21:04:12.447 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.netty.util.Recycler : 105 ] - -Dio.netty.recycler.ratio: 8
+2021-02-24 21:04:12.447 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.netty.util.Recycler : 106 ] - -Dio.netty.recycler.delayedQueue.ratio: 8
+2021-02-24 21:04:12.455 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.netty.buffer.AbstractByteBuf : 63 ] - -Dio.netty.buffer.checkAccessible: true
+2021-02-24 21:04:12.455 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.netty.buffer.AbstractByteBuf : 64 ] - -Dio.netty.buffer.checkBounds: true
+2021-02-24 21:04:12.455 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.netty.util.ResourceLeakDetectorFactory : 196 ] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@33b88527
+2021-02-24 21:04:12.501 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.lettuce.core.protocol.CommandHandler : 181 ] - [channel=0x09d5715a, [id: 0x724a562a] (inactive), chid=0x1] channelRegistered()
+2021-02-24 21:04:13.504 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.lettuce.core.RedisClient : 348 ] - Connecting to Redis at localhost:6379: localhost:6379
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-02-24 21:04:13.505 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.lettuce.core.RedisChannelHandler : 131 ] - close()
+2021-02-24 21:04:13.506 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.lettuce.core.RedisChannelHandler : 145 ] - closeAsync()
+2021-02-24 21:04:13.506 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.lettuce.core.protocol.DefaultEndpoint : 549 ] - [unknown, epid=0x1] closeAsync()
+2021-02-24 21:04:13.507 [ lettuce-nioEventLoop-4-1 ] - [ DEBUG ] [ io.lettuce.core.protocol.CommandHandler : 198 ] - [channel=0x09d5715a, [id: 0x724a562a] (inactive), chid=0x1] channelUnregistered()

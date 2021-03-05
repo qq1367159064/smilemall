@@ -17,7 +17,7 @@ import java.util.Map;
 /**
  * @author Smile
  * @Documents
- * @creationTime 2021-01-2021/1/14/014
+ * @date 2021-01-2021/1/14/014
  */
 @ControllerAdvice(basePackages = {"cn.smile.smilemall.product.controller"})
 @ResponseBody

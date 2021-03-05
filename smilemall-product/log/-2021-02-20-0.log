@@ -1,0 +1,375 @@
+2021-02-20 18:40:23.717 [ main ] - [ INFO  ] [ c.s.smilemall.product.SmilemallProductApplication : 655 ] - The following profiles are active: dev
+2021-02-20 18:40:29.472 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\AttrAttrgroupRelationDao.class]
+2021-02-20 18:40:29.473 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\AttrDao.class]
+2021-02-20 18:40:29.474 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\AttrGroupDao.class]
+2021-02-20 18:40:29.475 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\BrandDao.class]
+2021-02-20 18:40:29.475 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\CategoryBrandRelationDao.class]
+2021-02-20 18:40:29.476 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\CategoryDao.class]
+2021-02-20 18:40:29.477 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\CommentReplayDao.class]
+2021-02-20 18:40:29.478 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\ProductAttrValueDao.class]
+2021-02-20 18:40:29.478 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\SkuImagesDao.class]
+2021-02-20 18:40:29.479 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\SkuInfoDao.class]
+2021-02-20 18:40:29.479 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\SkuSaleAttrValueDao.class]
+2021-02-20 18:40:29.479 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\SpuCommentDao.class]
+2021-02-20 18:40:29.479 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\SpuImagesDao.class]
+2021-02-20 18:40:29.480 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\SpuInfoDao.class]
+2021-02-20 18:40:29.480 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\SpuInfoDescDao.class]
+2021-02-20 18:40:29.481 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'attrAttrgroupRelationDao' and 'cn.smile.smilemall.product.dao.AttrAttrgroupRelationDao' mapperInterface
+2021-02-20 18:40:29.482 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'attrAttrgroupRelationDao'.
+2021-02-20 18:40:29.483 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'attrDao' and 'cn.smile.smilemall.product.dao.AttrDao' mapperInterface
+2021-02-20 18:40:29.961 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'attrDao'.
+2021-02-20 18:40:29.961 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'attrGroupDao' and 'cn.smile.smilemall.product.dao.AttrGroupDao' mapperInterface
+2021-02-20 18:40:29.962 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'attrGroupDao'.
+2021-02-20 18:40:29.962 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'brandDao' and 'cn.smile.smilemall.product.dao.BrandDao' mapperInterface
+2021-02-20 18:40:29.962 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'brandDao'.
+2021-02-20 18:40:29.962 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'categoryBrandRelationDao' and 'cn.smile.smilemall.product.dao.CategoryBrandRelationDao' mapperInterface
+2021-02-20 18:40:29.962 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'categoryBrandRelationDao'.
+2021-02-20 18:40:29.962 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'categoryDao' and 'cn.smile.smilemall.product.dao.CategoryDao' mapperInterface
+2021-02-20 18:40:29.963 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'categoryDao'.
+2021-02-20 18:40:29.963 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'commentReplayDao' and 'cn.smile.smilemall.product.dao.CommentReplayDao' mapperInterface
+2021-02-20 18:40:29.963 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'commentReplayDao'.
+2021-02-20 18:40:29.963 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'productAttrValueDao' and 'cn.smile.smilemall.product.dao.ProductAttrValueDao' mapperInterface
+2021-02-20 18:40:29.963 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'productAttrValueDao'.
+2021-02-20 18:40:29.963 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'skuImagesDao' and 'cn.smile.smilemall.product.dao.SkuImagesDao' mapperInterface
+2021-02-20 18:40:29.964 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'skuImagesDao'.
+2021-02-20 18:40:29.964 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'skuInfoDao' and 'cn.smile.smilemall.product.dao.SkuInfoDao' mapperInterface
+2021-02-20 18:40:29.964 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'skuInfoDao'.
+2021-02-20 18:40:29.964 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'skuSaleAttrValueDao' and 'cn.smile.smilemall.product.dao.SkuSaleAttrValueDao' mapperInterface
+2021-02-20 18:40:29.964 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'skuSaleAttrValueDao'.
+2021-02-20 18:40:29.965 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'spuCommentDao' and 'cn.smile.smilemall.product.dao.SpuCommentDao' mapperInterface
+2021-02-20 18:40:29.965 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'spuCommentDao'.
+2021-02-20 18:40:29.965 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'spuImagesDao' and 'cn.smile.smilemall.product.dao.SpuImagesDao' mapperInterface
+2021-02-20 18:40:29.965 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'spuImagesDao'.
+2021-02-20 18:40:29.965 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'spuInfoDao' and 'cn.smile.smilemall.product.dao.SpuInfoDao' mapperInterface
+2021-02-20 18:40:29.965 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'spuInfoDao'.
+2021-02-20 18:40:29.966 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'spuInfoDescDao' and 'cn.smile.smilemall.product.dao.SpuInfoDescDao' mapperInterface
+2021-02-20 18:40:29.966 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'spuInfoDescDao'.
+2021-02-20 18:40:29.990 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\AttrAttrgroupRelationDao.class]
+2021-02-20 18:40:29.991 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\AttrDao.class]
+2021-02-20 18:40:29.991 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\AttrGroupDao.class]
+2021-02-20 18:40:29.991 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\BrandDao.class]
+2021-02-20 18:40:29.992 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\CategoryBrandRelationDao.class]
+2021-02-20 18:40:29.992 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\CategoryDao.class]
+2021-02-20 18:40:29.993 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\CommentReplayDao.class]
+2021-02-20 18:40:29.994 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\ProductAttrValueDao.class]
+2021-02-20 18:40:29.995 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\SkuImagesDao.class]
+2021-02-20 18:40:29.995 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\SkuInfoDao.class]
+2021-02-20 18:40:30.000 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\SkuSaleAttrValueDao.class]
+2021-02-20 18:40:30.000 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\SpuCommentDao.class]
+2021-02-20 18:40:30.000 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\SpuImagesDao.class]
+2021-02-20 18:40:30.000 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\SpuInfoDao.class]
+2021-02-20 18:40:30.001 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 435 ] - Identified candidate component class: file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\cn\smile\smilemall\product\dao\SpuInfoDescDao.class]
+2021-02-20 18:40:30.001 [ main ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] - Skipping MapperFactoryBean with name 'attrAttrgroupRelationDao' and 'cn.smile.smilemall.product.dao.AttrAttrgroupRelationDao' mapperInterface. Bean already defined with the same name!
+2021-02-20 18:40:30.002 [ main ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] - Skipping MapperFactoryBean with name 'attrDao' and 'cn.smile.smilemall.product.dao.AttrDao' mapperInterface. Bean already defined with the same name!
+2021-02-20 18:40:30.002 [ main ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] - Skipping MapperFactoryBean with name 'attrGroupDao' and 'cn.smile.smilemall.product.dao.AttrGroupDao' mapperInterface. Bean already defined with the same name!
+2021-02-20 18:40:30.002 [ main ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] - Skipping MapperFactoryBean with name 'brandDao' and 'cn.smile.smilemall.product.dao.BrandDao' mapperInterface. Bean already defined with the same name!
+2021-02-20 18:40:30.003 [ main ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] - Skipping MapperFactoryBean with name 'categoryBrandRelationDao' and 'cn.smile.smilemall.product.dao.CategoryBrandRelationDao' mapperInterface. Bean already defined with the same name!
+2021-02-20 18:40:30.003 [ main ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] - Skipping MapperFactoryBean with name 'categoryDao' and 'cn.smile.smilemall.product.dao.CategoryDao' mapperInterface. Bean already defined with the same name!
+2021-02-20 18:40:30.003 [ main ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] - Skipping MapperFactoryBean with name 'commentReplayDao' and 'cn.smile.smilemall.product.dao.CommentReplayDao' mapperInterface. Bean already defined with the same name!
+2021-02-20 18:40:30.003 [ main ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] - Skipping MapperFactoryBean with name 'productAttrValueDao' and 'cn.smile.smilemall.product.dao.ProductAttrValueDao' mapperInterface. Bean already defined with the same name!
+2021-02-20 18:40:30.004 [ main ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] - Skipping MapperFactoryBean with name 'skuImagesDao' and 'cn.smile.smilemall.product.dao.SkuImagesDao' mapperInterface. Bean already defined with the same name!
+2021-02-20 18:40:30.004 [ main ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] - Skipping MapperFactoryBean with name 'skuInfoDao' and 'cn.smile.smilemall.product.dao.SkuInfoDao' mapperInterface. Bean already defined with the same name!
+2021-02-20 18:40:30.004 [ main ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] - Skipping MapperFactoryBean with name 'skuSaleAttrValueDao' and 'cn.smile.smilemall.product.dao.SkuSaleAttrValueDao' mapperInterface. Bean already defined with the same name!
+2021-02-20 18:40:30.004 [ main ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] - Skipping MapperFactoryBean with name 'spuCommentDao' and 'cn.smile.smilemall.product.dao.SpuCommentDao' mapperInterface. Bean already defined with the same name!
+2021-02-20 18:40:30.005 [ main ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] - Skipping MapperFactoryBean with name 'spuImagesDao' and 'cn.smile.smilemall.product.dao.SpuImagesDao' mapperInterface. Bean already defined with the same name!
+2021-02-20 18:40:30.005 [ main ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] - Skipping MapperFactoryBean with name 'spuInfoDao' and 'cn.smile.smilemall.product.dao.SpuInfoDao' mapperInterface. Bean already defined with the same name!
+2021-02-20 18:40:30.005 [ main ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] - Skipping MapperFactoryBean with name 'spuInfoDescDao' and 'cn.smile.smilemall.product.dao.SpuInfoDescDao' mapperInterface. Bean already defined with the same name!
+2021-02-20 18:40:30.006 [ main ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] - No MyBatis mapper was found in '[cn.smile.smilemall.product.dao]' package. Please check your configuration.
+2021-02-20 18:40:36.225 [ main ] - [ DEBUG ] [ c.b.m.e.spring.MybatisSqlSessionFactoryBean : 49 ] - Registered plugin: 'AbstractSqlParserHandler(sqlParserList=null, sqlParserFilter=null)'
+2021-02-20 18:40:36.686 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrAttrgroupRelationDao.deleteBatchRelation
+2021-02-20 18:40:36.765 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrAttrgroupRelationDao.insert
+2021-02-20 18:40:36.774 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrAttrgroupRelationDao.delete
+2021-02-20 18:40:36.779 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrAttrgroupRelationDao.deleteByMap
+2021-02-20 18:40:36.825 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrAttrgroupRelationDao.deleteById
+2021-02-20 18:40:36.829 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrAttrgroupRelationDao.deleteBatchIds
+2021-02-20 18:40:36.837 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrAttrgroupRelationDao.update
+2021-02-20 18:40:36.846 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrAttrgroupRelationDao.updateById
+2021-02-20 18:40:36.849 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrAttrgroupRelationDao.selectById
+2021-02-20 18:40:36.853 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrAttrgroupRelationDao.selectBatchIds
+2021-02-20 18:40:36.857 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrAttrgroupRelationDao.selectByMap
+2021-02-20 18:40:36.866 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrAttrgroupRelationDao.selectOne
+2021-02-20 18:40:36.870 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrAttrgroupRelationDao.selectCount
+2021-02-20 18:40:36.879 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrAttrgroupRelationDao.selectMaps
+2021-02-20 18:40:36.884 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrAttrgroupRelationDao.selectMapsPage
+2021-02-20 18:40:36.888 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrAttrgroupRelationDao.selectObjs
+2021-02-20 18:40:36.895 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrAttrgroupRelationDao.selectList
+2021-02-20 18:40:36.900 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrAttrgroupRelationDao.selectPage
+2021-02-20 18:40:36.901 [ main ] - [ DEBUG ] [ c.b.m.e.spring.MybatisSqlSessionFactoryBean : 49 ] - Parsed mapper file: 'file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\mapper\product\AttrAttrgroupRelationDao.xml]'
+2021-02-20 18:40:36.939 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrDao.getSearchTypeAttrIds
+2021-02-20 18:40:36.946 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrDao.insert
+2021-02-20 18:40:36.951 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrDao.delete
+2021-02-20 18:40:36.955 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrDao.deleteByMap
+2021-02-20 18:40:36.966 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrDao.deleteById
+2021-02-20 18:40:36.969 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrDao.deleteBatchIds
+2021-02-20 18:40:36.973 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrDao.update
+2021-02-20 18:40:36.980 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrDao.updateById
+2021-02-20 18:40:36.981 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrDao.selectById
+2021-02-20 18:40:36.990 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrDao.selectBatchIds
+2021-02-20 18:40:37.003 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrDao.selectByMap
+2021-02-20 18:40:37.012 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrDao.selectOne
+2021-02-20 18:40:37.016 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrDao.selectCount
+2021-02-20 18:40:37.021 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrDao.selectMaps
+2021-02-20 18:40:37.029 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrDao.selectMapsPage
+2021-02-20 18:40:37.033 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrDao.selectObjs
+2021-02-20 18:40:37.037 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrDao.selectList
+2021-02-20 18:40:37.046 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrDao.selectPage
+2021-02-20 18:40:37.047 [ main ] - [ DEBUG ] [ c.b.m.e.spring.MybatisSqlSessionFactoryBean : 49 ] - Parsed mapper file: 'file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\mapper\product\AttrDao.xml]'
+2021-02-20 18:40:37.091 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrGroupDao.insert
+2021-02-20 18:40:37.096 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrGroupDao.delete
+2021-02-20 18:40:37.098 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrGroupDao.deleteByMap
+2021-02-20 18:40:37.101 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrGroupDao.deleteById
+2021-02-20 18:40:37.108 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrGroupDao.deleteBatchIds
+2021-02-20 18:40:37.113 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrGroupDao.update
+2021-02-20 18:40:37.133 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrGroupDao.updateById
+2021-02-20 18:40:37.134 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrGroupDao.selectById
+2021-02-20 18:40:37.140 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrGroupDao.selectBatchIds
+2021-02-20 18:40:37.146 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrGroupDao.selectByMap
+2021-02-20 18:40:37.153 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrGroupDao.selectOne
+2021-02-20 18:40:37.163 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrGroupDao.selectCount
+2021-02-20 18:40:37.168 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrGroupDao.selectMaps
+2021-02-20 18:40:37.171 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrGroupDao.selectMapsPage
+2021-02-20 18:40:37.174 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrGroupDao.selectObjs
+2021-02-20 18:40:37.184 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrGroupDao.selectList
+2021-02-20 18:40:37.197 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.AttrGroupDao.selectPage
+2021-02-20 18:40:37.198 [ main ] - [ DEBUG ] [ c.b.m.e.spring.MybatisSqlSessionFactoryBean : 49 ] - Parsed mapper file: 'file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\mapper\product\AttrGroupDao.xml]'
+2021-02-20 18:40:37.282 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.BrandDao.insert
+2021-02-20 18:40:37.285 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.BrandDao.delete
+2021-02-20 18:40:37.288 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.BrandDao.deleteByMap
+2021-02-20 18:40:37.291 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.BrandDao.deleteById
+2021-02-20 18:40:37.294 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.BrandDao.deleteBatchIds
+2021-02-20 18:40:37.298 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.BrandDao.update
+2021-02-20 18:40:37.300 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.BrandDao.updateById
+2021-02-20 18:40:37.301 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.BrandDao.selectById
+2021-02-20 18:40:37.304 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.BrandDao.selectBatchIds
+2021-02-20 18:40:37.307 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.BrandDao.selectByMap
+2021-02-20 18:40:37.311 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.BrandDao.selectOne
+2021-02-20 18:40:37.319 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.BrandDao.selectCount
+2021-02-20 18:40:37.323 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.BrandDao.selectMaps
+2021-02-20 18:40:37.327 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.BrandDao.selectMapsPage
+2021-02-20 18:40:37.332 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.BrandDao.selectObjs
+2021-02-20 18:40:37.343 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.BrandDao.selectList
+2021-02-20 18:40:37.346 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.BrandDao.selectPage
+2021-02-20 18:40:37.347 [ main ] - [ DEBUG ] [ c.b.m.e.spring.MybatisSqlSessionFactoryBean : 49 ] - Parsed mapper file: 'file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\mapper\product\BrandDao.xml]'
+2021-02-20 18:40:37.373 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryBrandRelationDao.insert
+2021-02-20 18:40:37.378 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryBrandRelationDao.delete
+2021-02-20 18:40:37.382 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryBrandRelationDao.deleteByMap
+2021-02-20 18:40:37.386 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryBrandRelationDao.deleteById
+2021-02-20 18:40:37.394 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryBrandRelationDao.deleteBatchIds
+2021-02-20 18:40:37.397 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryBrandRelationDao.update
+2021-02-20 18:40:37.400 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryBrandRelationDao.updateById
+2021-02-20 18:40:37.401 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryBrandRelationDao.selectById
+2021-02-20 18:40:37.536 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryBrandRelationDao.selectBatchIds
+2021-02-20 18:40:37.538 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryBrandRelationDao.selectByMap
+2021-02-20 18:40:37.542 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryBrandRelationDao.selectOne
+2021-02-20 18:40:37.544 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryBrandRelationDao.selectCount
+2021-02-20 18:40:37.547 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryBrandRelationDao.selectMaps
+2021-02-20 18:40:37.550 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryBrandRelationDao.selectMapsPage
+2021-02-20 18:40:37.553 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryBrandRelationDao.selectObjs
+2021-02-20 18:40:37.556 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryBrandRelationDao.selectList
+2021-02-20 18:40:37.559 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryBrandRelationDao.selectPage
+2021-02-20 18:40:37.560 [ main ] - [ DEBUG ] [ c.b.m.e.spring.MybatisSqlSessionFactoryBean : 49 ] - Parsed mapper file: 'file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\mapper\product\CategoryBrandRelationDao.xml]'
+2021-02-20 18:40:37.610 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryDao.insert
+2021-02-20 18:40:37.618 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryDao.delete
+2021-02-20 18:40:37.627 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryDao.deleteByMap
+2021-02-20 18:40:37.630 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryDao.deleteById
+2021-02-20 18:40:37.634 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryDao.deleteBatchIds
+2021-02-20 18:40:37.637 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryDao.update
+2021-02-20 18:40:37.640 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryDao.updateById
+2021-02-20 18:40:37.712 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryDao.selectById
+2021-02-20 18:40:37.715 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryDao.selectBatchIds
+2021-02-20 18:40:37.719 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryDao.selectByMap
+2021-02-20 18:40:37.724 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryDao.selectOne
+2021-02-20 18:40:37.729 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryDao.selectCount
+2021-02-20 18:40:37.732 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryDao.selectMaps
+2021-02-20 18:40:37.735 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryDao.selectMapsPage
+2021-02-20 18:40:37.738 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryDao.selectObjs
+2021-02-20 18:40:37.742 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryDao.selectList
+2021-02-20 18:40:37.746 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CategoryDao.selectPage
+2021-02-20 18:40:37.746 [ main ] - [ DEBUG ] [ c.b.m.e.spring.MybatisSqlSessionFactoryBean : 49 ] - Parsed mapper file: 'file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\mapper\product\CategoryDao.xml]'
+2021-02-20 18:40:37.760 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CommentReplayDao.insert
+2021-02-20 18:40:37.764 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CommentReplayDao.delete
+2021-02-20 18:40:37.766 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CommentReplayDao.deleteByMap
+2021-02-20 18:40:37.770 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CommentReplayDao.deleteById
+2021-02-20 18:40:37.772 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CommentReplayDao.deleteBatchIds
+2021-02-20 18:40:37.775 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CommentReplayDao.update
+2021-02-20 18:40:37.778 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CommentReplayDao.updateById
+2021-02-20 18:40:37.779 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CommentReplayDao.selectById
+2021-02-20 18:40:37.781 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CommentReplayDao.selectBatchIds
+2021-02-20 18:40:37.785 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CommentReplayDao.selectByMap
+2021-02-20 18:40:37.808 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CommentReplayDao.selectOne
+2021-02-20 18:40:37.813 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CommentReplayDao.selectCount
+2021-02-20 18:40:37.818 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CommentReplayDao.selectMaps
+2021-02-20 18:40:37.823 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CommentReplayDao.selectMapsPage
+2021-02-20 18:40:37.829 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CommentReplayDao.selectObjs
+2021-02-20 18:40:37.834 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CommentReplayDao.selectList
+2021-02-20 18:40:37.836 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.CommentReplayDao.selectPage
+2021-02-20 18:40:37.837 [ main ] - [ DEBUG ] [ c.b.m.e.spring.MybatisSqlSessionFactoryBean : 49 ] - Parsed mapper file: 'file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\mapper\product\CommentReplayDao.xml]'
+2021-02-20 18:40:37.850 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.ProductAttrValueDao.insert
+2021-02-20 18:40:37.856 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.ProductAttrValueDao.delete
+2021-02-20 18:40:37.865 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.ProductAttrValueDao.deleteByMap
+2021-02-20 18:40:37.868 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.ProductAttrValueDao.deleteById
+2021-02-20 18:40:37.876 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.ProductAttrValueDao.deleteBatchIds
+2021-02-20 18:40:37.886 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.ProductAttrValueDao.update
+2021-02-20 18:40:37.903 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.ProductAttrValueDao.updateById
+2021-02-20 18:40:37.904 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.ProductAttrValueDao.selectById
+2021-02-20 18:40:37.907 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.ProductAttrValueDao.selectBatchIds
+2021-02-20 18:40:37.911 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.ProductAttrValueDao.selectByMap
+2021-02-20 18:40:37.917 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.ProductAttrValueDao.selectOne
+2021-02-20 18:40:37.931 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.ProductAttrValueDao.selectCount
+2021-02-20 18:40:37.937 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.ProductAttrValueDao.selectMaps
+2021-02-20 18:40:37.940 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.ProductAttrValueDao.selectMapsPage
+2021-02-20 18:40:37.944 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.ProductAttrValueDao.selectObjs
+2021-02-20 18:40:37.948 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.ProductAttrValueDao.selectList
+2021-02-20 18:40:37.952 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.ProductAttrValueDao.selectPage
+2021-02-20 18:40:37.952 [ main ] - [ DEBUG ] [ c.b.m.e.spring.MybatisSqlSessionFactoryBean : 49 ] - Parsed mapper file: 'file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\mapper\product\ProductAttrValueDao.xml]'
+2021-02-20 18:40:38.018 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuImagesDao.insert
+2021-02-20 18:40:38.022 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuImagesDao.delete
+2021-02-20 18:40:38.029 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuImagesDao.deleteByMap
+2021-02-20 18:40:38.033 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuImagesDao.deleteById
+2021-02-20 18:40:38.036 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuImagesDao.deleteBatchIds
+2021-02-20 18:40:38.040 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuImagesDao.update
+2021-02-20 18:40:38.046 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuImagesDao.updateById
+2021-02-20 18:40:38.062 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuImagesDao.selectById
+2021-02-20 18:40:38.065 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuImagesDao.selectBatchIds
+2021-02-20 18:40:38.072 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuImagesDao.selectByMap
+2021-02-20 18:40:38.075 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuImagesDao.selectOne
+2021-02-20 18:40:38.078 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuImagesDao.selectCount
+2021-02-20 18:40:38.081 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuImagesDao.selectMaps
+2021-02-20 18:40:38.087 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuImagesDao.selectMapsPage
+2021-02-20 18:40:38.090 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuImagesDao.selectObjs
+2021-02-20 18:40:38.093 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuImagesDao.selectList
+2021-02-20 18:40:38.097 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuImagesDao.selectPage
+2021-02-20 18:40:38.097 [ main ] - [ DEBUG ] [ c.b.m.e.spring.MybatisSqlSessionFactoryBean : 49 ] - Parsed mapper file: 'file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\mapper\product\SkuImagesDao.xml]'
+2021-02-20 18:40:38.131 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuInfoDao.insert
+2021-02-20 18:40:38.135 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuInfoDao.delete
+2021-02-20 18:40:38.138 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuInfoDao.deleteByMap
+2021-02-20 18:40:38.141 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuInfoDao.deleteById
+2021-02-20 18:40:38.147 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuInfoDao.deleteBatchIds
+2021-02-20 18:40:38.152 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuInfoDao.update
+2021-02-20 18:40:38.157 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuInfoDao.updateById
+2021-02-20 18:40:38.158 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuInfoDao.selectById
+2021-02-20 18:40:38.161 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuInfoDao.selectBatchIds
+2021-02-20 18:40:38.166 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuInfoDao.selectByMap
+2021-02-20 18:40:38.169 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuInfoDao.selectOne
+2021-02-20 18:40:38.174 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuInfoDao.selectCount
+2021-02-20 18:40:38.180 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuInfoDao.selectMaps
+2021-02-20 18:40:38.183 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuInfoDao.selectMapsPage
+2021-02-20 18:40:38.186 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuInfoDao.selectObjs
+2021-02-20 18:40:38.189 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuInfoDao.selectList
+2021-02-20 18:40:38.192 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuInfoDao.selectPage
+2021-02-20 18:40:38.193 [ main ] - [ DEBUG ] [ c.b.m.e.spring.MybatisSqlSessionFactoryBean : 49 ] - Parsed mapper file: 'file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\mapper\product\SkuInfoDao.xml]'
+2021-02-20 18:40:38.207 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuSaleAttrValueDao.insert
+2021-02-20 18:40:38.210 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuSaleAttrValueDao.delete
+2021-02-20 18:40:38.215 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuSaleAttrValueDao.deleteByMap
+2021-02-20 18:40:38.218 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuSaleAttrValueDao.deleteById
+2021-02-20 18:40:38.221 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuSaleAttrValueDao.deleteBatchIds
+2021-02-20 18:40:38.256 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuSaleAttrValueDao.update
+2021-02-20 18:40:38.260 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuSaleAttrValueDao.updateById
+2021-02-20 18:40:38.261 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuSaleAttrValueDao.selectById
+2021-02-20 18:40:38.264 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuSaleAttrValueDao.selectBatchIds
+2021-02-20 18:40:38.272 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuSaleAttrValueDao.selectByMap
+2021-02-20 18:40:38.275 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuSaleAttrValueDao.selectOne
+2021-02-20 18:40:38.280 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuSaleAttrValueDao.selectCount
+2021-02-20 18:40:38.283 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuSaleAttrValueDao.selectMaps
+2021-02-20 18:40:38.286 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuSaleAttrValueDao.selectMapsPage
+2021-02-20 18:40:38.300 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuSaleAttrValueDao.selectObjs
+2021-02-20 18:40:38.305 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuSaleAttrValueDao.selectList
+2021-02-20 18:40:38.310 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SkuSaleAttrValueDao.selectPage
+2021-02-20 18:40:38.311 [ main ] - [ DEBUG ] [ c.b.m.e.spring.MybatisSqlSessionFactoryBean : 49 ] - Parsed mapper file: 'file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\mapper\product\SkuSaleAttrValueDao.xml]'
+2021-02-20 18:40:38.338 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuCommentDao.insert
+2021-02-20 18:40:38.341 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuCommentDao.delete
+2021-02-20 18:40:38.345 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuCommentDao.deleteByMap
+2021-02-20 18:40:38.347 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuCommentDao.deleteById
+2021-02-20 18:40:38.350 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuCommentDao.deleteBatchIds
+2021-02-20 18:40:38.368 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuCommentDao.update
+2021-02-20 18:40:38.371 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuCommentDao.updateById
+2021-02-20 18:40:38.372 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuCommentDao.selectById
+2021-02-20 18:40:38.374 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuCommentDao.selectBatchIds
+2021-02-20 18:40:38.377 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuCommentDao.selectByMap
+2021-02-20 18:40:38.381 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuCommentDao.selectOne
+2021-02-20 18:40:38.385 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuCommentDao.selectCount
+2021-02-20 18:40:38.389 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuCommentDao.selectMaps
+2021-02-20 18:40:38.394 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuCommentDao.selectMapsPage
+2021-02-20 18:40:38.401 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuCommentDao.selectObjs
+2021-02-20 18:40:38.407 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuCommentDao.selectList
+2021-02-20 18:40:38.419 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuCommentDao.selectPage
+2021-02-20 18:40:38.420 [ main ] - [ DEBUG ] [ c.b.m.e.spring.MybatisSqlSessionFactoryBean : 49 ] - Parsed mapper file: 'file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\mapper\product\SpuCommentDao.xml]'
+2021-02-20 18:40:38.435 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuImagesDao.insert
+2021-02-20 18:40:38.438 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuImagesDao.delete
+2021-02-20 18:40:38.440 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuImagesDao.deleteByMap
+2021-02-20 18:40:38.444 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuImagesDao.deleteById
+2021-02-20 18:40:38.447 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuImagesDao.deleteBatchIds
+2021-02-20 18:40:38.450 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuImagesDao.update
+2021-02-20 18:40:38.459 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuImagesDao.updateById
+2021-02-20 18:40:38.460 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuImagesDao.selectById
+2021-02-20 18:40:38.463 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuImagesDao.selectBatchIds
+2021-02-20 18:40:38.467 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuImagesDao.selectByMap
+2021-02-20 18:40:38.469 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuImagesDao.selectOne
+2021-02-20 18:40:38.472 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuImagesDao.selectCount
+2021-02-20 18:40:38.479 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuImagesDao.selectMaps
+2021-02-20 18:40:38.483 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuImagesDao.selectMapsPage
+2021-02-20 18:40:38.487 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuImagesDao.selectObjs
+2021-02-20 18:40:38.490 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuImagesDao.selectList
+2021-02-20 18:40:38.494 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuImagesDao.selectPage
+2021-02-20 18:40:38.495 [ main ] - [ DEBUG ] [ c.b.m.e.spring.MybatisSqlSessionFactoryBean : 49 ] - Parsed mapper file: 'file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\mapper\product\SpuImagesDao.xml]'
+2021-02-20 18:40:38.567 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDao.insert
+2021-02-20 18:40:38.572 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDao.delete
+2021-02-20 18:40:38.575 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDao.deleteByMap
+2021-02-20 18:40:38.580 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDao.deleteById
+2021-02-20 18:40:38.597 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDao.deleteBatchIds
+2021-02-20 18:40:38.604 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDao.update
+2021-02-20 18:40:38.611 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDao.updateById
+2021-02-20 18:40:38.615 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDao.selectById
+2021-02-20 18:40:40.621 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDao.selectBatchIds
+2021-02-20 18:40:40.623 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDao.selectByMap
+2021-02-20 18:40:40.625 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDao.selectOne
+2021-02-20 18:40:40.628 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDao.selectCount
+2021-02-20 18:40:40.631 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDao.selectMaps
+2021-02-20 18:40:40.633 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDao.selectMapsPage
+2021-02-20 18:40:40.636 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDao.selectObjs
+2021-02-20 18:40:40.640 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDao.selectList
+2021-02-20 18:40:40.643 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDao.selectPage
+2021-02-20 18:40:40.643 [ main ] - [ DEBUG ] [ c.b.m.e.spring.MybatisSqlSessionFactoryBean : 49 ] - Parsed mapper file: 'file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\mapper\product\SpuInfoDao.xml]'
+2021-02-20 18:40:40.652 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDescDao.insert
+2021-02-20 18:40:40.655 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDescDao.delete
+2021-02-20 18:40:40.658 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDescDao.deleteByMap
+2021-02-20 18:40:40.660 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDescDao.deleteById
+2021-02-20 18:40:40.663 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDescDao.deleteBatchIds
+2021-02-20 18:40:40.665 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDescDao.update
+2021-02-20 18:40:40.667 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDescDao.updateById
+2021-02-20 18:40:40.668 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDescDao.selectById
+2021-02-20 18:40:40.670 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDescDao.selectBatchIds
+2021-02-20 18:40:40.672 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDescDao.selectByMap
+2021-02-20 18:40:40.675 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDescDao.selectOne
+2021-02-20 18:40:40.678 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDescDao.selectCount
+2021-02-20 18:40:40.680 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDescDao.selectMaps
+2021-02-20 18:40:40.683 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDescDao.selectMapsPage
+2021-02-20 18:40:40.739 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDescDao.selectObjs
+2021-02-20 18:40:40.743 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDescDao.selectList
+2021-02-20 18:40:40.752 [ main ] - [ DEBUG ] [ com.baomidou.mybatisplus.core.MybatisConfiguration : 79 ] - addMappedStatement: cn.smile.smilemall.product.dao.SpuInfoDescDao.selectPage
+2021-02-20 18:40:40.753 [ main ] - [ DEBUG ] [ c.b.m.e.spring.MybatisSqlSessionFactoryBean : 49 ] - Parsed mapper file: 'file [E:\idea project\idea web project\smilemall\smilemall-product\target\classes\mapper\product\SpuInfoDescDao.xml]'
+2021-02-20 18:41:14.097 [ main ] - [ INFO  ] [ c.s.smilemall.product.SmilemallProductApplication : 61 ] - Started SmilemallProductApplication in 59.174 seconds (JVM running for 67.246)
+2021-02-20 18:45:40.887 [ http-nio-6001-exec-1 ] - [ DEBUG ] [ cn.smile.smilemall.product.aop.imp.SmileCacheImpl : 138 ] - 查询了数据库http-nio-6001-exec-1 
+2021-02-20 18:45:40.907 [ http-nio-6001-exec-1 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2021-02-20 18:45:40.912 [ http-nio-6001-exec-1 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c32b826] was not registered for synchronization because synchronization is not active
+2021-02-20 18:45:41.338 [ http-nio-6001-exec-1 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@1299742516 wrapping com.mysql.cj.jdbc.ConnectionImpl@180835e6] will not be managed by Spring
+2021-02-20 18:45:41.349 [ http-nio-6001-exec-1 ] - [ DEBUG ] [ c.s.smilemall.product.dao.CategoryDao.selectList : 143 ] - ==>  Preparing: SELECT cat_id,name,parent_cid,cat_level,show_status,sort,icon,product_unit,product_count FROM pms_category WHERE show_status=1 AND (parent_cid = ?) 
+2021-02-20 18:45:41.396 [ http-nio-6001-exec-1 ] - [ DEBUG ] [ c.s.smilemall.product.dao.CategoryDao.selectList : 143 ] - ==> Parameters: 0(Integer)
+2021-02-20 18:45:41.446 [ http-nio-6001-exec-1 ] - [ DEBUG ] [ c.s.smilemall.product.dao.CategoryDao.selectList : 143 ] - <==      Total: 23
+2021-02-20 18:45:41.453 [ http-nio-6001-exec-1 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c32b826]
+2021-02-20 18:45:42.847 [ http-nio-6001-exec-2 ] - [ DEBUG ] [ cn.smile.smilemall.product.aop.imp.SmileCacheImpl : 138 ] - 查询了数据库http-nio-6001-exec-2 
+2021-02-20 18:45:42.847 [ http-nio-6001-exec-2 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2021-02-20 18:45:42.848 [ http-nio-6001-exec-2 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@58da30b] was not registered for synchronization because synchronization is not active
+2021-02-20 18:45:42.852 [ http-nio-6001-exec-2 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@1962541732 wrapping com.mysql.cj.jdbc.ConnectionImpl@180835e6] will not be managed by Spring
+2021-02-20 18:45:42.854 [ http-nio-6001-exec-2 ] - [ DEBUG ] [ c.s.smilemall.product.dao.CategoryDao.selectList : 143 ] - ==>  Preparing: SELECT cat_id,name,parent_cid,cat_level,show_status,sort,icon,product_unit,product_count FROM pms_category WHERE show_status=1 
+2021-02-20 18:45:42.855 [ http-nio-6001-exec-2 ] - [ DEBUG ] [ c.s.smilemall.product.dao.CategoryDao.selectList : 143 ] - ==> Parameters: 
+2021-02-20 18:45:42.957 [ http-nio-6001-exec-2 ] - [ DEBUG ] [ c.s.smilemall.product.dao.CategoryDao.selectList : 143 ] - <==      Total: 1436
+2021-02-20 18:45:42.958 [ http-nio-6001-exec-2 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@58da30b]
+2021-02-20 22:45:13.627 [ redisson-timer-6-1 ] - [ ERROR ] [ org.redisson.client.handler.PingConnectionHandler : 89 ] - Unable to send PING command over channel: [id: 0x3dd33bfc, L:/192.168.31.49:53952 - R:/192.168.31.239:6379]
+org.redisson.client.RedisTimeoutException: Command execution timeout for command: (PING), params: [], Redis client: [addr=redis://192.168.31.239:6379]
+	at org.redisson.client.RedisConnection.lambda$async$1(RedisConnection.java:207)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:672)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:747)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:472)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)

@@ -8,6 +8,7 @@
 	<name>smilemall</name>
 	<description>聚合服务</description>
 	<packaging>pom</packaging>
+
 	<modules>
 		<module>smilemall-coupon</module>
 		<module>smilemall-member</module>
@@ -19,6 +20,9 @@
 		<module>smilemall-common</module>
 		<module>smilemall-third-party</module>
 		<module>smilemall-gateway</module>
+		<module>smilemall-search</module>
+		<module>smilemall-cart</module>
+		<module>smilemall-auth-server</module>
 	</modules>
 
 </project>

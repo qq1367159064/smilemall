@@ -17,10 +17,13 @@
 	<properties>
 		<java.version>11</java.version>
 		<spring-cloud.version>Hoxton.SR9</spring-cloud.version>
+		<spring-cloud-alicloud-oss-version>2.1.0.RELEASE</spring-cloud-alicloud-oss-version>
+		<ali-note-send-version>4.5.3</ali-note-send-version>
 	</properties>
 
 	<dependencies>
 
+		<!--导入自定义commons模块-->
 		<dependency>
 			<groupId>cn.smile.smilemall</groupId>
 			<artifactId>smilemall-common</artifactId>
@@ -42,40 +45,86 @@
 					<groupId>tk.fishfish</groupId>
 					<artifactId>mybatis-spring-boot-starter</artifactId>
 				</exclusion>
+				<exclusion>
+					<artifactId>jersey-core</artifactId>
+					<groupId>com.sun.jersey</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>commons-io</artifactId>
+					<groupId>commons-io</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>commons-logging</artifactId>
+					<groupId>commons-logging</groupId>
+				</exclusion>
 			</exclusions>
 		</dependency>
 
+		<!--阿里短信-->
+		<dependency>
+			<groupId>com.aliyun</groupId>
+			<artifactId>aliyun-java-sdk-core</artifactId>
+			<version>${ali-note-send-version}</version>
+		</dependency>
+
+		<!--导入springmvc-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+		<!--导入web监控-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+
+		<!--导入alibaba对象存储oss-->
 		<dependency>
 			<groupId>com.alibaba.cloud</groupId>
 			<artifactId>spring-cloud-starter-alicloud-oss</artifactId>
+			<version>${spring-cloud-alicloud-oss-version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>org.springframework.boot</groupId>
+					<artifactId>spring-boot-devtools</artifactId>
+				</exclusion>
+				<exclusion>
+					<artifactId>aliyun-java-sdk-core</artifactId>
+					<groupId>com.aliyun</groupId>
+				</exclusion>
+			</exclusions>
 		</dependency>
+
 
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-openfeign</artifactId>
+			<exclusions>
+				<exclusion>
+					<artifactId>jsr305</artifactId>
+					<groupId>com.google.code.findbugs</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>HdrHistogram</artifactId>
+					<groupId>org.hdrhistogram</groupId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-devtools</artifactId>
-			<scope>runtime</scope>
-			<optional>true</optional>
-		</dependency>
+		<!--导入配置类提示工具-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-configuration-processor</artifactId>
 			<optional>true</optional>
 		</dependency>
+		<!--导入lombok-->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
+		<!--导入springtest-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>

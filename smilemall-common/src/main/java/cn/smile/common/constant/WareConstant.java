@@ -3,7 +3,7 @@ package cn.smile.common.constant;
 /**
  * @author Smile
  * @Documents
- * @creationTime 2021-01-2021/1/28/028
+ * @date 2021-01-2021/1/28/028
  */
 public class WareConstant {
 	
@@ -67,5 +67,35 @@ public class WareConstant {
 		public void setMsg(String msg) {
 			this.msg = msg;
 		}
+	}
+	
+	public enum WareSku {
+		EXIST_SKU_WARE(0, "有库存"),
+		NOT_SKU_WARE(1, "无库存");
+		
+		WareSku(int code, String msg) {
+			this.code = code;
+			this.msg = msg;
+		}
+		
+		private int code;
+		private String msg;
+		
+		public int getCode() {
+			return code;
+		}
+		
+		public void setCode(int code) {
+			this.code = code;
+		}
+		
+		public String getMsg() {
+			return msg;
+		}
+		
+		public void setMsg(String msg) {
+			this.msg = msg;
+		}
+		
 	}
 }

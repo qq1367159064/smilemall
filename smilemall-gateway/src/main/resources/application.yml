@@ -5,7 +5,7 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 192.168.1.22:8848
+        server-addr: 192.168.31.239:8848
     gateway:
       routes:
         - id: smilemall_third_party_route
@@ -32,12 +32,39 @@ spring:
             - Path=/api/ware/**
           filters:
             - RewritePath=/api/(?<segment>/?.*), /$\{segment}
+        - id: smilemall_search
+          uri: lb://smilemall-search
+          predicates:
+            - Path=/api/search/**
+          filters:
+            - RewritePath=/api/(?<segment>/?.*), /$\{segment}
         - id: smilemall_admin
           uri: lb://smilemall-renren-fast
           predicates:
             - Path=/api/**
           filters:
             - RewritePath=/api/(?<segment>/?.*), /renren-fast/$\{segment}
+        - id: smilemall_host_route
+          uri: lb://cn-smile-smilemall-product
+          predicates:
+            - Host=smilemall.cn, item.smilemall.cn
+        - id: smilemall_authserver_route
+          uri: lb://smilemall-authserver
+          predicates:
+            - Host=auth.smilemall.cn
+        - id: smilemall_search_route
+          uri: lb://smilemall-search
+          predicates:
+            - Host=search.smilemall.cn
+        - id: smilemall_cart_route
+          uri: lb://smilemall-cart
+          predicates:
+            - Host=cart.smilemall.cn
+        - id: smilemall_order_route
+          uri: lb://smilemall-order
+          predicates:
+            - Host=order.smilemall.cn
+
 
 
   application:

@@ -4,19 +4,38 @@ spring:
   datasource:
     username: root
     password: root
-    url: jdbc:mysql://192.168.1.22/smilemall_pms
+    url: 'jdbc:mysql://192.168.31.239:3306/smilemall_pms'
     driver-class-name: com.mysql.cj.jdbc.Driver
   application:
     name: cn-smile-smilemall-product
+  redis:
+    host: 192.168.31.239
+    password: smile
+    lettuce:
+      pool:
+        max-active: 20
   cloud:
     nacos:
       discovery:
-        server-addr: 192.168.1.22:8848
+        server-addr: 192.168.31.239:8848
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
+  thymeleaf:
+    cache: false
+  mvc:
+    servlet:
+      load-on-startup: 1
+  cache:
+    type: redis
+    redis:
+      time-to-live: 300000
+  session:
+    timeout: 30m
+    store-type: redis
+
 mybatis-plus:
-  mapper-locations: classpath*:/mapper/**/*.xml
-  type-aliases-package: cn.smile.smilemall.entity
+  mapper-locations: classpath:/mapper/**/*.xml
+  type-aliases-package: cn.smile.smilemall.product.entity
   global-config:
     db-config:
       id-type: auto
@@ -26,6 +45,3 @@ mybatis-plus:
 server:
   port: 6001
 
-logging:
-  level:
-    cn.smile.smillmall: debug

@@ -1,0 +1,27 @@
+server:
+  port: 9220
+
+spring:
+  thymeleaf:
+    cache: false
+  profiles:
+    active: dev
+  application:
+    name: smilemall-search
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.31.239:8848
+  session:
+    store-type: redis
+    timeout: 30m
+  redis:
+    host: 192.168.31.239
+    port: 6379
+    password: smile
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

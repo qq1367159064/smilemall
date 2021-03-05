@@ -8,7 +8,6 @@ import org.springframework.core.type.AnnotatedTypeMetadata;
  * @author: gxz gongxuanzhang@foxmail.com
  **/
 public class MongoNullCondition implements Condition {
-
     @Override
     public boolean matches(ConditionContext context, AnnotatedTypeMetadata metadata) {
         String database = context.getEnvironment().getProperty("renren.database");

@@ -1,24 +1,22 @@
-
 spring:
   datasource:
     username: root
     password: root
-    url: jdbc:mysql://192.168.1.22/smilemall_sms
+    url: jdbc:mysql://192.168.31.239:3306/smilemall_sms
     driver-class-name: com.mysql.cj.jdbc.Driver
   cloud:
     nacos:
       discovery:
-        server-addr: 192.168.1.22:8848
+        server-addr: 192.168.31.239:8848
   application:
     name: cn-smile-smilemall-coupon
+
 mybatis-plus:
   mapper-locations: classpath*:/mapper/**/*.xml
-  type-aliases-package: cn.smile.smilemall.entity
+  type-aliases-package: cn.smile.smilemall.coupon.entity
   global-config:
     db-config:
       id-type: auto
-
-
 
 server:
   port: 3001

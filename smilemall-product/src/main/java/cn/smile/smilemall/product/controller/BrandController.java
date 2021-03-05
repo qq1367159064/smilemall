@@ -1,25 +1,20 @@
 package cn.smile.smilemall.product.controller;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
-
-
+import cn.smile.common.utils.PageUtils;
+import cn.smile.common.utils.R;
 import cn.smile.common.valid.AddGroup;
 import cn.smile.common.valid.UpdateGroup;
 import cn.smile.common.valid.UpdateStatus;
+import cn.smile.smilemall.product.entity.BrandEntity;
+import cn.smile.smilemall.product.service.BrandService;
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.validation.BindingResult;
-import org.springframework.validation.BindingResultUtils;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
-import cn.smile.smilemall.product.entity.BrandEntity;
-import cn.smile.smilemall.product.service.BrandService;
-import cn.smile.common.utils.PageUtils;
-import cn.smile.common.utils.R;
-
-import javax.validation.Valid;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
 
 
 /**
@@ -54,6 +49,19 @@ public class BrandController {
 	public R info(@PathVariable("brandId") Long brandId) {
 		BrandEntity brand = brandService.getById(brandId);
 		return R.ok().put("brand", brand);
+	}
+	
+	/**
+	 * <p>根据id获取品牌信息</p>
+	 * @author smile
+	 * @date 2021/2/21/021
+	 * @param brandIds 1
+	 * @return cn.smile.common.utils.R
+	 */
+	@PostMapping("/brandInfo")
+	public R brandInfos(@RequestBody List<Long> brandIds) {
+		List<BrandEntity> brandInfo = brandService.list(new QueryWrapper<BrandEntity>().in("brand_id", brandIds));
+		return R.ok().put("brandInfo", brandInfo);
 	}
 	
 	/**

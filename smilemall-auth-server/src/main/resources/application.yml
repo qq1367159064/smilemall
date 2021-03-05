@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: smilemall-authserver
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.31.239:8848
+  thymeleaf:
+    cache: false
+  session:
+    store-type: redis
+    timeout: 30m
+  redis:
+    host: 192.168.31.239
+    port: 6379
+    password: smile
+
+server:
+  port: 108

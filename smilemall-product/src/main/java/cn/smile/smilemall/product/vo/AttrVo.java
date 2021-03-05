@@ -1,12 +1,11 @@
 package cn.smile.smilemall.product.vo;
 
-import com.baomidou.mybatisplus.annotation.TableId;
 import lombok.Data;
 
 /**
  * @author Smile
  * @Documents
- * @creationTime 2021-01-2021/1/15/015
+ * @date 2021-01-2021/1/15/015
  */
 @Data
 public class AttrVo {
